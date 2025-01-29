@@ -3,8 +3,11 @@
     "an_error_has_ocurred_while_processing_the_request": "Se produjo un error al procesar la solicitud",
     "dashboard": "Gráficas",
     "english": "Inglés",
-    "home": "Home",
     "languages": "Idiomas",
     "spanish": "Español",
-    "close": "Cerrar"
+    "close": "Cerrar",
+    "home": "Inicio",
+    "cv": "Curriculum Vitae",
+    "skills": "Habilidades",
+    "contact": "Contacto"
 }

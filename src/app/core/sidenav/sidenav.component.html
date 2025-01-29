@@ -1,26 +1,19 @@
-<div class="sidenav">
-    <mat-sidenav-container class="sidenav__container">
-        <mat-sidenav
-            #sidenav
-            id="sidenav"
-            [mode]="(deviceType$ | async) !== DeviceType.Small ? 'side' : 'over'"
-            class="sidenav__container__vertical-menu mat-elevation-z2"
-        >
-            <mat-toolbar class="sidenav__container__toolbar" color="primary">
-                <mat-toolbar-row class="sidenav__container__toolbar__header">
-                    <span class="sidenav__container__toolbar__header__first-title">
-                        {{ 'ANGULAR' | translate }}<br />
-                        <span class="sidenav__container__toolbar__header__second-title"> {{ 'base_application' | translate }} </span>
-                    </span>
-                </mat-toolbar-row>
-            </mat-toolbar>
-            <app-sidenav-left-menu [modules]="modules" (changeModule)="setModule($event)"> </app-sidenav-left-menu>
-        </mat-sidenav>
-        <mat-sidenav-content class="sidenav__container__content">
-            <app-sidenav-top-menu (toggleSidenav)="toggleSidenav()" (changeLanguage)="setLanguage($event)"></app-sidenav-top-menu>
-            <div class="sidenav__container__content__router">
-                <router-outlet></router-outlet>
-            </div>
-        </mat-sidenav-content>
-    </mat-sidenav-container>
-</div>
+<mat-sidenav-container class="sidenav" *ngIf="params$ | async; let params">
+    <mat-sidenav #sidenav id="sidenav" [mode]="params.deviceType !== DeviceType.Small ? 'side' : 'over'" class="mat-elevation-z2">
+        <mat-toolbar class="sidenav__toolbar" color="primary">
+            <mat-toolbar-row class="sidenav__toolbar__header">
+                <span class="sidenav__toolbar__header__title">
+                    {{ 'ANGULAR' | translate }}<br />
+                    <span class="sidenav__toolbar__header__subtitle"> {{ 'base_application' | translate }} </span>
+                </span>
+            </mat-toolbar-row>
+        </mat-toolbar>
+        <app-sidenav-left-menu (changeModule)="setModule($event); toggleSidenav()"> </app-sidenav-left-menu>
+    </mat-sidenav>
+    <mat-sidenav-content class="sidenav__content">
+        <app-sidenav-top-menu (toggleSidenav)="toggleSidenav()" (changeLanguage)="setLanguage($event)"></app-sidenav-top-menu>
+        <div class="sidenav__content__router">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

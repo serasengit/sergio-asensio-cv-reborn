@@ -1,38 +1,45 @@
+@use '@angular/material' as mat;
+// Import theme variables
+@import '../../styles/variables.scss';
+
 .sidenav {
-    &__container {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        .mat-sidenav {
-            background: #1a202e;
-        }
-        &__toolbar {
-            background: #171d29;
-            min-height: 75px;
-            &__header {
-                padding-top: 5px;
-                text-align: center;
-                &__first-title {
-                    font-size: 18px;
-                }
-                &__second-title {
-                    font-size: 14px;
-                }
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .mat-sidenav {
+        background: mat.get-color-from-palette($primary) !important;
+    }
+    &__toolbar {
+        min-height: 75px;
+        &__header {
+            padding-top: 10px;
+            text-align: center;
+            &__title {
+                font-size: 18px;
+            }
+            &__subtitle {
+                font-size: 14px;
             }
         }
-        &__content {
-            &__router {
-                margin-top: 75px;
+    }
+    &__content {
+        overflow-y: auto;
+        overflow-x: hidden;
+        &__router {
+            @media only screen and (min-width: 1200px) {
+                margin-top: 95px;
             }
+            margin-top: 75px;
+            @media only screen and (min-width: 767px) {
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            margin-bottom: 15px;
         }
-        .mat-list-item a {
-            text-decoration: none;
-        }
-        .mat-toolbar-row,
-        .mat-toolbar-single-row {
-            display: block;
-        }
+    }
+    .mat-list-item a {
+        text-decoration: none;
     }
 }

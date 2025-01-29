@@ -7,10 +7,7 @@
     <span class="sidenav-left-menu__list__version"> v{{ version }} </span>
 </mat-nav-list>
 <ng-template let-module #flatModule>
-    <!-- Descomment on app modules configuration
-        <mat-list-item [id]="module.code" [routerLink]="module.link" (click)="changeModule.emit(module)"> 
-    -->
-    <mat-list-item [id]="module.code" (click)="changeModule.emit(module)">
+    <mat-list-item [id]="module.code" [routerLink]="module.link" (click)="changeModule.emit(module)">
         <mat-icon class="m-2">{{ module.icon }} </mat-icon>
         <a>{{ module.code | translate }} </a>
     </mat-list-item>

@@ -46,6 +46,6 @@ FROM nginxinc/nginx-unprivileged as nginx
 # Copy nginx conf
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 # Copy artifact build from the 'build environment'
-COPY --from=release /app/dist/angular-base-app /usr/share/nginx/html
+COPY --from=release /app/dist/sergio-asensio-cv-app /usr/share/nginx/html
 # Run
 CMD ["nginx", "-g", "daemon off;"]

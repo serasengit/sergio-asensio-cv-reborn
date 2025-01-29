@@ -1,10 +1,10 @@
 @import 'theme.scss';
 
 // Default palettes
-$primary: map-get($angular-base-app-main-theme, primary);
-$accent: map-get($angular-base-app-main-theme, accent);
-$warn: map-get($angular-base-app-main-theme, warn);
+$primary: map-get($sergio-asensio-cv-app-main-theme, primary);
+$accent: map-get($sergio-asensio-cv-app-main-theme, accent);
+$warn: map-get($sergio-asensio-cv-app-main-theme, warn);
 // Custom palettes
-$secondary: map-get($angular-base-app-main-theme, secondary);
-$success: map-get($angular-base-app-main-theme, success);
-$error: map-get($angular-base-app-main-theme, error);
+$secondary: map-get($sergio-asensio-cv-app-main-theme, secondary);
+$success: map-get($sergio-asensio-cv-app-main-theme, success);
+$error: map-get($sergio-asensio-cv-app-main-theme, error);

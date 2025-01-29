@@ -1,19 +1,15 @@
 export enum ModuleLink {
-    Home = '',
-    Dashboard = 'dashboard',
+    Home = 'home',
 }
 
 export enum ModuleCode {
-    Dashboard = 'dashboard',
+    Home = 'home',
 }
 
 export interface Module {
-    id: number;
     parentId?: number;
-    code: string;
-    description: string;
-    link: ModuleLink | string;
+    code: ModuleCode;
+    link?: ModuleLink | string;
     icon: string;
-    order: number;
     modules?: Module[];
 }

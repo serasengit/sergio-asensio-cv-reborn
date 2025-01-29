@@ -1,32 +1,84 @@
 <mat-toolbar color="primary" class="sidenav-top-menu__toolbar mat-elevation-z2">
+    <!-- Menu Button -->
     <button mat-icon-button class="sidenav-top-menu__toolbar__menu" (click)="toggleSidenav.emit()">
         <mat-icon>menu</mat-icon>
     </button>
+
+    <!-- Logo -->
     <img class="sidenav-top-menu__toolbar__logo" alt="logo" src="../../../assets/img/angular_logo.png" />
-    <button mat-icon-button [matMenuTriggerFor]="settings" class="sidenav-top-menu__toolbar__settings">
-        <mat-icon>settings</mat-icon>
-    </button>
-    <mat-menu #settings="matMenu" class="sidenav-top-menu__toolbar__settings__menu">
-        <mat-menu-item mat-menu-item [matMenuTriggerFor]="languages" class="sidenav-top-menu__toolbar__settings__menu__languages">
-            {{ 'languages' | translate }}
-        </mat-menu-item>
-    </mat-menu>
-    <mat-menu #languages="matMenu" class="sidenav-top-menu__toolbar__settings__menu__languages__menu">
-        <mat-menu-item
-            mat-menu-item
-            class="sidenav-top-menu__toolbar__settings__menu__languages__menu__spanish"
-            (click)="changeLanguage.emit(Language.Spanish)"
-        >
-            <span class="fi fi-es"></span>
-            <span class="m-2">{{ 'spanish' | translate }}</span>
-        </mat-menu-item>
-        <mat-menu-item
-            mat-menu-item
-            class="sidenav-top-menu__toolbar__settings__menu__languages__menu__english"
-            (click)="changeLanguage.emit(Language.English)"
-        >
-            <span class="fi fi-um"></span>
-            <span class="m-2">{{ 'english' | translate }}</span>
-        </mat-menu-item>
-    </mat-menu>
+
+    <!-- Sections Container -->
+    <div class="sidenav-top-menu__toolbar__sections">
+        <!-- Left Section -->
+        <div class="sidenav-top-menu__toolbar__sections__left">
+            <!-- Home Section -->
+            <button mat-icon-button>
+                <mat-icon>home</mat-icon>
+                <span class="sidenav-top-menu__toolbar__sections__left__title">{{ 'home' | translate }}</span>
+            </button>
+
+            <!-- CV Section -->
+            <button mat-icon-button>
+                <mat-icon>description</mat-icon>
+                <span class="sidenav-top-menu__toolbar__sections__left__title">{{ 'cv' | translate }}</span>
+            </button>
+
+            <!-- Skills Section -->
+            <button mat-icon-button>
+                <mat-icon>school</mat-icon>
+                <span class="sidenav-top-menu__toolbar__sections__left__title">{{ 'skills' | translate }}</span>
+            </button>
+
+            <!-- Contact Section -->
+            <button mat-icon-button>
+                <mat-icon>contacts</mat-icon>
+                <span class="sidenav-top-menu__toolbar__sections__left__title">{{ 'contact' | translate }}</span>
+            </button>
+        </div>
+        <!-- Right Section -->
+        <div class="sidenav-top-menu__toolbar__sections__right">
+            <!-- Linkedin Link -->
+            <a
+                mat-icon-button
+                href="https://www.linkedin.com/in/sergio-asensio-puyuelo-aa9916117/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <mat-icon>business_center</mat-icon>
+            </a>
+
+            <!-- Gmail Link -->
+            <a
+                mat-icon-button
+                href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=maserasen@gmail.com&tf=1"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <mat-icon>email</mat-icon>
+            </a>
+
+            <!-- Settings Button -->
+            <button mat-icon-button [matMenuTriggerFor]="settings">
+                <mat-icon>settings</mat-icon>
+            </button>
+            <!-- Settings Menu -->
+            <mat-menu #settings="matMenu">
+                <mat-menu-item mat-menu-item [matMenuTriggerFor]="languages">
+                    {{ 'languages' | translate }}
+                </mat-menu-item>
+            </mat-menu>
+
+            <!-- Languages Menu -->
+            <mat-menu #languages="matMenu">
+                <mat-menu-item mat-menu-item (click)="changeLanguage.emit(Language.Spanish)">
+                    <span class="fi fi-es"></span>
+                    <span class="m-2">{{ 'spanish' | translate }}</span>
+                </mat-menu-item>
+                <mat-menu-item mat-menu-item (click)="changeLanguage.emit(Language.English)">
+                    <span class="fi fi-um"></span>
+                    <span class="m-2">{{ 'english' | translate }}</span>
+                </mat-menu-item>
+            </mat-menu>
+        </div>
+    </div>
 </mat-toolbar>

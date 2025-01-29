@@ -6,5 +6,9 @@
     "english": "English",
     "home": "Home",
     "languages": "Languages",
-    "spanish": "Spanish"
+    "spanish": "Spanish",
+    "cv": "Curriculum Vitae",
+    "skills": "Skills",
+    "programmingArea": "Programming Area",
+    "contact": "Contact"
 }

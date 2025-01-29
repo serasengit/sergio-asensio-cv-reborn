@@ -6,7 +6,7 @@
             color: #a1a2b6;
             .mat-expansion-panel-header {
                 a {
-                    margin-left: 10px;
+                    margin-left: 8px;
                 }
             }
         }
@@ -24,9 +24,9 @@
             }
         }
         .mat-list-item:hover {
-            background: #141924;
+            background: #243c57;
             .mat-icon {
-                color: #fbe428;
+                color: #4f80bf;
             }
             a {
                 color: #ffffff;
@@ -41,7 +41,7 @@
             display: flex;
             color: #a1a2b6;
             font-size: 10px;
-            background: #141924;
+            background: #2c4766;
             position: absolute;
             left: 0;
             right: 0;
