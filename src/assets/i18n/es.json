@@ -9,5 +9,38 @@
     "home": "Inicio",
     "cv": "Curriculum Vitae",
     "skills": "Habilidades",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "home_section": {
+        "introduction": {
+            "title": "Sergio Asensio Puyuelo",
+            "content": [
+                "¡Bienvenido a mi Web!<br><br>",
+                "Soy un mátemático y analista programador con un amplio abanico de conocimientos en el desarrollo de aplicaciones web así como en múltiples ramas de la programación tales como: Full Stack Developer (FRONTEND , BACKEND), Web Designer, Web Services Implementation (REST/SOAP),Database Management ...<br><br>",
+                "A lo largo de mis 4 años carrera profesional he participidado en numeros proyectos gestionados por diferentes tecnologías tales como Java, Angular, Salesforce y NodeJS, tanto en solitario como formando parte de equipos cualificados ayudándome todos ellos en mi crecimiento  y desarrollo profesional. <br><br>",
+                "A través del siguiente link podrás descubrir mucha más información sobre todos lenguajes programación a los que me he enfrentado y mi nivel de habilidad en cada uno de ellos ;)."
+            ],
+            "skills_link": "Matriz habilidades"
+        },
+        "current_job": {
+            "title": "Trabajo actual",
+            "content": [
+                "Actualmente trabajo en el desarrollo de una aplicación hospitalaria en la empresa UST Global. Algunas de las tareas más importantes a las que me he enfrentado a lo largo de mi carrera profesional son: <br><br>",
+                "- Mejora y optimización de la arquitectura de proyectos.<br>",
+                "- Analizar e implementar las funcionalidades FRONTEND y BACKEND de la manera más simple y eficiente posible.<br>",
+                "- Definir las tablas de base de datos así como la relación entre las mismas.<br>",
+                "- Establecer la arquitectura del código de los principales módulos del proyecto con el objetivo de tomarlos como referencia a la hora de desarrollar nuevos requisitos.<br>",
+                "- Generación de entregables.<br>",
+                "- Formación y transferencia de conocimientos a los programadores del equipo así como revisión de PR´s.<br>"
+            ]
+        },
+        "about_me": {
+            "title": "Sobre mi...",
+            "content": [
+                "Soy  persona muy persistente con los objetivos que persigue y éste es el aspecto que más me gusta de mi trabajo, veo mi día a día como retos a batir y cuanto más retadores y novedosos sean, mayor es mi motivación.<br><br>",
+                "Uno de los aspectos que más valoro en un proyecto son sus cimientos y su estructura; sus cimientos, ya que son los que nos sirven como ejemplo para poder construir el resto de módulos requeridos dentro del mismo de la manera más óptima y eficiente posible, y su estructura, ya que sin un equipo competente, bien organizado y con el rol y tareas de cada miembro bien definidos, el caos no tarda en aparecer.<br><br>",
+                "Espero que esta página web sirva para que me conozcas un poco y disfrutes de ella tanto como yo he disfrutado programándola, si quieres ponerte en contacto conmigo para conocer más a fondo mi trabajo y experiencia, no dudes en contactar conmigo a través del siguiente enlace: "
+            ],
+            "contact_link": "Contacto"
+        }
+    }
 }

@@ -5,11 +5,12 @@ import { TranslateModule, TranslateService, TranslateStore } from '@ngx-translat
 import { MessageDialogComponent } from './components/dialogs/message-dialog/message-dialog.component';
 
 import { MaterialModule } from './material/material.module';
+import { NoCommaPipe } from './pipes/no-comma.pipe';
 
 @NgModule({
+    declarations: [MessageDialogComponent, NoCommaPipe],
     imports: [CommonModule, MaterialModule, TranslateModule, FormsModule, ReactiveFormsModule],
-    exports: [MaterialModule, TranslateModule, FormsModule, ReactiveFormsModule],
-    providers: [TranslateService, TranslateStore],
-    declarations: [MessageDialogComponent],
+    exports: [MaterialModule, TranslateModule, FormsModule, ReactiveFormsModule, NoCommaPipe],
+    providers: [TranslateService, TranslateStore, NoCommaPipe],
 })
 export class SharedModule {}

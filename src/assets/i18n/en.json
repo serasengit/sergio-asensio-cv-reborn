@@ -10,5 +10,38 @@
     "cv": "Curriculum Vitae",
     "skills": "Skills",
     "programmingArea": "Programming Area",
-    "contact": "Contact"
+    "contact": "Contact",
+    "home_section": {
+        "introduction": {
+            "title": "Sergio Asensio Puyuelo",
+            "content": [
+                "Welcome to my Website!!!<br><br>",
+                "I am a mathematician and programmer analyst with a solid background in web applications development and several programming areas such as: Full Stack Engineer (FRONTEND , BACKEND), Web Designer, Web Services Implementation (REST/SOAP),Database Management ...<br><br>",
+                "During my 4 years of experience, I have attended multiple projects managed by different technologies such as Java, Angular, Salesforce and NodeJS. Moreover, I have plenty of experience working in some projects on my own and also with qualified teams that have helped me in my professional and personal growth.<br><br>",
+                "By the follow link you can find out more information about all the programming languages that I have dealt with as well as my skill matrix level ;)"
+            ],
+            "skills_link": "Skill Matrix"
+        },
+        "current_job": {
+            "title": "Current Job",
+            "content": [
+                "I currently work in the development of an hospital application at UST Global company. Some of the most important tasks I have faced through my professional experience are: <br><br>",
+                "- Improvement and optimization of projects architecture.<br>",
+                "- Analysis and implementation of the FRONTEND and BACKEND functionalities in the most simple and efficient way.<br>",
+                "- Define the database tables structure as well as the relation between them.<br>",
+                "- Establish the code architecture of main project modules in order to take them as referents to develop new ones.<br>",
+                "- Automation and building of the project code.<br>",
+                "- Support and knowledge transfer to team´s software developers as well as PR´s reviews.<br>"
+            ]
+        },
+        "about_me": {
+            "title": "About me...",
+            "content": [
+                "I am a so persistent person with my objectives and this is precisely the aspect that I like most about my work, I see my day by day as challenges to defeat and the more innovative and challenging these are, the more motivated I feel.<br><br>",
+                "Two of the most relevant aspects in a project to me are its foundations, and its structure, its foundations because these are the template through we are able to develop the rest of the project modules in the most optimal and efficient way, and its structure, because without a competent and well-organized team where the role and task of each member are well-defined, chaos quick appears.<br><br>",
+                "I hope this website help you to know me a little bit and enjoy it as much as I have enjoyed developing it, if you want to contact me in order to find out more information about my work and experience, do not hesitate to do so through the following link:"
+            ],
+            "contact_link": "Contact"
+        }
+    }
 }
