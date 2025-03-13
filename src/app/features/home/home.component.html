@@ -1,71 +1,79 @@
 <body>
-    <header id="header" class="masthead-portada masthead-portada--text-center"></header>
-    <section class="home-section">
+    <header id="header"></header>
+    <section>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <div class="home-section__image-container p-5">
-                        <img class="home-section__image img-fluid" src="/assets/img/profile.png" alt="" />
+                    <div class="p-5">
+                        <img class="img-fluid" src="/assets/img/profile.png" alt="" />
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
-                    <div class="home-section__content p-5">
-                        <h2 class="home-section__title display-4">{{ 'home_section.introduction.title' | translate }}</h2>
+                    <div class="p-5">
+                        <h2 class="display-4">{{ 'home_section.introduction.title' | translate }}</h2>
                         <br />
-                        <p class="home-section__text" [innerHTML]="'home_section.introduction.content' | translate | noComma"></p>
-                        <a class="home-section__link" routerLink="skills">{{ 'home_section.introduction.skills_link' | translate }}</a>
+                        <p [innerHTML]="'home_section.introduction.content' | translate | noComma"></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="home-section">
+    <section>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="home-section__image-container p-5">
-                        <img class="home-section__image img-fluid" src="/assets/img/home-computer-icon.png" alt="" />
+                    <div class="p-5">
+                        <img class="img-fluid" src="/assets/img/technologies.png" alt="" />
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="home-section__content p-5">
-                        <h2 class="home-section__title display-4">{{ 'home_section.current_job.title' | translate }}</h2>
+                    <div class="p-5">
+                        <h2 class="display-4">{{ 'home_section.technologies.title' | translate }}</h2>
                         <br />
-                        <p class="home-section__text" [innerHTML]="'home_section.current_job.content' | translate | noComma"></p>
+                        <p [innerHTML]="'home_section.technologies.content' | translate | noComma"></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="home-section">
+    <section>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <div class="home-section__image-container p-5">
-                        <img class="home-section__image img-fluid" src="/assets/img/bocadillo-icon.jpg" alt="" />
+                    <div class="p-5">
+                        <img class="img-fluid" src="/assets/img/kanban.png" alt="" />
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
-                    <div class="home-section__content p-5">
-                        <h2 class="home-section__title display-4">{{ 'home_section.about_me.title' | translate }}</h2>
+                    <div class="p-5">
+                        <h2 class="display-4">{{ 'home_section.agile.title' | translate }}</h2>
                         <br />
-                        <p class="home-section__text" [innerHTML]="'home_section.about_me.content' | translate | noComma"></p>
-                        <a class="home-section__link" routerLink="contact">{{ 'home_section.about_me.contact_link' | translate }}</a>
+                        <p [innerHTML]="'home_section.agile.content' | translate | noComma"></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer py-5">
+    <section>
         <div class="container">
-            <p class="footer__text m-0 text-center text-black small">
-                Copyright &copy; 2018-2025 Sergio Asensio Puyuelo. Todos los derechos reservados.
-            </p>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <img class="img-fluid" src="/assets/img/about-me.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">{{ 'home_section.about_me.title' | translate }}</h2>
+                        <br />
+                        <p [innerHTML]="'home_section.about_me.content' | translate | noComma"></p>
+                        <a routerLink="contact">{{ 'home_section.about_me.contact_link' | translate }}</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- /.container -->
-    </footer>
+    </section>
 </body>

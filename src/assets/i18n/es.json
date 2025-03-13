@@ -14,33 +14,35 @@
         "introduction": {
             "title": "Sergio Asensio Puyuelo",
             "content": [
-                "¡Bienvenido a mi Web!<br><br>",
-                "Soy un mátemático y analista programador con un amplio abanico de conocimientos en el desarrollo de aplicaciones web así como en múltiples ramas de la programación tales como: Full Stack Developer (FRONTEND , BACKEND), Web Designer, Web Services Implementation (REST/SOAP),Database Management ...<br><br>",
-                "A lo largo de mis 4 años carrera profesional he participidado en numeros proyectos gestionados por diferentes tecnologías tales como Java, Angular, Salesforce y NodeJS, tanto en solitario como formando parte de equipos cualificados ayudándome todos ellos en mi crecimiento  y desarrollo profesional. <br><br>",
-                "A través del siguiente link podrás descubrir mucha más información sobre todos lenguajes programación a los que me he enfrentado y mi nivel de habilidad en cada uno de ellos ;)."
-            ],
-            "skills_link": "Matriz habilidades"
+                "<b>¡Bienvenido a mi Web!</b><br><br>",
+                "Soy Sergio Asensio, <b>Líder Técnico</b> con más de 9 años de experiencia en soluciones tecnológicas. Me gradué en <b>Matemáticas</b> por la Universidad de Zaragoza, y desde entonces he trabajado en el desarrollo de aplicaciones <b>web, móviles y soluciones IoT</b>.<br><br>",
+                "A lo largo de mi carrera, he liderado proyectos complejos y trabajado con equipos multidisciplinarios, creando soluciones escalables y eficientes que optimizan procesos y generan impacto en diversos sectores."
+            ]
         },
-        "current_job": {
-            "title": "Trabajo actual",
+        "technologies": {
+            "title": "Arquitectura y Tecnologías",
             "content": [
-                "Actualmente trabajo en el desarrollo de una aplicación hospitalaria en la empresa UST Global. Algunas de las tareas más importantes a las que me he enfrentado a lo largo de mi carrera profesional son: <br><br>",
-                "- Mejora y optimización de la arquitectura de proyectos.<br>",
-                "- Analizar e implementar las funcionalidades FRONTEND y BACKEND de la manera más simple y eficiente posible.<br>",
-                "- Definir las tablas de base de datos así como la relación entre las mismas.<br>",
-                "- Establecer la arquitectura del código de los principales módulos del proyecto con el objetivo de tomarlos como referencia a la hora de desarrollar nuevos requisitos.<br>",
-                "- Generación de entregables.<br>",
-                "- Formación y transferencia de conocimientos a los programadores del equipo así como revisión de PR´s.<br>"
+                "Tengo experiencia en el diseño y desarrollo de arquitecturas para aplicaciones en <b>front-end (Angular, React) y back-end (Node, Java, Python)</b>, y en la creación de aplicaciones móviles con <b>Flutter</b>. También he trabajado con <b>ThingsBoard</b> para desarrollar soluciones <b>IoT</b>, facilitando la integración, visualización y análisis de datos en tiempo real.<br><br>",
+                "Una de mis especialidades es la <b>dockerización</b> de aplicaciones, mejorando la portabilidad, escalabilidad y optimizando despliegues en plataformas como <b>Azure, OpenShift y Heroku</b>. He liderado la configuración de <b>pipelines de Integración Continua</b> con herramientas como <b>GitLab CI</b>, asegurando eficiencia y calidad en los procesos de desarrollo y despliegue.<br><br>",
+                "En mi trayectoria, también he creado <b>plantillas de código reutilizables</b> que facilitan el desarrollo de proyectos escalables y sostenibles. Además, desarrollé <b>video tutoriales internos</b> para formar tecnológicamente al equipo, impulsando su capacitación y crecimiento."
+            ]
+        },
+        "agile": {
+            "title": "Agilidad y Gestión de Equipos",
+            "content": [
+                "En mis proyectos, promuevo el uso de metodologías ágiles como <b>SCRUM</b> y <b>Kanban</b>, optimizando los flujos de trabajo y garantizando entregas rápidas y de calidad. Desarrollamos <b>Roadmaps</b> claros, alineando los objetivos del equipo con las necesidades del negocio. Para asegurar la calidad del código, adopto <b>Gitflow</b> como estrategia de control de versiones, y superviso el trabajo del equipo mediante <b>Pull Requests</b> (PRs), garantizando que el código cumpla con los estándares antes de su integración al repositorio principal.<br><br>",
+                "Creo profundamente en el <b>valor humano</b> dentro de un equipo. Fomentar un entorno de <b>confianza, colaboración y aprendizaje continuo</b> es clave para el éxito de cualquier proyecto. Promuevo la <b>transferencia de conocimientos</b>, lo que no solo mejora las habilidades técnicas, sino que también fortalece la autonomía y motivación del equipo. Para mí, el <b>bienestar del equipo</b> es fundamental, y me aseguro de mantener un equilibrio entre productividad y un ambiente de trabajo saludable que impulse la creatividad y la innovación."
             ]
         },
         "about_me": {
             "title": "Sobre mi...",
             "content": [
-                "Soy  persona muy persistente con los objetivos que persigue y éste es el aspecto que más me gusta de mi trabajo, veo mi día a día como retos a batir y cuanto más retadores y novedosos sean, mayor es mi motivación.<br><br>",
-                "Uno de los aspectos que más valoro en un proyecto son sus cimientos y su estructura; sus cimientos, ya que son los que nos sirven como ejemplo para poder construir el resto de módulos requeridos dentro del mismo de la manera más óptima y eficiente posible, y su estructura, ya que sin un equipo competente, bien organizado y con el rol y tareas de cada miembro bien definidos, el caos no tarda en aparecer.<br><br>",
-                "Espero que esta página web sirva para que me conozcas un poco y disfrutes de ella tanto como yo he disfrutado programándola, si quieres ponerte en contacto conmigo para conocer más a fondo mi trabajo y experiencia, no dudes en contactar conmigo a través del siguiente enlace: "
+                "Soy persistente con los objetivos que persigo, y este es uno de los aspectos que más disfruto de mi trabajo. Veo cada día como un reto, y cuanto más desafiante y novedoso sea, mayor es mi motivación. El aprendizaje continuo y la innovación son esenciales para evolucionar, y siempre busco aplicar nuevas tecnologías y enfoques para optimizar mis proyectos.<br><br>",
+                "Valoro profundamente los cimientos y la estructura de un proyecto. Los cimientos son clave para construir módulos de manera eficiente, y la estructura es esencial para evitar el caos: sin un equipo competente, bien organizado y con roles definidos, los problemas surgen rápidamente. Creo que el trabajo en equipo y la colaboración interdisciplinaria son esenciales para el éxito, y siempre priorizo la comunicación efectiva y la alineación de objetivos.<br><br>",
+                "Mi enfoque está orientado a obtener resultados concretos. Cada proyecto tiene un impacto medible, y esa es la verdadera satisfacción de mi trabajo: ver cómo la tecnología resuelve problemas y mejora procesos.<br><br>",
+                "Espero que esta página web te permita conocerme un poco más y disfrutar de ella tanto como yo disfruté programándola. Si deseas conocer más sobre mi trabajo y experiencia, no dudes en contactarme a través del siguiente enlace:<br><br>"
             ],
-            "contact_link": "Contacto"
+            "contact_link": "¡Hablemos!"
         }
     }
 }

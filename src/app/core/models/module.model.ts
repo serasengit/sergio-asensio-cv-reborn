@@ -1,5 +1,5 @@
 export enum ModuleLink {
-    Home = 'home',
+    Home = '',
 }
 
 export enum ModuleCode {

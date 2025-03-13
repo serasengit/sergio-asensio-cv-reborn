@@ -1,12 +1,11 @@
-import { RouterModule, Routes } from '@angular/router';
-
 import { NgModule } from '@angular/core';
-import { ModuleCode } from '@core/models/module.model';
+import { RouterModule, Routes } from '@angular/router';
+import { ModuleLink } from '@core/models/module.model';
 import { HomeComponent } from '@features/home/home.component';
 
 const routes: Routes = [
     {
-        path: ModuleCode.Home,
+        path: ModuleLink.Home,
         component: HomeComponent,
     },
 ];

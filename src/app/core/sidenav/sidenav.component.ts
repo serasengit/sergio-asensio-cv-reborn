@@ -47,7 +47,7 @@ export class SidenavComponent implements OnDestroy {
             )
             .subscribe((event: any) => {
                 const url: string = event['url'];
-                const module: Module = MODULES.find((module) => url.includes(module.link));
+                const module: Module = MODULES.find((module) => url.includes(module.code));
                 this.setModule(module);
             });
     }

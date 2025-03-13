@@ -15,33 +15,35 @@
         "introduction": {
             "title": "Sergio Asensio Puyuelo",
             "content": [
-                "Welcome to my Website!!!<br><br>",
-                "I am a mathematician and programmer analyst with a solid background in web applications development and several programming areas such as: Full Stack Engineer (FRONTEND , BACKEND), Web Designer, Web Services Implementation (REST/SOAP),Database Management ...<br><br>",
-                "During my 4 years of experience, I have attended multiple projects managed by different technologies such as Java, Angular, Salesforce and NodeJS. Moreover, I have plenty of experience working in some projects on my own and also with qualified teams that have helped me in my professional and personal growth.<br><br>",
-                "By the follow link you can find out more information about all the programming languages that I have dealt with as well as my skill matrix level ;)"
-            ],
-            "skills_link": "Skill Matrix"
+                "<b>Welcome to my Website!</b><br><br>",
+                "I am Sergio Asensio, a <b>Technical Lead</b> with over 9 years of experience in technological solutions. I graduated in <b>Mathematics</b> from the University of Zaragoza, and since then, I have worked in the development of <b>web, mobile, and IoT solutions</b>.<br><br>",
+                "Throughout my career, I have led complex projects and worked with multidisciplinary teams, creating scalable and efficient solutions that optimize processes and make an impact in various sectors."
+            ]
         },
-        "current_job": {
-            "title": "Current Job",
+        "technologies": {
+            "title": "Architecture and Technologies",
             "content": [
-                "I currently work in the development of an hospital application at UST Global company. Some of the most important tasks I have faced through my professional experience are: <br><br>",
-                "- Improvement and optimization of projects architecture.<br>",
-                "- Analysis and implementation of the FRONTEND and BACKEND functionalities in the most simple and efficient way.<br>",
-                "- Define the database tables structure as well as the relation between them.<br>",
-                "- Establish the code architecture of main project modules in order to take them as referents to develop new ones.<br>",
-                "- Automation and building of the project code.<br>",
-                "- Support and knowledge transfer to team´s software developers as well as PR´s reviews.<br>"
+                "I have experience in designing and developing architectures for applications in <b>front-end (Angular, React) and back-end (Node, Java, Python)</b>, and in creating mobile applications with <b>Flutter</b>. I have also worked with <b>ThingsBoard</b> to develop <b>IoT</b> solutions, enabling integration, visualization, and real-time data analysis.<br><br>",
+                "One of my specialties is <b>containerizing</b> applications, enhancing portability, scalability, and optimizing deployments on platforms such as <b>Azure, OpenShift, and Heroku</b>. I have led the configuration of <b>Continuous Integration pipelines</b> with tools like <b>GitLab CI</b>, ensuring efficiency and quality in development and deployment processes.<br><br>",
+                "Throughout my career, I have also created <b>reusable code templates</b> that facilitate the development of scalable and sustainable projects. Additionally, I developed <b>internal video tutorials</b> to train the team technologically, boosting their learning and growth."
+            ]
+        },
+        "agile": {
+            "title": "Agility and Team Management",
+            "content": [
+                "In my projects, I promote the use of agile methodologies such as <b>SCRUM</b> and <b>Kanban</b>, optimizing workflows and ensuring fast and quality deliveries. We develop clear <b>Roadmaps</b>, aligning the team's objectives with business needs. To ensure code quality, I adopt <b>Gitflow</b> as a version control strategy, and I supervise the team's work through <b>Pull Requests</b> (PRs), ensuring the code meets standards before being integrated into the main repository.<br><br>",
+                "I strongly believe in the <b>human value</b> within a team. Fostering an environment of <b>trust, collaboration, and continuous learning</b> is key to the success of any project. I promote <b>knowledge transfer</b>, which not only improves technical skills but also strengthens the team's autonomy and motivation. For me, the <b>well-being of the team</b> is essential, and I ensure a balance between productivity and a healthy work environment that fosters creativity and innovation."
             ]
         },
         "about_me": {
             "title": "About me...",
             "content": [
-                "I am a so persistent person with my objectives and this is precisely the aspect that I like most about my work, I see my day by day as challenges to defeat and the more innovative and challenging these are, the more motivated I feel.<br><br>",
-                "Two of the most relevant aspects in a project to me are its foundations, and its structure, its foundations because these are the template through we are able to develop the rest of the project modules in the most optimal and efficient way, and its structure, because without a competent and well-organized team where the role and task of each member are well-defined, chaos quick appears.<br><br>",
-                "I hope this website help you to know me a little bit and enjoy it as much as I have enjoyed developing it, if you want to contact me in order to find out more information about my work and experience, do not hesitate to do so through the following link:"
+                "I am persistent with the goals I pursue, and this is one of the aspects I enjoy most about my work. I see each day as a challenge, and the more challenging and new it is, the greater my motivation. Continuous learning and innovation are essential for growth, and I always seek to apply new technologies and approaches to optimize my projects.<br><br>",
+                "I deeply value the foundations and structure of a project. The foundations are key to building modules efficiently, and the structure is essential to avoid chaos: without a competent, well-organized team with defined roles, problems arise quickly. I believe that teamwork and interdisciplinary collaboration are essential for success, and I always prioritize effective communication and alignment of goals.<br><br>",
+                "My approach is focused on achieving concrete results. Every project has a measurable impact, and that is the true satisfaction of my work: seeing how technology solves problems and improves processes.<br><br>",
+                "I hope this website allows you to get to know me a little better and enjoy it as much as I enjoyed programming it. If you would like to learn more about my work and experience, feel free to contact me through the following link:<br><br>"
             ],
-            "contact_link": "Contact"
+            "contact_link": "Let's talk!"
         }
     }
 }
