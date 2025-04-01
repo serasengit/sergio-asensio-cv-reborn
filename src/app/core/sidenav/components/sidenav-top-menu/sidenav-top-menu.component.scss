@@ -2,14 +2,14 @@
     &__toolbar {
         position: fixed;
         top: 0;
-        z-index: 1;
+        z-index: 10;
         min-height: 75px;
         @media (max-width: 768px) {
             padding: 0;
         }
         &__logo {
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
             font-family: 'Dancing Script', cursive;
             font-size: 25px;
         }
@@ -40,6 +40,7 @@
             &__left {
                 display: flex;
                 justify-content: flex-start;
+                flex-grow: 1;
                 gap: 2px;
                 &__title {
                     margin: 5px;
@@ -51,7 +52,8 @@
             &__right {
                 gap: 0px;
                 display: flex;
-                justify-content: flex-end;
+                position: fixed;
+                right: 20px;
             }
         }
     }

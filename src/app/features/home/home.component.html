@@ -70,7 +70,7 @@
                         <h2 class="display-4">{{ 'home_section.about_me.title' | translate }}</h2>
                         <br />
                         <p [innerHTML]="'home_section.about_me.content' | translate | noComma"></p>
-                        <a routerLink="contact">{{ 'home_section.about_me.contact_link' | translate }}</a>
+                        <a routerLink="contact" [innerHTML]="'home_section.about_me.contact_link' | translate | noComma"></a>
                     </div>
                 </div>
             </div>

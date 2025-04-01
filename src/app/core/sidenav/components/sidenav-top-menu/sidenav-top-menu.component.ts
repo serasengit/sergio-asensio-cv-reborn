@@ -1,18 +1,7 @@
-import { Component, EventEmitter, Output } from '@angular/core';
-import { Language } from '@app/app.component';
-import { Module, ModuleCode, ModuleLink } from '@core/models/module.model';
-export const MODULES: Module[] = [
-    {
-        code: ModuleCode.Home,
-        link: ModuleLink.Home,
-        icon: 'home',
-    },
-    {
-        code: ModuleCode.Curriculum,
-        link: ModuleLink.Curriculum,
-        icon: 'description',
-    },
-];
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { DeviceType, Language } from '@app/app.component';
+import { Module } from '@core/models/module.model';
+
 @Component({
     selector: 'app-sidenav-top-menu',
     templateUrl: './sidenav-top-menu.component.html',
@@ -22,6 +11,9 @@ export class SidenavTopMenuComponent {
     @Output() toggleSidenav = new EventEmitter<void>();
     @Output() changeLanguage = new EventEmitter<Language>();
     @Output() changeModule = new EventEmitter<Module>();
-    readonly modules: Module[] = MODULES;
+    @Input() existSidenav: boolean;
+    @Input() deviceType: DeviceType;
+    @Input() modules: Module[];
     readonly Language = Language;
+    readonly DeviceType = DeviceType;
 }

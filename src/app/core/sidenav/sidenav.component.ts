@@ -2,14 +2,18 @@ import { Component, OnDestroy, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { NavigationEnd, Router } from '@angular/router';
 import { DeviceType, Language } from '@app/app.component';
-import { setLanguage, setModule } from '@app/store/actions/app.actions';
-import { getDeviceType } from '@app/store/selectors/app.selectors';
-import { Module } from '@core/models/module.model';
+import { hideSidenav, setLanguage, setLeftModule, setTopModule, showSidenav } from '@app/store/actions/app.actions';
+import {
+    getDeviceType,
+    getTopModules,
+    showSidenav as getShowSidenav,
+    getLeftModules,
+    getTopModule,
+} from '@app/store/selectors/app.selectors';
+import { Module, ModuleCode } from '@core/models/module.model';
 import { select, Store } from '@ngrx/store';
 import { combineLatest, filter, map, Subject, takeUntil } from 'rxjs';
-
 import { AppState } from '../../store/reducers/app.reducers';
-import { MODULES } from './components/sidenav-top-menu/sidenav-top-menu.component';
 
 @Component({
     selector: 'app-sidenav',
@@ -19,10 +23,14 @@ import { MODULES } from './components/sidenav-top-menu/sidenav-top-menu.componen
 export class SidenavComponent implements OnDestroy {
     @ViewChild(MatSidenav) sidenav?: MatSidenav;
     readonly deviceType$ = this.appStore.pipe(select(getDeviceType));
+    readonly showSidenav$ = this.appStore.pipe(select(getShowSidenav));
+    readonly topModules$ = this.appStore.pipe(select(getTopModules));
+    readonly topModule$ = this.appStore.pipe(select(getTopModule));
+    readonly leftModules$ = this.appStore.pipe(select(getLeftModules));
     readonly DeviceType = DeviceType;
-    readonly params$ = combineLatest([this.deviceType$]).pipe(
-        map(([deviceType]) => {
-            return { deviceType };
+    readonly params$ = combineLatest([this.deviceType$, this.topModules$, this.topModule$, this.leftModules$, this.showSidenav$]).pipe(
+        map(([deviceType, topModules, topModule, leftModules, showSidenav]) => {
+            return { deviceType, topModules, topModule, leftModules, showSidenav };
         })
     );
     private readonly unsubscribe$: Subject<void> = new Subject<void>();
@@ -31,29 +39,44 @@ export class SidenavComponent implements OnDestroy {
         this.onRouterChanged();
     }
 
-    setModule(module: Module): void {
-        this.appStore.dispatch(setModule({ module }));
+    setTopModule(module: Module): void {
+        this.appStore.dispatch(setTopModule({ module }));
     }
 
-    toggleSidenav(): void {
-        this.sidenav?.toggle();
+    setLeftModule(module: Module): void {
+        this.appStore.dispatch(setLeftModule({ module }));
+    }
+
+    onSidenavToggle(isToggled: boolean): void {
+        isToggled ? this.showSidenav() : this.hideSidenav();
     }
 
     private onRouterChanged(): void {
-        this.router.events
-            .pipe(
-                filter((event) => event instanceof NavigationEnd),
-                takeUntil(this.unsubscribe$)
-            )
-            .subscribe((event: any) => {
-                const url: string = event['url'];
-                const module: Module = MODULES.find((module) => url.includes(module.code));
-                this.setModule(module);
+        combineLatest([this.router.events.pipe(filter((event) => event instanceof NavigationEnd)), this.topModules$])
+            .pipe(takeUntil(this.unsubscribe$))
+            .subscribe(([event, topModules]) => {
+                const url: string = (event as NavigationEnd).url;
+                const module: Module | undefined = topModules.find((module) => url.includes(module.code));
+                const isNavigatorRefreshing: boolean = (event as NavigationEnd).id === 1;
+                this.setTopModule(module);
+                this.existSidenav(module) && !isNavigatorRefreshing ? this.showSidenav() : this.hideSidenav();
             });
     }
 
     setLanguage(language: Language): void {
         this.appStore.dispatch(setLanguage({ language }));
+    }
+
+    public existSidenav(module: Module): boolean {
+        return module?.code === ModuleCode.Curriculum;
+    }
+
+    public showSidenav(): void {
+        this.appStore.dispatch(showSidenav());
+    }
+
+    public hideSidenav(): void {
+        this.appStore.dispatch(hideSidenav());
     }
 
     public ngOnDestroy(): void {

@@ -1,5 +1,12 @@
 <mat-sidenav-container class="sidenav" *ngIf="params$ | async; let params">
-    <mat-sidenav #sidenav id="sidenav" [mode]="params.deviceType !== DeviceType.Small ? 'side' : 'over'" class="mat-elevation-z2">
+    <mat-sidenav
+        #sidenav
+        id="sidenav"
+        [opened]="params.showSidenav"
+        [mode]="params.deviceType !== DeviceType.Small ? 'side' : 'over'"
+        class="mat-elevation-z2"
+        (openedChange)="onSidenavToggle($event)"
+    >
         <mat-toolbar class="sidenav__toolbar" color="primary">
             <mat-toolbar-row class="sidenav__toolbar__header">
                 <span class="sidenav__toolbar__header__title">
@@ -8,12 +15,15 @@
                 </span>
             </mat-toolbar-row>
         </mat-toolbar>
-        <app-sidenav-left-menu (changeModule)="setModule($event); toggleSidenav()"> </app-sidenav-left-menu>
+        <app-sidenav-left-menu [modules]="params.leftModules" (changeModule)="setLeftModule($event)"> </app-sidenav-left-menu>
     </mat-sidenav>
     <mat-sidenav-content class="sidenav__content">
         <app-sidenav-top-menu
-            (toggleSidenav)="toggleSidenav()"
-            (changeModule)="setModule($event)"
+            [existSidenav]="existSidenav(params.topModule)"
+            [deviceType]="params.deviceType"
+            [modules]="params.topModules"
+            (toggleSidenav)="params.showSidenav ? hideSidenav() : showSidenav()"
+            (changeModule)="setTopModule($event)"
             (changeLanguage)="setLanguage($event)"
         ></app-sidenav-top-menu>
         <div class="sidenav__content__router">

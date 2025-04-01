@@ -1,6 +1,6 @@
 <mat-toolbar color="primary" class="sidenav-top-menu__toolbar mat-elevation-z2">
     <!-- Menu Button -->
-    <button mat-icon-button class="sidenav-top-menu__toolbar__menu" (click)="toggleSidenav.emit()">
+    <button mat-icon-button class="sidenav-top-menu__toolbar__menu" (click)="toggleSidenav.emit()" *ngIf="existSidenav">
         <mat-icon>menu</mat-icon>
     </button>
 

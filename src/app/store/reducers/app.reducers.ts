@@ -1,20 +1,51 @@
 import { DEFAULT_LANGUAGE, DeviceType, getDevice, Language } from '@app/app.component';
-import { Module } from '@core/models/module.model';
+import { Module, ModuleCode, ModuleLink } from '@core/models/module.model';
 import { createReducer, on } from '@ngrx/store';
 
-import { hideSpinner, purge, setDeviceType, setLanguage, setModule, showSpinner } from '../actions/app.actions';
+import {
+    hideSidenav,
+    hideSpinner,
+    purge,
+    setDeviceType,
+    setLanguage,
+    setLeftModule,
+    setLeftModules,
+    setTopModule,
+    setTopModules,
+    showSidenav,
+    showSpinner,
+} from '../actions/app.actions';
 
 export interface AppState {
     deviceType: DeviceType;
     showSpinner: boolean;
+    showSidenav: boolean;
     language: Language;
-    module: Module;
+    topModules: Module[];
+    topModule: Module;
+    leftModules: Module[];
+    leftModule: Module;
 }
 const initialState: AppState = {
     deviceType: getDevice(window.screen.width),
     showSpinner: false,
+    showSidenav: false,
     language: DEFAULT_LANGUAGE,
-    module: null,
+    topModules: [
+        {
+            code: ModuleCode.Home,
+            link: ModuleLink.Home,
+            icon: 'home',
+        },
+        {
+            code: ModuleCode.Curriculum,
+            link: ModuleLink.Curriculum,
+            icon: 'description',
+        },
+    ],
+    topModule: null,
+    leftModules: [],
+    leftModule: null,
 };
 export const appReducer = createReducer(
     initialState,
@@ -30,13 +61,33 @@ export const appReducer = createReducer(
         ...state,
         showSpinner: false,
     })),
+    on(showSidenav, (state) => ({
+        ...state,
+        showSidenav: true,
+    })),
+    on(hideSidenav, (state) => ({
+        ...state,
+        showSidenav: false,
+    })),
     on(setLanguage, (state, action) => ({
         ...state,
         language: action.language,
     })),
-    on(setModule, (state, action) => ({
+    on(setTopModules, (state, action) => ({
         ...state,
-        module: action.module,
+        topModules: action.modules,
+    })),
+    on(setTopModule, (state, action) => ({
+        ...state,
+        topModule: { ...action.module },
+    })),
+    on(setLeftModules, (state, action) => ({
+        ...state,
+        leftModules: action.modules,
+    })),
+    on(setLeftModule, (state, action) => ({
+        ...state,
+        leftModule: { ...action.module },
     })),
     on(purge, () => ({
         ...initialState,

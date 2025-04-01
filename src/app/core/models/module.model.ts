@@ -6,6 +6,16 @@ export enum ModuleLink {
 export enum ModuleCode {
     Home = 'home',
     Curriculum = 'cv',
+    PersonalData = 'personal_data',
+    Profile = 'profile',
+    Education = 'education',
+    Languages = 'languages',
+    SoftwareTools = 'software_tools',
+    WorkExperience = 'work_experience',
+    TrainingCourses = 'training_courses',
+    Certifications = 'certifications',
+    Publications = 'publications',
+    DownloadCV = 'download_cv',
 }
 
 export interface Module {

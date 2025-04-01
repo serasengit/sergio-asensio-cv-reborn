@@ -10,6 +10,15 @@
     "cv": "Curriculum Vitae",
     "skills": "Habilidades",
     "contact": "Contacto",
+    "personal_data": "Datos Personales",
+    "profile": "Perfil técnico",
+    "education": "Educación",
+    "software_tools": "Conocimientos Informáticos",
+    "work_experience": "Experiencia Profesional",
+    "training_courses": "Cursos de Formación",
+    "certifications": "Certificaciones",
+    "publications": "Publicaciones",
+    "download_cv": "Descargar CV",
     "home_section": {
         "introduction": {
             "title": "Sergio Asensio Puyuelo",
@@ -41,35 +50,25 @@
                 "Valoro profundamente los cimientos y la estructura de un proyecto. Los cimientos son clave para construir módulos de manera eficiente, y la estructura es esencial para evitar el caos: sin un equipo competente, bien organizado y con roles definidos, los problemas surgen rápidamente.<br><br>",
                 "Espero que esta página web te permita conocerme un poco más y disfrutar de ella tanto como yo disfruté programándola. Si deseas conocer más sobre mi trabajo y experiencia, no dudes en contactarme a través del siguiente enlace:<br><br>"
             ],
-            "contact_link": "¡Hablemos!"
+            "contact_link": "<b>¡Hablemos!</b>"
         }
     },
-    "curriculumPage": {
-        "personalData": "Datos Personales",
-        "profile": "Perfil técnico",
-        "education": "Educación",
-        "languages": "Idiomas",
-        "softwareTools": "Conocimientos Informáticos",
-        "workExperience": "Experiencia Profesional",
-        "trainingCourses": "Cursos de Formación",
-        "certifications": "Certificaciones",
-        "publications": "Publicaciones",
-        "downloadPdf": "Descargar PDF",
-        "personalDataSection": {
+    "curriculum_page": {
+        "personal_data_section": {
             "name": "Nombre y Apellidos:",
-            "nameValue": "Sergio Asensio Puyuelo",
+            "name_value": "Sergio Asensio Puyuelo",
             "city": "Localidad:",
-            "cityValue": "Zaragoza",
+            "city_value": "Zaragoza",
             "phone": "Teléfono:",
-            "phoneValue": "678-154-765",
+            "phone_value": "678154765",
             "birthdate": "Fecha de nacimiento:",
-            "birthdateValue": "12-2-1992",
+            "birthdate_value": "12-02-1992",
             "age": "Edad:",
             "ageValue": "27",
             "email": "Correo Electrónico:",
-            "emailValue": "maserasen@gmail.com"
+            "email_value": "maserasen@gmail.com"
         },
-        "profileSection": {
+        "profile_section": {
             "content": [
                 "Tras iniciarme en el mundo de la programación en Marzo del 2016 asistí a tres cursos de formación de las competencias SAP (modalidad ABAP), Java y Salesforce.<br><br>",
                 "Durante mis dos primeros años de experiencia, estuve envuelto en diversos proyectos de mantenimiento y desarrollo en Salesforce en los cuales me formé tanto a nivel de desarrollador de codigo como de administrador de la plataforma.<br><br>",
@@ -83,18 +82,18 @@
                 "En Abril de 2020 me incorporé a la empresa UST Global como miembro de un equipo polivalente involucrado en el desarrollo de una aplicación hospitalaria en Angular y Node la cual me ha ha permitido compartir mi experiencia profesional con mis compañeros de trabajo así como incrementar considerablemente mi nivel de Angular (NgRx framework), Node (TypeORM framework) y maquetación web."
             ]
         },
-        "educationSection": {
+        "education_section": {
             "degree": "Titulación:",
             "university": "Graduado en Matemáticas por la Universidad de Zaragoza (Sept 2011 – Feb 2016)."
         },
-        "languageSection": {
+        "language_section": {
             "spanish": "Español",
-            "spanish_s1": "Lengua materna",
+            "spanish_level_description": "Lengua materna",
             "english": "Inglés",
-            "english_s1": "Nivel upper-intermediate demostrable en speaking y writting",
+            "english_level_description": "Nivel upper-intermediate demostrable en speaking y writting",
             "english_s2": "Experiencia y calls diarias en inglés en proyectos internacionales y como auto formación"
         },
-        "softwareToolsSection": {
+        "software_toolsSection": {
             "java": "Java:",
             "salesforce": "Salesforce:",
             "angular": "Angular:",
@@ -107,16 +106,16 @@
             "versionControl": "Control de Versiones:",
             "continuousIntegration": "Integsración Continua:"
         },
-        "workExperienceSection": {
+        "work_experience_section": {
             "developer": "Programador",
-            "seniorDeveloper": "Programador Senior",
-            "analystDeveloper": "Analista Programador",
-            "seniorAnalystDeveloper": "Analista Programador Senior",
+            "senior_developer": "Programador Senior",
+            "analyst_developer": "Analista Programador",
+            "senior_analyst_developer": "Analista Programador Senior",
             "company_1": "<b>Nueva experiencia profesional en la empresa: DxD Applications & IT Solutions</b>",
             "company_2": "<b>Nueva experiencia profesional en la empresa: Grupo Oesía</b><br><br><br><br><br><br><br><br><br><br>",
             "company_2_1": "<b>Promoción a Analista Programador : Grupo Oesía</b><br><br><br><br><br><br><br><br><br><br>",
             "company_3": "<b>Nueva experiencia profesional en la empresa: UST Global</b><br><br>",
-            "contentSeniorAnalystDeveloper": {
+            "senior_analyst_developer_content": {
                 "date": "Abril 2020 ",
                 "proyect_1": {
                     "date": "Abril 2020 - Actualidad",
@@ -135,7 +134,7 @@
                     ]
                 }
             },
-            "contentAnalystDeveloper": {
+            "analyst_developer_content": {
                 "date": "Mayo 2019 ",
                 "proyect_1": {
                     "date": "Mayo 2019 - Abril 2020",
@@ -156,7 +155,7 @@
                     ]
                 }
             },
-            "contentSeniorDeveloper": {
+            "senior_developer_content": {
                 "date": "Marzo 2018 ",
                 "proyect_1": {
                     "date": "Junio 2018 - Mayo 2019",
@@ -182,7 +181,7 @@
                     ]
                 }
             },
-            "contentDeveloper": {
+            "developer_content": {
                 "date": "Marzo 2016 ",
                 "proyect_1": {
                     "date": "Enero 2018 - Marzo 2018",
@@ -259,7 +258,7 @@
                 }
             }
         },
-        "trainingCoursesSection": {
+        "training_courses_section": {
             "courses": "Cursos",
             "course_1": "Curso de formación de Java (Abril 2016).",
             "course_2": "Curso de formación de Salesforce (Abril 2016).",
@@ -269,10 +268,10 @@
             "presentation_1": "Instructor curso de Salesforce (Oct 2016).",
             "presentation_2": "Instructor curso de Java (Oct 2017)."
         },
-        "certificationsSection": {
-            "oracleCert": "Java Standard Edition 6 Programmer Certified Professional (Score: 93%)"
+        "certifications_section": {
+            "oracle_certification": "Java Standard Edition 6 Programmer Certified Professional (Score: 93%)"
         },
-        "publicationsSection": {
+        "publications_section": {
             "tfg": "Ecuaciones Diferenciales Implícitas y Clasificación de sus Singularidades."
         }
     }

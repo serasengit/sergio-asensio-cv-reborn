@@ -14,8 +14,11 @@
     &__toolbar {
         min-height: 75px;
         &__header {
-            padding-top: 10px;
+            padding-top: 30px;
             text-align: center;
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
             &__title {
                 font-size: 18px;
             }

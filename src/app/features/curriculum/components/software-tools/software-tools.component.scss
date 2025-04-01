@@ -1,0 +1,24 @@
+.software_tools {
+    &__content {
+        .software_tools__list {
+            font-size: 3rem;
+            text-align: center;
+        }
+        .software_tools__list .list-inline-item i:hover {
+            color: grey;
+        }
+        .software_tools__list .list-inline-item img:hover {
+            -webkit-filter: grayscale(100%);
+            -webkit-filter: grayscale(1);
+            filter: gray;
+        }
+        .software_tools__item {
+            margin-right: 20px;
+        }
+    }
+    .thingsboard-logo {
+        width: 180px;
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+}
