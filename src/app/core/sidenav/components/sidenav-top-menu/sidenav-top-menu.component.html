@@ -1,8 +1,8 @@
 <mat-toolbar color="primary" class="sidenav-top-menu__toolbar mat-elevation-z2">
     <!-- Menu Button -->
-    <!--<button mat-icon-button class="sidenav-top-menu__toolbar__menu" (click)="toggleSidenav.emit()">
+    <button mat-icon-button class="sidenav-top-menu__toolbar__menu" (click)="toggleSidenav.emit()">
         <mat-icon>menu</mat-icon>
-    </button>-->
+    </button>
 
     <!-- Logo with Name -->
     <span class="sidenav-top-menu__toolbar__logo"> Sergio Asensio </span>
@@ -11,29 +11,12 @@
     <div class="sidenav-top-menu__toolbar__sections">
         <!-- Left Section -->
         <div class="sidenav-top-menu__toolbar__sections__left">
-            <!-- Home Section -->
-            <button mat-icon-button>
-                <mat-icon>home</mat-icon>
-                <span class="sidenav-top-menu__toolbar__sections__left__title">{{ 'home' | translate }}</span>
-            </button>
-
-            <!-- CV Section -->
-            <button mat-icon-button>
-                <mat-icon>description</mat-icon>
-                <span class="sidenav-top-menu__toolbar__sections__left__title">{{ 'cv' | translate }}</span>
-            </button>
-
-            <!-- Skills Section -->
-            <button mat-icon-button>
-                <mat-icon>school</mat-icon>
-                <span class="sidenav-top-menu__toolbar__sections__left__title">{{ 'skills' | translate }}</span>
-            </button>
-
-            <!-- Contact Section -->
-            <button mat-icon-button>
-                <mat-icon>contacts</mat-icon>
-                <span class="sidenav-top-menu__toolbar__sections__left__title">{{ 'contact' | translate }}</span>
-            </button>
+            <div *ngFor="let module of modules">
+                <button mat-icon-button (click)="changeModule.emit(module)" [routerLink]="module.link">
+                    <mat-icon>{{ module.icon }}</mat-icon>
+                    <span class="sidenav-top-menu__toolbar__sections__left__title">{{ module.code | translate }}</span>
+                </button>
+            </div>
         </div>
         <!-- Right Section -->
         <div class="sidenav-top-menu__toolbar__sections__right">

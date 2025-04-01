@@ -9,7 +9,7 @@ import { select, Store } from '@ngrx/store';
 import { combineLatest, filter, map, Subject, takeUntil } from 'rxjs';
 
 import { AppState } from '../../store/reducers/app.reducers';
-import { MODULES } from './components/sidenav-left-menu/sidenav-left-menu.component';
+import { MODULES } from './components/sidenav-top-menu/sidenav-top-menu.component';
 
 @Component({
     selector: 'app-sidenav',

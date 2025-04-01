@@ -1,9 +1,11 @@
 export enum ModuleLink {
     Home = '',
+    Curriculum = 'cv',
 }
 
 export enum ModuleCode {
     Home = 'home',
+    Curriculum = 'cv',
 }
 
 export interface Module {
