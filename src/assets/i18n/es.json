@@ -24,31 +24,31 @@
             "title": "Sergio Asensio Puyuelo",
             "content": [
                 "<b>¡Bienvenido a mi Web!</b><br><br>",
-                "Soy Sergio Asensio, <b>Líder Técnico</b> con más de 9 años de experiencia en soluciones tecnológicas. Me gradué en <b>Matemáticas</b> por la Universidad de Zaragoza, y desde entonces he trabajado en el desarrollo de aplicaciones <b>web, móviles y soluciones IoT</b>.<br><br>",
-                "A lo largo de mi carrera, he liderado proyectos complejos y trabajado con equipos multidisciplinarios, creando soluciones escalables y eficientes que optimizan procesos y generan impacto en diversos sectores."
+                "Soy Sergio Asensio, <b>Technical Lead</b> con más de <b>10 años de experiencia en desarrollo de software y soluciones tecnológicas</b>, y más de <b>4 años de experiencia en el sector del agua y medio ambiente</b>. Me gradué en <b>Matemáticas</b> por la Universidad de Zaragoza, y desde entonces he trabajado en el desarrollo de aplicaciones <b>web, móviles, plataformas de datos y soluciones IoT</b>.<br><br>",
+                "A lo largo de mi carrera, he liderado proyectos complejos y trabajado con equipos multidisciplinares, definiendo arquitecturas y construyendo soluciones escalables, mantenibles y eficientes que optimizan procesos y generan impacto real en sectores como administración pública, sanidad, medio ambiente, telemetría, meteorología y monitorización."
             ]
         },
         "technologies": {
             "title": "Arquitectura y Tecnologías",
             "content": [
-                "Tengo experiencia en el diseño y desarrollo de arquitecturas para aplicaciones en <b>front-end (Angular, React) y back-end (Node, Java, Python)</b>, y en la creación de aplicaciones móviles con <b>Flutter</b>. También he trabajado con <b>ThingsBoard</b> para desarrollar soluciones <b>IoT</b>, facilitando la integración, visualización y análisis de datos en tiempo real.<br><br>",
-                "Una de mis especialidades es la <b>dockerización</b> de aplicaciones, mejorando la portabilidad, escalabilidad y optimizando despliegues en plataformas como <b>Azure, OpenShift y Heroku</b>. He liderado la configuración de <b>pipelines de Integración Continua</b> con herramientas como <b>GitLab CI</b>, asegurando eficiencia y calidad en los procesos de desarrollo y despliegue.<br><br>",
-                "En mi trayectoria, también he creado <b>plantillas de código reutilizables</b> que facilitan el desarrollo de proyectos escalables y sostenibles. Además, desarrollé <b>video tutoriales internos</b> para formar tecnológicamente al equipo, impulsando su capacitación y crecimiento."
+                "Tengo experiencia en el diseño y desarrollo de arquitecturas para aplicaciones en <b>front-end (Angular, React)</b> y <b>back-end (Node.js, Java, Python)</b>, así como en el desarrollo de aplicaciones móviles con <b>Flutter</b>. También he trabajado con <b>ThingsBoard</b> para desarrollar soluciones <b>IoT</b>, facilitando la integración, visualización y análisis de datos en tiempo real.<br><br>",
+                "Una de mis especialidades es la <b>dockerización</b> de aplicaciones, mejorando su portabilidad, escalabilidad y fiabilidad de despliegue en plataformas como <b>Azure, OpenShift y Heroku</b>. He liderado además la implantación de <b>pipelines CI/CD</b> con herramientas como <b>GitLab CI</b>, reforzando la eficiencia y la calidad en todo el ciclo de vida del software.<br><br>",
+                "En mi trayectoria también he creado <b>plantillas base reutilizables de código</b> que facilitan el desarrollo de proyectos escalables y sostenibles. Además, he elaborado <b>videotutoriales técnicos internos</b> para impulsar la capacitación del equipo y acelerar la transferencia de conocimiento."
             ]
         },
         "agile": {
             "title": "Agilidad y Gestión de Equipos",
             "content": [
-                "En mis proyectos, promuevo el uso de metodologías ágiles como <b>SCRUM</b> y <b>Kanban</b>, optimizando los flujos de trabajo y garantizando entregas rápidas y de calidad. Desarrollamos <b>Roadmaps</b> claros, alineando los objetivos del equipo con las necesidades del negocio. Para asegurar la calidad del código, adopto <b>Gitflow</b> como estrategia de control de versiones, y superviso el trabajo del equipo mediante <b>Pull Requests</b> (PRs), garantizando que el código cumpla con los estándares antes de su integración al repositorio principal.<br><br>",
-                "Creo profundamente en el <b>valor humano</b> dentro de un equipo. Fomentar un entorno de <b>confianza, colaboración y aprendizaje continuo</b> es clave para el éxito de cualquier proyecto. Promuevo la <b>transferencia de conocimientos</b>, lo que no solo mejora las habilidades técnicas, sino que también fortalece la autonomía y motivación del equipo. Para mí, el <b>bienestar del equipo</b> es fundamental, y me aseguro de mantener un equilibrio entre productividad y un ambiente de trabajo saludable que impulse la creatividad y la innovación."
+                "En mis proyectos, promuevo el uso de metodologías ágiles como <b>Scrum</b> y <b>Kanban</b>, optimizando los flujos de trabajo y favoreciendo entregas iterativas de calidad. Trabajo con <b>roadmaps</b> claros, alineando los objetivos del equipo con las necesidades del negocio. Para asegurar la calidad del código, adopto <b>Gitflow</b> como estrategia de control de versiones y superviso el trabajo mediante <b>Pull Requests</b>, garantizando que cada integración cumpla los estándares técnicos definidos.<br><br>",
+                "Creo profundamente en el <b>valor humano</b> dentro de los equipos. Fomentar un entorno de <b>confianza, colaboración y aprendizaje continuo</b> es clave para el éxito de cualquier proyecto. Promuevo la <b>transferencia de conocimiento</b>, la autonomía técnica y el crecimiento profesional de las personas, manteniendo siempre un equilibrio entre productividad, calidad y bienestar del equipo."
             ]
         },
         "about_me": {
-            "title": "Sobre mi...",
+            "title": "Sobre mí...",
             "content": [
-                "Soy persistente con los objetivos que persigo, y este es uno de los aspectos que más disfruto de mi trabajo. Veo cada día como un reto, y cuanto más desafiante y novedoso sea, mayor es mi motivación. El aprendizaje continuo y la innovación son esenciales para evolucionar, y siempre busco aplicar nuevas tecnologías y enfoques para optimizar mis proyectos.<br><br>",
-                "Valoro profundamente los cimientos y la estructura de un proyecto. Los cimientos son clave para construir módulos de manera eficiente, y la estructura es esencial para evitar el caos: sin un equipo competente, bien organizado y con roles definidos, los problemas surgen rápidamente.<br><br>",
-                "Espero que esta página web te permita conocerme un poco más y disfrutar de ella tanto como yo disfruté programándola. Si deseas conocer más sobre mi trabajo y experiencia, no dudes en contactarme a través del siguiente enlace:<br><br>"
+                "Soy persistente con los objetivos que persigo, y este es uno de los aspectos que más disfruto de mi trabajo. Veo cada proyecto como un reto, y cuanto más desafiante y novedoso es, mayor es mi motivación. El aprendizaje continuo y la innovación forman parte de mi forma de trabajar, y siempre busco aplicar nuevas tecnologías y enfoques para optimizar mis soluciones.<br><br>",
+                "Valoro profundamente los cimientos y la estructura de un proyecto. Una buena base técnica permite construir de forma eficiente, y una organización clara evita el caos: sin una arquitectura sólida, estándares definidos y un equipo competente y alineado, los problemas aparecen rápidamente.<br><br>",
+                "Espero que esta página web te permita conocerme un poco más y disfrutar de ella tanto como yo disfruté desarrollándola. Si deseas conocer más sobre mi trabajo y experiencia, no dudes en contactarme a través del siguiente enlace:<br><br>"
             ],
             "contact_link": "<b>¡Hablemos!</b>"
         }
@@ -64,22 +64,23 @@
             "birthdate": "Fecha de nacimiento:",
             "birthdate_value": "12-02-1992",
             "age": "Edad:",
-            "ageValue": "27",
+            "ageValue": "34",
             "email": "Correo Electrónico:",
             "email_value": "maserasen@gmail.com"
         },
         "profile_section": {
             "content": [
-                "Tras iniciarme en el mundo de la programación en Marzo del 2016 asistí a tres cursos de formación de las competencias SAP (modalidad ABAP), Java y Salesforce.<br><br>",
-                "Durante mis dos primeros años de experiencia, estuve envuelto en diversos proyectos de mantenimiento y desarrollo en Salesforce en los cuales me formé tanto a nivel de desarrollador de codigo como de administrador de la plataforma.<br><br>",
-                "En Junio de 2016  formé parte de un proyecto de energía focalizado en la creación de una aplicación Java  Web que replicase ciertas funcionalidades de Salesforce como la creación de casos de emergencias. La aplicación fue desarrollada en Java,Spring MVC,Hibernate y publicada en la plataforma Heroku junto con la ayuda de PostgresSQL y HerokuConnect (herramienta encargada de volcar la BBDD de Salesforce en el PostgreSQL de Heroku).<br><br> ",
-                "Gracias a este proyecto y al equipo que me rodeaba aprendí a navegar por el abanico de herramientas que ofrece el diseño de una aplicación Java Web tales como: HTML,CSS,jQuery, JSP, Javascript, SQL, REST, AJAX...,el estudio de la plataforma Heroku y su sincronización con Salesforce y el manejo de la herramienta Talend para la migración masiva de datos (ETL).<br><br>",
-                "En Octubre del 2017, estuve a cargo del desarrollo y publicación en Heroku de un servicio web en una aplicación NodeJs cuya finalidad era el envío masivo de datos de usuarios a una companía de envío de SMS´es así como la recuperación y almacenamiento de las respuestas en PostgresSQL. <br><br>",
-                "Este fue mi primer proyecto en solitario el cual supuso un reto muy importante para mí debido al desconocimiento de la tecnología, sin embargo mi experiencia anterior en Java y la búsqueda constante de información me sirvió para aprender cada día un poco más de NodeJS y así adquirir experiencia en el desarrollo de funciones asíncronas y creación de servicios REST.<br><br>",
-                "En Marzo de 2018, inicié una nueva aventura profesional como programador senior en la empresa IA SOFT en Zaragoza, siendo mi primer proyecto en la empresa una aplicación de gestión de calidad ambiental y de residuos en Angular 6 y Java (JPA) . <br><br>",
-                "En Junio de 2018 la empresa me destinó a trabajar como externo en el Seminario de Zaragoza para responsabilizarme de la aplicación de personal del funcionariado de Zaragoza (Java Server Faces) y llevar a cabo una serie de nuevos módulos y funcionalidades.<br><br>",
-                "En Mayo del 2019, fui promocionado a analista técnico y me destinaron de vuelta a mi primer proyecto donde mi rol principal consiste en la definición e implementación de la arquitectura y funcionalidades de los nuevos módulos tanto del FRONTEND como BACKEND del proyecto, así como la formación y transferencia de conocimientos a los programadores del equipo.<br><br>",
-                "En Abril de 2020 me incorporé a la empresa UST Global como miembro de un equipo polivalente involucrado en el desarrollo de una aplicación hospitalaria en Angular y Node la cual me ha ha permitido compartir mi experiencia profesional con mis compañeros de trabajo así como incrementar considerablemente mi nivel de Angular (NgRx framework), Node (TypeORM framework) y maquetación web."
+                "Tras iniciarme en el mundo de la programación en <b>marzo de 2016</b>, asistí a tres cursos de formación en las competencias SAP (modalidad ABAP), Java y Salesforce.<br><br>",
+                "Durante mis dos primeros años de experiencia, estuve envuelto en diversos proyectos de mantenimiento y desarrollo en Salesforce, en los cuales me formé tanto a nivel de desarrollador de código como de administrador de la plataforma.<br><br>",
+                "En <b>junio de 2016</b> formé parte de un proyecto de energía focalizado en la creación de una aplicación Java Web que replicase ciertas funcionalidades de Salesforce, como la creación de casos de emergencias. La aplicación fue desarrollada en Java, Spring MVC y Hibernate, y publicada en la plataforma Heroku junto con la ayuda de PostgreSQL y Heroku Connect (herramienta encargada de volcar la BBDD de Salesforce en el PostgreSQL de Heroku).<br><br>",
+                "Gracias a este proyecto y al equipo que me rodeaba, aprendí a navegar por el amplio abanico de herramientas que ofrece el diseño de una aplicación Java Web, tales como HTML, CSS, jQuery, JSP, Javascript, SQL, REST y AJAX, además del estudio de la plataforma Heroku, su sincronización con Salesforce y el manejo de la herramienta Talend para la migración masiva de datos (ETL).<br><br>",
+                "En <b>octubre de 2017</b>, estuve a cargo del desarrollo y publicación en Heroku de un servicio web en una aplicación Node.js cuya finalidad era el envío masivo de datos de usuarios a una compañía de envío de SMS, así como la recuperación y almacenamiento de las respuestas en PostgreSQL.<br><br>",
+                "Este fue mi primer proyecto en solitario, lo cual supuso un reto muy importante para mí debido al desconocimiento inicial de la tecnología. Sin embargo, mi experiencia anterior en Java y la búsqueda constante de información me sirvieron para aprender cada día un poco más de Node.js y adquirir experiencia en el desarrollo de funciones asíncronas y servicios REST.<br><br>",
+                "En <b>marzo de 2018</b>, inicié una nueva aventura profesional como programador senior en la empresa IA SOFT en Zaragoza, siendo mi primer proyecto en la empresa una aplicación de gestión de calidad ambiental y de residuos en Angular y Java (JPA).<br><br>",
+                "En <b>junio de 2018</b>, la empresa me destinó a trabajar como externo en el Seminario de Zaragoza para responsabilizarme de la aplicación de personal del funcionariado de Zaragoza (Java Server Faces) y llevar a cabo una serie de nuevos módulos y funcionalidades.<br><br>",
+                "En <b>mayo de 2019</b>, fui promocionado a analista técnico y me destinaron de vuelta a mi primer proyecto, donde mi rol principal consistía en la definición e implementación de la arquitectura y funcionalidades de los nuevos módulos tanto del Front-End como del Back-End, así como en la formación y transferencia de conocimiento a los programadores del equipo.<br><br>",
+                "En <b>abril de 2020</b> me incorporé a la empresa UST Global como miembro de un equipo polivalente involucrado en el desarrollo de una aplicación hospitalaria en Angular y Node, lo que me permitió compartir mi experiencia profesional con mis compañeros de trabajo, así como incrementar considerablemente mi nivel de Angular, Node y maquetación web.<br><br>",
+                "Desde <b>noviembre de 2021</b> desempeño el rol de Technical Lead en ADASA, liderando proyectos vinculados al agua, medio ambiente, telemetría, monitorización y administración pública. Entre ellos destacan OptimEDAR, SIRA Auscultación, el C-OM (Centro de Operaciones y Monitorización) para AEMET y el Registro Central de Vertidos no Domésticos – CARE Wastewater Control Center para el Consorcio de Aguas y Residuos de La Rioja. En estos proyectos he liderado arquitectura, despliegues, calidad, contenerización, automatización y documentación técnica, además de impulsar plantillas reutilizables de código y materiales formativos internos."
             ]
         },
         "education_section": {
@@ -90,47 +91,131 @@
             "spanish": "Español",
             "spanish_level_description": "Lengua materna",
             "english": "Inglés",
-            "english_level_description": "Nivel upper-intermediate demostrable en speaking y writting",
-            "english_s2": "Experiencia y calls diarias en inglés en proyectos internacionales y como auto formación"
+            "english_level_description": "Nivel upper-intermediate demostrable en speaking y writing",
+            "english_s2": "Experiencia y calls diarias en inglés en proyectos internacionales, además de autoformación continua"
         },
         "software_toolsSection": {
             "java": "Java:",
             "salesforce": "Salesforce:",
             "angular": "Angular:",
-            "nodejs": "NodeJS:",
+            "react": "React:",
+            "flutter": "Flutter:",
+            "nodejs": "Node.js:",
+            "python": "Python:",
+            "iot": "IoT / ThingsBoard:",
             "webDesign": "Diseño Páginas Web:",
-            "webServices": "Web Services:",
+            "webServices": "Web Services / APIs:",
             "bbdd": "BBDD:",
-            "etl": "ETL:",
+            "cloud": "Cloud:",
+            "devops": "Contenerización y DevOps:",
+            "continuousIntegration": "Integración Continua / CI-CD:",
+            "etl": "ETL y tratamiento de datos:",
             "codeEditor": "Editores de Código:",
-            "versionControl": "Control de Versiones:",
-            "continuousIntegration": "Integsración Continua:"
+            "versionControl": "Control de Versiones:"
         },
         "work_experience_section": {
             "developer": "Programador",
             "senior_developer": "Programador Senior",
             "analyst_developer": "Analista Programador",
             "senior_analyst_developer": "Analista Programador Senior",
-            "company_1": "<b>Nueva experiencia profesional en la empresa: DxD Applications & IT Solutions</b>",
-            "company_2": "<b>Nueva experiencia profesional en la empresa: Grupo Oesía</b><br><br><br><br><br><br><br><br><br><br>",
-            "company_2_1": "<b>Promoción a Analista Programador : Grupo Oesía</b><br><br><br><br><br><br><br><br><br><br>",
-            "company_3": "<b>Nueva experiencia profesional en la empresa: UST Global</b><br><br>",
+            "technical_lead": "Technical Lead",
+            "company_1": "<b>Experiencia profesional en la empresa: DxD Applications & IT Solutions</b>",
+            "company_2": "<b>Experiencia profesional en la empresa: Grupo Oesía</b>",
+            "company_2_1": "<b>Promoción a Analista Programador: Grupo Oesía</b>",
+            "company_3": "<b>Experiencia profesional en la empresa: UST Global</b>",
+            "company_4": "<b>Experiencia profesional actual en la empresa: Adasa</b>",
+            "technical_lead_content": {
+                "date": "Noviembre 2021 ",
+                "proyect_1": {
+                    "date": "Mayo 2025 - Actualidad",
+                    "name": "Proyecto: Registro Central de Vertidos no Domésticos - CARE Wastewater Control Center",
+                    "description": [
+                        "<b>Tecnología principal:</b><br><br>",
+                        "FRONTEND : Angular 20<br>",
+                        "BACKEND : Node.js 20 / TypeScript 5.8<br>",
+                        "BBDD : PostgreSQL<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Líder técnico del proyecto Registro Central de Vertidos no Domésticos para La Rioja.<br><br>",
+                        "Lideré la definición, evolución y desarrollo de una nueva plataforma web para la gestión de vertidos no domésticos, orientada a sustituir una solución heredada en Microsoft Access.<br><br>",
+                        "Definí y supervisé una arquitectura basada en Angular 20, Node 20, TypeScript, PostgreSQL, Docker y GitLab CI, con foco en escalabilidad, trazabilidad y mantenibilidad.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Angular 20, Node 20, TypeScript, PostgreSQL, Docker y GitLab CI.<br><br>"
+                    ]
+                },
+                "proyect_2": {
+                    "date": "Mayo 2024 - Mayo 2025",
+                    "name": "Proyecto: C-OM (Centro de Operaciones y Monitorización) - AEMET",
+                    "description": [
+                        "<b>Tecnología principal:</b><br><br>",
+                        "ThingsBoard, Python, Redmine, PostgreSQL/Timescale, Docker, Keycloak/LDAP<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Líder técnico del proyecto C-OM (Centro de Operaciones y Monitorización) – AEMET.<br><br>",
+                        "Lideré una solución orientada a la monitorización, operación y mantenimiento de sistemas de radares meteorológicos.<br><br>",
+                        "Coordiné la integración de servicios de monitorización, gestión documental, mantenimiento y operación sobre un ecosistema basado en ThingsBoard, Python, Redmine, PostgreSQL/Timescale, Docker y Keycloak/LDAP.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> ThingsBoard, Python, Redmine, PostgreSQL/Timescale, Docker y Keycloak/LDAP.<br><br>"
+                    ]
+                },
+                "proyect_3": {
+                    "date": "Enero 2023- Mayo 2024",
+                    "name": "Proyecto: SIRA Auscultación",
+                    "description": [
+                        "<b>Tecnología principal:</b><br><br>",
+                        "MOBILE / WEB : Flutter<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Líder técnico en el proyecto SIRA Auscultación.<br><br>",
+                        "Dirigí el proyecto SIRA Auscultación, una aplicación móvil desarrollada en Flutter que se expandió con éxito para su uso web y cuenta con capacidad offline.<br><br>",
+                        "La aplicación facilita el registro manual de datos de sensores y la documentación de incidencias en diferentes tramos, además de notificarlas a través de diversas plataformas como Twitter, Telegram, Email y Firebase Cloud Notifications.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Flutter, soporte offline e integraciones de notificación.<br><br>"
+                    ]
+                },
+                "proyect_4": {
+                    "date": "Enero 2023- Mayo 2024",
+                    "name": "Proyecto: Migración de Aplicación de Gestión Documental",
+                    "description": [
+                        "<b>Tecnología principal:</b><br><br>",
+                        "FRONTEND : Angular 14<br>",
+                        "BACKEND : Node 17<br>",
+                        "ETL : Talend Open Studio<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Liderazgo en la migración de aplicación de gestión documental.<br><br>",
+                        "Encabecé la migración integral de una aplicación de gestión documental desarrollada en PHP.<br><br>",
+                        "Lideré la creación de una nueva interfaz en Angular 14, un nuevo Back-End en Node 17 y la migración exitosa de la base de datos antigua a nuevas tablas utilizando Talend Open Studio.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Angular 14, Node 17 y Talend Open Studio.<br><br>"
+                    ]
+                },
+                "proyect_5": {
+                    "date": "Mayo 2022 - Enero 2023",
+                    "name": "Proyecto: Azure Functions - Telemetría Internacional",
+                    "description": [
+                        "<b>Tecnología principal:</b><br><br>",
+                        "BACKEND : Node / Azure Functions<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Optimización de Azure Functions en proyecto internacional de telemetría.<br><br>",
+                        "Lideré la optimización de código en varias Azure Functions (Node) en un proyecto internacional de telemetría.<br><br>",
+                        "El proyecto se enfoca en generar mapas de cobertura móvil utilizando coordenadas específicas proporcionadas, mejorando la eficiencia y precisión del sistema.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Node, Azure Functions y servicios cloud.<br><br>"
+                    ]
+                },
+                "proyect_6": {
+                    "date": "Noviembre 2021 - Mayo 2022",
+                    "name": "Proyecto: OptimEDAR",
+                    "description": [
+                        "<b>Tecnología principal:</b><br><br>",
+                        "FRONTEND : Angular 13<br>",
+                        "BACKEND : Node 17<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Responsable del desarrollo del producto interno OptimEDAR, una aplicación construida en Angular 13 y Node 17.<br><br>",
+                        "La aplicación, contenerizada y desplegada en la nube a través de OpenShift, empodera a las depuradoras de aguas residuales para gestionar el proceso de aireación en línea.<br><br>",
+                        "La solución logró mejorar significativamente la calidad del agua depurada, reduciendo la presencia de reactivos y subproductos químicos, y optimizando el consumo de energía.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Angular 13, Node 17, OpenShift y Docker.<br><br>"
+                    ]
+                }
+            },
             "senior_analyst_developer_content": {
                 "date": "Abril 2020 ",
                 "proyect_1": {
-                    "date": "Abril 2020 - Actualidad",
-                    "name": "Projecto: GreenCube",
+                    "date": "Abril 2020 - Noviembre 2021",
+                    "name": "Proyecto: Desarrollo Hospitalario",
                     "description": [
                         "<b>Tecnología principal:</b><br><br>",
-                        "FRONTEND : Angular 8 (NgRx)<br>",
-                        "BACKEND : Node 10 (TypeORM)<br><br>",
-                        "<b> Tareas / Responsabilidades: </b>",
-                        "Estudio y desarrollo de diferentes funcionalidades FRONTEND y BACKEND de una aplicación hospitalaria. Algunas de mis tareas más relevantes son:<br><br>",
-                        "- Estimación, desarrollo y preparación de demos de nuevos módulos solicitados por el cliente.<br>",
-                        "- Mejora y optimización de la arquitectura del proyecto tanto a nivel FRONTEND como BACKEND.<br>",
-                        "- Revisión de PR´s.<br>",
-                        "- Formación y transferencia de conocimientos a los programadores del equipo.<br><br>",
-                        "<b> Proyect Structure: </b> Angular 8 (NgRx), Node 10 (TypeORM), SQL Server, API Rest, HTML ,Bootstrap, SASS ...<br><br>"
+                        "FRONTEND : Angular<br>",
+                        "BACKEND : Node.js<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Participé de forma clave en el desarrollo de una aplicación hospitalaria, asumiendo tareas de estimación, desarrollo y demostración de nuevos módulos solicitados por cliente.<br><br>",
+                        "Contribuí a la mejora de la arquitectura tanto en Front-End como en Back-End, reforzando especialmente mis conocimientos en Angular, gestión de estado, maquetación y Node.js. También realicé revisión de PRs y transferencia de conocimiento dentro del equipo.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Angular, Node.js, gestión de estado, APIs REST, HTML, Bootstrap y maquetación web.<br><br>"
                     ]
                 }
             },
@@ -138,20 +223,14 @@
                 "date": "Mayo 2019 ",
                 "proyect_1": {
                     "date": "Mayo 2019 - Abril 2020",
-                    "name": "Projecto: AST Residuos (Regreso)",
+                    "name": "Proyecto: AST Residuos (Regreso)",
                     "description": [
                         "<b>Tecnología principal:</b><br><br>",
-                        "FRONTEND : Angular 6<br>",
-                        "BACKEND : Java (JPA)<br><br>",
-                        "<b> Tareas / Responsabilidades: </b>  Analista técnico del proyecto.<br>",
-                        "Mis tareas a desempeñar se focalizaban en la definición e implementación de la arquitectura y funcionalidades de los nuevos módulos tanto del FRONTEND como BACKEND del proyecto:<br><br>",
-                        "- Definición de los scripts de creación de las nuevas tablas de Oracle a implementar, relación entre las mismas y clases java Bean y Dto asociadas.<br>",
-                        "- Desarrollo de los componentes Angular requeridos por la aplicación.<br>",
-                        "- Implementación  de los servicios REST del BACKEND.<br>",
-                        "- Importación de librerías del cliente para poder consultar sus diferentes servicios API mediante SOAP.<br>",
-                        "- Generación de entregables tanto de la parte FRONTEND como  BACKEND.<br>",
-                        "- Formación y transferencia de conocimientos a los programadores del equipo.<br><br>",
-                        "<b> Arquitectura del proyecto: </b> Angular 6, JPA,Spring Boot,  API REST, SOAP, Oracle, Dockers, Apache ANT, Arquitectura de Microservicios, HTML5, Jira, ...<br><br>"
+                        "FRONTEND : Angular<br>",
+                        "BACKEND : Java / JPA<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Analista técnico del proyecto de gestión de residuos para el Gobierno de Aragón.<br><br>",
+                        "Mis tareas se focalizaron en la definición e implementación de la arquitectura y funcionalidades de los nuevos módulos Front-End y Back-End del proyecto, así como en la formación y transferencia de conocimiento al equipo.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Angular, Java, JPA, Spring Boot, API REST, SOAP, Oracle, Docker y arquitectura de microservicios.<br><br>"
                     ]
                 }
             },
@@ -159,13 +238,13 @@
                 "date": "Marzo 2018 ",
                 "proyect_1": {
                     "date": "Junio 2018 - Mayo 2019",
-                    "name": "Proyecto: Aplicacion Personal Ayuntamiento Zaragoza",
+                    "name": "Proyecto: Aplicación Personal Ayuntamiento Zaragoza",
                     "description": [
-                        "<b>Tecnología principal: </b><br><br>",
-                        "FRONTEND : JSPX <br>",
-                        "BACKEND : Java (Primefaces)<br><br>",
-                        "<b> Tareas / Responsabilidades: </b> Principal y único responsable de un proyecto en cliente final donde estuve a cargo del mantenimiento y extension de varias funcionalidades de la aplicación de personal del ayuntamiento de Zaragoza (PrimeFaces - JSPX - SQL).<br><br>",
-                        "<b> Arquitectura del proyecto: </b> PrimeFaces, JSPX, SQL, Tomahawk, CVS.<br><br>"
+                        "<b>Tecnología principal:</b><br><br>",
+                        "FRONTEND : JSPX<br>",
+                        "BACKEND : Java / PrimeFaces<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Principal y único responsable de un proyecto en cliente final donde estuve a cargo del mantenimiento y ampliación de funcionalidades de la aplicación de personal del Ayuntamiento de Zaragoza.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> PrimeFaces, JSPX, SQL, Tomahawk y CVS.<br><br>"
                     ]
                 },
                 "proyect_2": {
@@ -174,10 +253,9 @@
                     "description": [
                         "<b>Tecnología principal:</b><br><br>",
                         "FRONTEND : Angular 7<br>",
-                        "BACKEND : Java (JPA)<br><br>",
-                        "<b> Tareas / Responsabilidades: </b>  Desarrollo de un sistema de gestión de calidad ambiental y gestión de residuos, sistema para el control por parte de la administración autonómica y central de todos los residuos peligrosos y no peligrosos producidos por el sector industrial.<br>",
-                        "Mi papel se focalizó en el análisis técnico y desarrollo de los distintos componentes Angular (FRONTEND) y los servicios REST (BACKEND) que se requierían dentro de la evolución del proyecto.<br><br>",
-                        "<b> Arquitectura del proyecto: </b> Angular 7, JPA,Spring Boot,  API REST, Oracle, Dockers, Arquitectura de Microservicios, HTML5, Jira, ...<br><br>"
+                        "BACKEND : Java / JPA<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Desarrollo de un sistema de gestión de calidad ambiental y residuos para la administración autonómica y central, con foco en el análisis técnico y desarrollo de componentes Front-End y servicios Back-End.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Angular 7, Java, JPA, Spring Boot, API REST, Oracle, Docker y arquitectura de microservicios.<br><br>"
                     ]
                 }
             },
@@ -187,73 +265,73 @@
                     "date": "Enero 2018 - Marzo 2018",
                     "name": "Proyecto: ACNUR",
                     "description": [
-                        "<b>Tecnología principal: </b> Salesforce<br><br>",
-                        "<b> Tareas / Responsabilidades: </b> Desarrollo y mantenimiento de las integraciones (Rest Api) de la plataforma Salesforce con la página Web de Acnur y la Pasarela de pago.<br><br>",
-                        "<b> Arquitectura del proyecto: </b> Salesforce, Rest API, Bitbucket, Jenkins.<br><br>"
+                        "<b>Tecnología principal:</b> Salesforce<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Desarrollo y mantenimiento de integraciones REST de la plataforma Salesforce con la página web de ACNUR y la pasarela de pago.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Salesforce, REST API, Bitbucket y Jenkins.<br><br>"
                     ]
                 },
                 "proyect_2": {
                     "date": "Diciembre 2017",
-                    "name": "Proyecto: Grupo Alava",
+                    "name": "Proyecto: Grupo Álava",
                     "description": [
-                        "<b>Tecnología principal: </b> Salesforce<br><br>",
-                        "<b> Tareas / Responsabilidades: </b> Estructuramiento desarrollo y organización del modelo de codigo APEX, principalmente triggers, visualforces, workflows y clases test.<br><br>",
-                        "<b> Arquitectura del proyecto: </b> Salesforce.<br><br>"
+                        "<b>Tecnología principal:</b> Salesforce<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Estructuración, desarrollo y organización del modelo de código Apex, principalmente triggers, Visualforce, workflows y clases test.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Salesforce.<br><br>"
                     ]
                 },
                 "proyect_3": {
                     "date": "Octubre 2017",
                     "name": "Proyecto: Deloitte Norway SMS",
                     "description": [
-                        "<b>Tecnología principal: </b> NodeJS<br><br>",
-                        "<b> Tareas / Responsabilidades: </b> Principal responsable del desarrollo y publicación en Heroku de un servicio web en NodeJs para gestionar el envío de datos de usuario a una empresa de envío masivo de SMSes, así como el almacenamiento de las respuestas recibidas en PostgresSQL.<br><br>",
-                        "<b> Arquitectura del proyecto: </b> NodeJS, Eloqua, Heroku.<br><br>"
+                        "<b>Tecnología principal:</b> Node.js<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Principal responsable del desarrollo y publicación en Heroku de un servicio web en Node.js para gestionar el envío de datos de usuario a una empresa de envío masivo de SMS, así como el almacenamiento de las respuestas recibidas en PostgreSQL.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Node.js, Eloqua, Heroku y PostgreSQL.<br><br>"
                     ]
                 },
                 "proyect_4": {
-                    "date": "Abril 2017 – Marzo 2018",
+                    "date": "Abril 2017 - Marzo 2018",
                     "name": "Proyecto: AM Bergé-Driber",
                     "description": [
-                        "<b>Tecnología principal: </b>Angular<br><br>",
-                        "<b> Tareas / Responsabilidades: </b> Mantenimiento y desarrollo de nuevos módulos en una aplicación Angular para un concesionario de coches.<br><br>",
-                        "<b> Arquitectura del proyecto: </b> Angular.<br><br>"
+                        "<b>Tecnología principal:</b> Angular<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Mantenimiento y desarrollo de nuevos módulos en una aplicación Angular para un concesionario de automóviles.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Angular.<br><br>"
                     ]
                 },
                 "proyect_5": {
-                    "date": "Mayo 2017 – Junio 2018",
-                    "name": "Proyecto: Enel- Notificaciones SMS",
+                    "date": "Mayo 2017 - Junio 2018",
+                    "name": "Proyecto: Enel - Notificaciones SMS",
                     "description": [
-                        "<b>Tecnología principal: </b>Java<br><br>",
-                        "<b> Tareas / Responsabilidades: </b> Investigación,desarrollo y publicación en Heroku de una aplicación Java de envío masivo de SMSes e integrada con las plataformas NodeJs, Marketing cloud, SFDC y Talend mediante servicios REST  <br><br>",
-                        "<b> Arquitectura del proyecto: </b> Talend, Salesforce, Marketing Cloud, Heroku, Java, Rest, NodeJS.<br><br>"
+                        "<b>Tecnología principal:</b> Java<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Investigación, desarrollo y publicación en Heroku de una aplicación Java de envío masivo de SMS integrada con Node.js, Marketing Cloud, Salesforce y Talend mediante servicios REST.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Talend, Salesforce, Marketing Cloud, Heroku, Java, REST y Node.js.<br><br>"
                     ]
                 },
                 "proyect_6": {
-                    "date": "Julio 2016 – Junio 2017",
-                    "name": "Proyecto: Enel- Mantenimiento",
+                    "date": "Julio 2016 - Junio 2017",
+                    "name": "Proyecto: Enel - Mantenimiento",
                     "description": [
-                        "<b>Tecnología principal: </b>Salesforce<br><br>",
-                        "<b> Tareas / Responsabilidades: </b> Mantenimiento y desarrollo de evolutivos de una aplicación de multipaís tanto a nivel de admin como de desarrollador de código.<br><br>",
-                        "<b> Arquitectura del proyecto: </b> Talend, Salesforce.<br><br>"
+                        "<b>Tecnología principal:</b> Salesforce<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Mantenimiento y desarrollo de evolutivos de una aplicación multipaís tanto a nivel de administración como de desarrollo de código.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Talend y Salesforce.<br><br>"
                     ]
                 },
                 "proyect_7": {
-                    "date": "Julio 2016 – Mayo 2017",
-                    "name": "Proyecto: Enel – Emergencia Chile - Heroku",
+                    "date": "Julio 2016 - Mayo 2017",
+                    "name": "Proyecto: Enel - Emergencia Chile - Heroku",
                     "description": [
-                        "<b>Tecnología principal: </b>Java<br><br>",
-                        "<b> Tareas / Responsabilidades: </b> Desarrollador full stack en un proyecto de energía focalizado en la creación de una aplicación Java Web que replicase ciertas funcionalidades de Salesforce.<br><br>",
-                        "Gracias a este proyecto aprendí y navegué  por un amplio abanico de herramientas como : Spring MVC, Spring Hibernate, HTML, CSS, jQuery, JSP, Javascript, SQL, REST, AJAX..., el estudio de la plataforma Heroku y su sincronización con Salesforce y el manejo de la herramienta Talend para la migración masiva de datos (ETL).<br><br>",
-                        "<b> Arquitectura del proyecto: </b>Spring MVC, PostgresSQL, Maven, Quarz, Heroku, Hibernate, Git, Apache Tomcat.<br><br>"
+                        "<b>Tecnología principal:</b> Java<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Desarrollador Full Stack en un proyecto de energía centrado en la creación de una aplicación Java Web que replicaba ciertas funcionalidades de Salesforce.<br><br>",
+                        "Gracias a este proyecto aprendí y trabajé con Spring MVC, Spring Hibernate, HTML, CSS, jQuery, JSP, Javascript, SQL, REST, AJAX, Heroku, sincronización con Salesforce y Talend para migración masiva de datos.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Spring MVC, PostgreSQL, Maven, Quartz, Heroku, Hibernate, Git y Apache Tomcat.<br><br>"
                     ]
                 },
                 "proyect_8": {
-                    "date": "Abril 2016 – Marzo 2018",
+                    "date": "Abril 2016 - Marzo 2018",
                     "name": "Proyecto: AM Bergé-Transforma",
                     "description": [
-                        "<b>Tecnología principal: </b>Salesforce<br><br>",
-                        "<b> Tareas / Responsabilidades: </b>Servicio de Mantenimiento focalizado en la resolución de incidencias con la plataforma Salesforce tanto a nivel de administrador como de desarrollador de codigo APEX.<br><br>",
-                        "<b> Arquitectura del proyecto: </b>Salesforce, Identity Connect.<br><br>"
+                        "<b>Tecnología principal:</b> Salesforce<br><br>",
+                        "<b>Tareas / Responsabilidades:</b> Servicio de mantenimiento centrado en la resolución de incidencias con la plataforma Salesforce, tanto a nivel de administrador como de desarrollador de código Apex.<br><br>",
+                        "<b>Arquitectura del proyecto:</b> Salesforce e Identity Connect.<br><br>"
                     ]
                 }
             }
@@ -262,14 +340,15 @@
             "courses": "Cursos",
             "course_1": "Curso de formación de Java (Abril 2016).",
             "course_2": "Curso de formación de Salesforce (Abril 2016).",
-            "course_3": "Curso de formacion de SAP modalidad AVAP (Marzo 2016).",
-            "course_4": "Curso de formacion de Angular 6 (Abril 2018).",
+            "course_3": "Curso de formación de SAP modalidad ABAP (Marzo 2016).",
+            "course_4": "Curso de formación de Angular (Abril 2018).",
             "presentations": "Presentaciones",
             "presentation_1": "Instructor curso de Salesforce (Oct 2016).",
             "presentation_2": "Instructor curso de Java (Oct 2017)."
         },
         "certifications_section": {
-            "oracle_certification": "Java Standard Edition 6 Programmer Certified Professional (Score: 93%)"
+            "oracle_certification": "Java Standard Edition 6 Programmer Certified Professional (Score: 93%)",
+            "azure_certification": "AZ-204: Developing Solutions for Microsoft Azure"
         },
         "publications_section": {
             "tfg": "Ecuaciones Diferenciales Implícitas y Clasificación de sus Singularidades."
