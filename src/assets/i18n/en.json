@@ -1,48 +1,374 @@
 {
     "base_application": "Base application",
-    "an_error_has_ocurred_while_processing_the_request": "An error has ocurred while processing the request",
-    "close": "Close",
-    "dashboard": "Dashboard",
+    "an_error_has_ocurred_while_processing_the_request": "An error occurred while processing the request",
+    "dashboard": "Charts",
     "english": "English",
-    "home": "Home",
     "languages": "Languages",
     "spanish": "Spanish",
+    "close": "Close",
+    "home": "Home",
     "cv": "Curriculum Vitae",
     "skills": "Skills",
-    "programmingArea": "Programming Area",
     "contact": "Contact",
+    "personal_data": "Personal data",
+    "profile": "Technical profile",
+    "education": "Education",
+    "software_tools": "Technologies and tools",
+    "work_experience": "Professional Experience",
+    "training_courses": "Additional training",
+    "certifications": "Certifications",
+    "publications": "Publications",
+    "download_cv": "Download CV",
     "home_section": {
         "introduction": {
             "title": "Sergio Asensio Puyuelo",
             "content": [
                 "<b>Welcome to my Website!</b><br><br>",
-                "I am Sergio Asensio, a <b>Technical Lead</b> with over 9 years of experience in technological solutions. I graduated in <b>Mathematics</b> from the University of Zaragoza, and since then, I have worked in the development of <b>web, mobile, and IoT solutions</b>.<br><br>",
-                "Throughout my career, I have led complex projects and worked with multidisciplinary teams, creating scalable and efficient solutions that optimize processes and make an impact in various sectors."
+                "I am Sergio Asensio, a <b>Technical Lead</b> with a degree in <b>Mathematics</b> from the University of Zaragoza, with more than <b>10 years of experience in software development and technology solutions</b> and more than <b>4 years of specialization in the water and environmental sector</b>.<br><br>",
+                "Throughout my career, I have contributed to and led <b>web, mobile, data platform and IoT solutions</b>, defining architectures and building <b>scalable, maintainable and business-oriented products</b> for sectors such as <b>public administration, healthcare, environment, telemetry, meteorology, document management and monitoring</b>."
             ]
         },
         "technologies": {
             "title": "Architecture and Technologies",
             "content": [
-                "I have experience in designing and developing architectures for applications in <b>front-end (Angular, React) and back-end (Node, Java, Python)</b>, and in creating mobile applications with <b>Flutter</b>. I have also worked with <b>ThingsBoard</b> to develop <b>IoT</b> solutions, enabling integration, visualization, and real-time data analysis.<br><br>",
-                "One of my specialties is <b>containerizing</b> applications, enhancing portability, scalability, and optimizing deployments on platforms such as <b>Azure, OpenShift, and Heroku</b>. I have led the configuration of <b>Continuous Integration pipelines</b> with tools like <b>GitLab CI</b>, ensuring efficiency and quality in development and deployment processes.<br><br>",
-                "Throughout my career, I have also created <b>reusable code templates</b> that facilitate the development of scalable and sustainable projects. Additionally, I developed <b>internal video tutorials</b> to train the team technologically, boosting their learning and growth."
+                "I have experience in the design and development of <b>front-end</b> solutions with <b>Angular and React</b>, <b>back-end</b> solutions with <b>Java, Node.js and Python</b>, mobile applications with <b>Flutter</b>, and enterprise technologies such as <b>Salesforce</b>. I have also worked with <b>ThingsBoard</b> and other technologies focused on <b>IoT</b> and real-time data management environments.<br><br>",
+                "My profile combines architectural vision with hands-on technical execution, covering everything from project foundations, data modeling and full stack development to application <b>containerization</b> and deployment in environments such as <b>Azure, OpenShift and Heroku</b>. In addition, I have driven the implementation of <b>CI/CD pipelines</b>, reusable code templates, technical documentation, deployment guides and internal training materials that speed up development and strengthen software quality."
             ]
         },
         "agile": {
             "title": "Agility and Team Management",
             "content": [
-                "In my projects, I promote the use of agile methodologies such as <b>SCRUM</b> and <b>Kanban</b>, optimizing workflows and ensuring fast and quality deliveries. We develop clear <b>Roadmaps</b>, aligning the team's objectives with business needs. To ensure code quality, I adopt <b>Gitflow</b> as a version control strategy, and I supervise the team's work through <b>Pull Requests</b> (PRs), ensuring the code meets standards before being integrated into the main repository.<br><br>",
-                "I strongly believe in the <b>human value</b> within a team. Fostering an environment of <b>trust, collaboration, and continuous learning</b> is key to the success of any project. I promote <b>knowledge transfer</b>, which not only improves technical skills but also strengthens the team's autonomy and motivation. For me, the <b>well-being of the team</b> is essential, and I ensure a balance between productivity and a healthy work environment that fosters creativity and innovation."
+                "I work with agile methodologies such as <b>Scrum</b> and <b>Kanban</b>, aligning the technical evolution of projects with business objectives. I apply practices such as <b>Gitflow</b>, <b>Pull Requests</b> and continuous review to ensure quality, maintainability and an orderly product evolution.<br><br>",
+                "As a technical leader, I promote teams built on <b>trust, autonomy and continuous improvement</b>, encouraging collaboration, knowledge transfer and professional development as key pillars for achieving sustainable results."
             ]
         },
         "about_me": {
             "title": "About me...",
             "content": [
-                "I am persistent with the goals I pursue, and this is one of the aspects I enjoy most about my work. I see each day as a challenge, and the more challenging and new it is, the greater my motivation. Continuous learning and innovation are essential for growth, and I always seek to apply new technologies and approaches to optimize my projects.<br><br>",
-                "I deeply value the foundations and structure of a project. The foundations are key to building modules efficiently, and the structure is essential to avoid chaos: without a competent, well-organized team with defined roles, problems arise quickly.<br><br>",
-                "I hope this website allows you to get to know me a little better and enjoy it as much as I enjoyed programming it. If you would like to learn more about my work and experience, feel free to contact me through the following link:<br><br>"
+                "I see every project as an opportunity to build useful, solid and high-impact solutions. I am motivated by complex challenges, applied innovation and continuous improvement, always starting from a well-defined technical foundation.<br><br>",
+                "I deeply value the <b>architecture, foundations and structure of a project</b>. A strong technical base allows teams to build efficiently, scale safely and evolve without creating chaos. Without a solid architecture, clear standards and an aligned team, problems quickly arise.<br><br>",
+                "I firmly believe that the best results come from combining <b>technical judgment, organization and people</b>.<br><br>",
+                "I hope this website helps you get to know me a little better. If you would like to learn more about my experience and background, I would be delighted to talk with you:<br><br>"
             ],
             "contact_link": "<b>Let's talk!</b>"
+        }
+    },
+    "curriculum_page": {
+        "personal_data_section": {
+            "name": "Full name:",
+            "name_value": "Sergio Asensio Puyuelo",
+            "city": "Location:",
+            "city_value": "Zaragoza",
+            "phone": "Phone:",
+            "phone_value": "678154765",
+            "birthdate": "Date of birth:",
+            "birthdate_value": "12-02-1992",
+            "age": "Age:",
+            "ageValue": "34",
+            "email": "Email:",
+            "email_value": "maserasen@gmail.com",
+            "linkedin": "LinkedIn:",
+            "linkedin_value": "sergio-asensio-in"
+        },
+        "profile_section": {
+            "content": [
+                "I am Sergio Asensio, a graduate in <b>Mathematics</b> from the University of Zaragoza, with more than <b>10 years of experience in software development and technology solutions</b> and more than <b>4 years of experience in the water and environmental sector</b>. Throughout my career, I have contributed to and led projects developed with technologies such as <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python and ThingsBoard</b>, working both independently and alongside highly skilled multidisciplinary teams.<br><br>",
+                "As a technical leader, my experience covers a broad range of specialized knowledge in the development of <b>web applications, mobile applications, data platforms and IoT solutions</b>. My versatility is reflected in my roles as a <b>Full Stack Developer</b>, <b>technical architect</b>, <b>solution designer</b>, person responsible for <b>data modeling and database management</b>, driver of <b>Docker-based containerization</b> and implementation of <b>CI/CD processes</b>, with experience in cloud environments such as <b>OpenShift, Azure and Heroku</b>.<br><br>",
+                "After starting my journey in software development in <b>March 2016</b>, I completed training in <b>SAP (ABAP)</b>, <b>Java</b> and <b>Salesforce</b>, building the technical foundation that marked the beginning of my professional career.<br><br>",
+                "During my first years at <b>DxD Applications & IT Solutions</b>, I participated in maintenance and development projects involving <b>Salesforce</b>, REST integrations, <b>Node.js</b> services deployed on <b>Heroku</b>, Java web applications and ETL processes with <b>Talend</b>. This stage allowed me to grow both as a developer and in my understanding of architectures, integrations and cloud deployments.<br><br>",
+                "Later, at <b>Grupo Oesía</b>, I worked as a developer and later as a technical analyst on projects related to <b>waste management</b> and <b>public administration</b>. There I took on responsibilities in architecture, full stack development, team support and knowledge transfer, as well as <b>independently managing</b> the maintenance and evolution of an application for Zaragoza City Council.<br><br>",
+                "At <b>UST Global</b>, I worked as a <b>Software Full Stack Senior Analyst Engineer</b>, playing a key role in the development of a hospital application built with <b>Angular</b> and <b>Node.js</b>. During this stage I especially strengthened my capabilities in front-end architecture, state management, back-end development, code review and collaborative work within demanding teams.<br><br>",
+                "Since <b>November 2021</b>, I have been working as a <b>Technical Lead at Adasa</b>, leading initiatives related to water, environment, telemetry, monitoring, meteorology, document management and public administration. During this stage, I have defined and supervised architectures based on <b>Angular, Node.js, TypeScript, Flutter, Python, ThingsBoard, PostgreSQL, Docker, GitLab CI, OpenShift, Azure Functions and authentication systems such as Keycloak/LDAP</b>, with a focus on scalability, traceability and maintainability of the solutions.<br><br>",
+                "Throughout my career, I have taken on key responsibilities such as defining the <b>core architecture of projects</b>, creating <b>reusable base templates</b>, developing <b>reference modules</b>, defining the <b>data model</b>, implementing <b>Docker</b> and <b>CI/CD</b>, preparing <b>technical manuals, deployment guides and methodological documentation</b>, as well as creating <b>video tutorials and internal training materials</b> to strengthen team enablement and knowledge transfer."
+            ]
+        },
+        "education_section": {
+            "degree": "Degree:",
+            "university": "Bachelor's Degree in Mathematics - University of Zaragoza (2011 - 2016)."
+        },
+        "language_section": {
+            "spanish": "Spanish",
+            "spanish_level_description": "Native language",
+            "english": "English",
+            "english_level_description": "Upper-intermediate level demonstrated in speaking and writing",
+            "english_s2": "Daily experience in international projects, meetings in English and continuous self-learning"
+        },
+        "software_toolsSection": {
+            "java": "Java:",
+            "salesforce": "Salesforce:",
+            "angular": "Angular:",
+            "react": "React:",
+            "flutter": "Flutter:",
+            "nodejs": "Node.js:",
+            "python": "Python:",
+            "iot": "IoT / ThingsBoard:",
+            "webDesign": "Web Design:",
+            "webServices": "Web Services / APIs:",
+            "bbdd": "Databases:",
+            "cloud": "Cloud:",
+            "devops": "Containerization and DevOps:",
+            "continuousIntegration": "Continuous Integration / CI/CD / Quality:",
+            "etl": "ETL and document / data processing:",
+            "codeEditor": "Code Editors:",
+            "versionControl": "Version control and repositories:"
+        },
+        "work_experience_section": {
+            "developer": "Developer",
+            "senior_developer": "Senior Developer",
+            "analyst_developer": "Analyst Developer",
+            "senior_analyst_developer": "Senior Analyst Developer",
+            "technical_lead": "Technical Lead",
+            "company_1": "<b>Professional experience at: DxD Applications & IT Solutions</b>",
+            "company_2": "<b>Professional experience at: Grupo Oesía</b>",
+            "company_2_1": "<b>Promotion to Analyst Developer: Grupo Oesía</b>",
+            "company_3": "<b>Professional experience at: UST Global</b>",
+            "company_4": "<b>Current professional experience at: Adasa</b>",
+            "technical_lead_content": {
+                "date": "November 2021 - Present",
+                "proyect_1": {
+                    "date": "May 2025 - Present",
+                    "name": "Project: Central Register of Non-Domestic Discharges - CARE Wastewater Control Center",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I led the definition, evolution and development of a new web platform for the management and control of non-domestic discharges in La Rioja, aimed at replacing a legacy Microsoft Access solution and centralizing information in a single register.<br><br>",
+                        "The application unifies the management of authorizations, inspections, analytical results, case tracking and sanitation fee calculation, improving traceability, interoperability between organizations, and control of users and operations.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "FRONTEND : Angular 20 + NgRx<br>",
+                        "BACKEND : Node.js 20<br>",
+                        "DATABASE : PostgreSQL + TimescaleDB<br>",
+                        "NOTIFICATIONS : Apprise<br>",
+                        "DEPLOYMENT : Docker + ElliotCloud<br>",
+                        "CI/CD : GitLab CI pipelines<br><br>"
+                    ]
+                },
+                "proyect_2": {
+                    "date": "May 2024 - May 2025",
+                    "name": "Project: C-OM (Operations and Monitoring Center) - AEMET",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I led a solution focused on the monitoring, operation and maintenance of meteorological radar systems, providing a centralized view of radar status, variables, alarms and availability indicators.<br><br>",
+                        "The platform integrated visualization and analysis capabilities with document management, inventory and maintenance functionalities, improving operational control and traceability across the radar ecosystem.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "PLATFORMS : ThingsBoard / Redmine<br>",
+                        "BACKEND : Python / Ruby on Rails<br>",
+                        "DATABASE : PostgreSQL + TimescaleDB / MySQL<br>",
+                        "AUTHENTICATION : Keycloak / LDAP<br>",
+                        "DEPLOYMENT : Docker + VM<br>",
+                        "CI/CD : GitLab CI pipelines<br><br>"
+                    ]
+                },
+                "proyect_3": {
+                    "date": "January 2023 - May 2024",
+                    "name": "Project: SIRA Auscultación",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I led the development of an application designed for the manual recording of sensor data and the documentation of incidents across different sections, facilitating field work and operational traceability.<br><br>",
+                        "The solution was initially developed as a mobile application with offline capability and later evolved for web usage, also incorporating notification integrations through Twitter, Telegram, Email and Firebase Cloud Notifications.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "FRONTEND : Flutter<br>",
+                        "BACKEND : PHP<br>",
+                        "PLATFORMS : Mobile / Web<br>",
+                        "CAPABILITIES : Offline mode<br>",
+                        "NOTIFICATIONS : Twitter / Telegram / Email / Firebase Cloud Notifications<br><br>"
+                    ]
+                },
+                "proyect_4": {
+                    "date": "January 2023 - May 2024",
+                    "name": "Project: Document Management Application Migration",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I led the full migration of a legacy PHP document management application, addressing both the technological modernization of the solution and the migration of its information into a new data structure.<br><br>",
+                        "My work included defining and developing a new interface, building a new back-end, and executing the data migration through ETL processes.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "FRONTEND : Angular 14 + NgRx<br>",
+                        "BACKEND : Node.js 17<br>",
+                        "ETL : Talend Open Studio<br><br>"
+                    ]
+                },
+                "proyect_5": {
+                    "date": "May 2022 - January 2023",
+                    "name": "Project: Azure Functions - International Telemetry",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I led the optimization of several Azure Functions in an international telemetry project aimed at generating mobile coverage maps from specific coordinates, improving system efficiency and accuracy.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "BACKEND : Node.js<br>",
+                        "CLOUD : Azure Functions<br><br>"
+                    ]
+                },
+                "proyect_6": {
+                    "date": "November 2021 - May 2022",
+                    "name": "Project: OptimEDAR",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I was responsible for the development of an internal product designed to help wastewater treatment plants manage the aeration process online and optimize plant operations.<br><br>",
+                        "The solution improved treated water quality, reduced the presence of reagents and chemical by-products, and optimized energy consumption, relying on a containerized architecture deployed in the cloud.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "FRONTEND : Angular 13 + NgRx<br>",
+                        "BACKEND : Node.js 17<br>",
+                        "DATABASE : PostgreSQL<br>",
+                        "DEPLOYMENT : Docker / OpenShift<br><br>"
+                    ]
+                }
+            },
+            "senior_analyst_developer_content": {
+                "date": "April 2020 - November 2021",
+                "proyect_1": {
+                    "date": "April 2020 - November 2021",
+                    "name": "Project: Hospital Development",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I played a key role in the development of a hospital application, taking on estimation, development and demonstration tasks for new modules requested by the client.<br><br>",
+                        "I also contributed to improving the architecture on both the front-end and back-end, especially strengthening my skills in Angular, state management, layout development, Pull Request reviews and knowledge transfer within the team.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "FRONTEND : Angular + NgRx<br>",
+                        "BACKEND : Node.js<br>",
+                        "DATABASE : PostgreSQL<br>",
+                        "DEPLOYMENT : Azure<br><br>"
+                    ]
+                }
+            },
+            "analyst_developer_content": {
+                "date": "May 2019 - April 2020",
+                "proyect_1": {
+                    "date": "May 2019 - April 2020",
+                    "name": "Project: AST Residuos (Return)",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I worked as a technical analyst on a waste management project for the Government of Aragon, focusing on the definition and implementation of new modules and on the evolution of the solution architecture.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "FRONTEND : Angular 8<br>",
+                        "BACKEND : Java / JPA / Spring Boot<br>",
+                        "DATABASE : Oracle<br>",
+                        "DEPLOYMENT : Docker<br><br>"
+                    ]
+                }
+            },
+            "senior_developer_content": {
+                "date": "March 2018 - May 2019",
+                "proyect_1": {
+                    "date": "June 2018 - May 2019",
+                    "name": "Project: Zaragoza City Council Staff Application",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I was the main and sole person responsible for a client-side project, handling maintenance and feature expansion for Zaragoza City Council’s staff management application.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "FRONTEND : JSPX<br>",
+                        "BACKEND : Java / PrimeFaces<br>",
+                        "DATABASE : SQL<br><br>"
+                    ]
+                },
+                "proyect_2": {
+                    "date": "March 2018 - June 2018",
+                    "name": "Project: AST Residuos",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I participated in the development of an environmental quality and waste management system for regional and central public administration, focused on building front-end components and back-end services.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "FRONTEND : Angular 7<br>",
+                        "BACKEND : Java / JPA / Spring Boot<br>",
+                        "DATABASE : Oracle<br>",
+                        "DEPLOYMENT : Docker<br><br>"
+                    ]
+                }
+            },
+            "developer_content": {
+                "date": "March 2016 - March 2018",
+                "proyect_1": {
+                    "date": "January 2018 - March 2018",
+                    "name": "Project: ACNUR",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I developed and maintained REST integrations between the Salesforce platform, the ACNUR website and the payment gateway.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "PLATFORM : Salesforce<br><br>"
+                    ]
+                },
+                "proyect_2": {
+                    "date": "December 2017",
+                    "name": "Project: Grupo Álava",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I structured, developed and organized the Apex code model, mainly including triggers, Visualforce, workflows and test classes.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "PLATFORM : Salesforce<br><br>"
+                    ]
+                },
+                "proyect_3": {
+                    "date": "October 2017",
+                    "name": "Project: Deloitte Norway SMS",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I was the main person responsible for the development and deployment on Heroku of a web service to manage the mass sending of user data to an SMS platform and the storage of the received responses in PostgreSQL.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "BACKEND : Node.js<br>",
+                        "INTEGRATION : Eloqua / SMS platform<br>",
+                        "DATABASE : PostgreSQL<br>",
+                        "DEPLOYMENT : Heroku<br><br>"
+                    ]
+                },
+                "proyect_4": {
+                    "date": "April 2017 - March 2018",
+                    "name": "Project: AM Bergé-Driber",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I was responsible for maintenance and development of new modules in an Angular application for a car dealership.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "FRONTEND : Angular<br><br>"
+                    ]
+                },
+                "proyect_5": {
+                    "date": "May 2017 - June 2018",
+                    "name": "Project: Enel - SMS Notifications",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I researched, developed and deployed on Heroku a Java application for mass SMS sending integrated with Node.js, Marketing Cloud, Salesforce and Talend through REST services.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "BACKEND : Java / Node.js<br>",
+                        "INTEGRATION : Marketing Cloud / Salesforce / REST APIs<br>",
+                        "ETL : Talend Open Studio<br>",
+                        "DEPLOYMENT : Heroku<br><br>"
+                    ]
+                },
+                "proyect_6": {
+                    "date": "July 2016 - June 2018",
+                    "name": "Project: Enel - Maintenance",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I participated in the maintenance and development of enhancements for a multi-country application, both at administration level and in code development.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "PLATFORM : Salesforce<br>",
+                        "ETL : Talend Open Studio<br><br>"
+                    ]
+                },
+                "proyect_7": {
+                    "date": "July 2016 - May 2017",
+                    "name": "Project: Enel - Chile Emergency - Heroku",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I participated as a Full Stack Developer in an energy project focused on building a Java web application that replicated certain Salesforce functionalities.<br><br>",
+                        "In this project I worked with web technologies, REST services, databases, and tools for integration and mass data migration, expanding my experience in full stack development and Heroku deployment.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "FRONTEND : HTML / CSS / jQuery / JSP / JavaScript<br>",
+                        "BACKEND : Java / Spring MVC / Hibernate<br>",
+                        "DATABASE : PostgreSQL<br>",
+                        "DEPLOYMENT : Heroku<br><br>"
+                    ]
+                },
+                "proyect_8": {
+                    "date": "April 2016 - March 2018",
+                    "name": "Project: AM Bergé-Transforma",
+                    "description": [
+                        "<b>Tasks / Responsibilities:</b><br> I carried out maintenance tasks focused on resolving incidents on the Salesforce platform, both at administration level and in Apex code development.<br><br>",
+                        "<b>Project architecture:</b><br>",
+                        "PLATFORM : Salesforce<br>",
+                        "AUTHENTICATION : Identity Connect<br><br>"
+                    ]
+                }
+            }
+        },
+        "training_courses_section": {
+            "courses": "Training courses",
+            "course_1": "SAP training course, ABAP modality (March 2016).",
+            "course_2": "Java training course (April 2016).",
+            "course_3": "Salesforce training course (April 2016).",
+            "course_4": "Angular training course (April 2018).",
+            "presentations": "Courses taught",
+            "presentation_1": "Salesforce course instructor (October 2016).",
+            "presentation_2": "Java course instructor (October 2017).",
+            "team_enablement": "Internal contribution and team training",
+            "team_enablement_1": "Creation of reusable base code templates to speed up project kick-off and improve technical consistency.",
+            "team_enablement_2": "Preparation of internal video tutorials and training materials to strengthen the team’s technological enablement."
+        },
+        "certifications_section": {
+            "oracle_certification": "Java Standard Edition 6 Programmer Certified Professional (Score: 93%)",
+            "azure_certification": "AZ-204 Exam: Developing Solutions for Microsoft Azure"
+        },
+        "publications_section": {
+            "tfg": "Implicit Differential Equations and Classification of Their Singularities."
         }
     }
 }

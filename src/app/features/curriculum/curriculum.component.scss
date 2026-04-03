@@ -32,7 +32,8 @@ ul ul a {
     position: relative;
     margin-top: 5px;
     margin-bottom: 30px;
-    margin-left: 215px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 15px;
     transition: all 0.3s;
 }
@@ -97,9 +98,7 @@ ul ul a {
     #sidebar.active {
         margin-left: -70px;
     }
-    #main {
-        margin-left: 80px;
-    }
+
     #main.active {
         margin-left: 28px;
     }
