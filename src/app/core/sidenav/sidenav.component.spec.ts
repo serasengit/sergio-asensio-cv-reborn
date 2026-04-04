@@ -3,7 +3,7 @@ import { TestbedHarnessEnvironment } from '@angular/cdk/testing/testbed';
 import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { LOCALE_ID } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { MatLegacyButtonHarness as MatButtonHarness } from '@angular/material/legacy-button/testing';
+import { MatButtonHarness } from '@angular/material/button/testing';
 import { MatSidenavHarness } from '@angular/material/sidenav/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Language } from '@app/app.component';
@@ -26,25 +26,27 @@ describe('Sidenav: Component ', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-    imports: [BrowserAnimationsModule,
-        SharedModule,
-        TranslateModule.forRoot({
-            loader: {
-                provide: TranslateLoader,
-                useFactory: HttpLoaderFactory,
-                deps: [HttpClient],
-            },
-            useDefaultLang: true,
-        }),
-        StoreModule.forRoot({ app: appReducer }),
-        EffectsModule.forRoot([]),
-        SidenavModule],
-    providers: [
-        { provide: ENVIRONMENT, useValue: environment },
-        { provide: LOCALE_ID, useValue: Language.Spanish },
-        provideHttpClient(withInterceptorsFromDi()),
-    ]
-}).compileComponents();
+            imports: [
+                BrowserAnimationsModule,
+                SharedModule,
+                TranslateModule.forRoot({
+                    loader: {
+                        provide: TranslateLoader,
+                        useFactory: HttpLoaderFactory,
+                        deps: [HttpClient],
+                    },
+                    useDefaultLang: true,
+                }),
+                StoreModule.forRoot({ app: appReducer }),
+                EffectsModule.forRoot([]),
+                SidenavModule,
+            ],
+            providers: [
+                { provide: ENVIRONMENT, useValue: environment },
+                { provide: LOCALE_ID, useValue: Language.Spanish },
+                provideHttpClient(withInterceptorsFromDi()),
+            ],
+        }).compileComponents();
         fixture = TestBed.createComponent(SidenavComponent);
         sidenav = fixture.debugElement.componentInstance;
         fixture.detectChanges();
