@@ -1,4 +1,6 @@
-<div class="spinner" *ngIf="showSpinner$ | async">
+@if (showSpinner$ | async) {
+  <div class="spinner">
     <mat-progress-spinner class="spinner__progress" color="accent" mode="indeterminate" value="50">
     </mat-progress-spinner>
-</div>
+  </div>
+}

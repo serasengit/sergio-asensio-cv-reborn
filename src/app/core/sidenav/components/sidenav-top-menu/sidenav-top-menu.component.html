@@ -1,64 +1,68 @@
 <mat-toolbar color="primary" class="sidenav-top-menu__toolbar mat-elevation-z2">
-    <!-- Menu Button -->
-    <button mat-icon-button class="sidenav-top-menu__toolbar__menu" (click)="toggleSidenav.emit()" *ngIf="existSidenav">
-        <mat-icon>menu</mat-icon>
+  <!-- Menu Button -->
+  @if (existSidenav) {
+    <button mat-icon-button class="sidenav-top-menu__toolbar__menu" (click)="toggleSidenav.emit()">
+      <mat-icon>menu</mat-icon>
     </button>
+  }
 
-    <!-- Sections Container -->
-    <div class="sidenav-top-menu__toolbar__sections">
-        <!-- Left Section -->
-        <div class="sidenav-top-menu__toolbar__sections__left">
-            <div *ngFor="let module of modules">
-                <button mat-icon-button (click)="changeModule.emit(module)" [routerLink]="module.link">
-                    <mat-icon>{{ module.icon }}</mat-icon>
-                    <span class="sidenav-top-menu__toolbar__sections__left__title">{{ module.code | translate }}</span>
-                </button>
-            </div>
+  <!-- Sections Container -->
+  <div class="sidenav-top-menu__toolbar__sections">
+    <!-- Left Section -->
+    <div class="sidenav-top-menu__toolbar__sections__left">
+      @for (module of modules; track module) {
+        <div>
+          <button mat-icon-button (click)="changeModule.emit(module)" [routerLink]="module.link">
+            <mat-icon>{{ module.icon }}</mat-icon>
+            <span class="sidenav-top-menu__toolbar__sections__left__title">{{ module.code | translate }}</span>
+          </button>
         </div>
-        <!-- Right Section -->
-        <div class="sidenav-top-menu__toolbar__sections__right">
-            <!-- Linkedin Link -->
-            <a
-                mat-icon-button
-                href="https://www.linkedin.com/in/sergio-asensio-puyuelo-aa9916117/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <i class="fab fa-linkedin"></i>
-            </a>
-
-            <!-- Gmail Link -->
-            <a
-                mat-icon-button
-                href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=maserasen@gmail.com&tf=1"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <i class="fab fa-google"></i>
-            </a>
-
-            <!-- Settings Button -->
-            <button mat-icon-button [matMenuTriggerFor]="settings">
-                <mat-icon>settings</mat-icon>
-            </button>
-            <!-- Settings Menu -->
-            <mat-menu #settings="matMenu">
-                <mat-menu-item mat-menu-item [matMenuTriggerFor]="languages">
-                    {{ 'languages' | translate }}
-                </mat-menu-item>
-            </mat-menu>
-
-            <!-- Languages Menu -->
-            <mat-menu #languages="matMenu">
-                <mat-menu-item mat-menu-item (click)="changeLanguage.emit(Language.Spanish)">
-                    <span class="fi fi-es"></span>
-                    <span class="m-2">{{ 'spanish' | translate }}</span>
-                </mat-menu-item>
-                <mat-menu-item mat-menu-item (click)="changeLanguage.emit(Language.English)">
-                    <span class="fi fi-um"></span>
-                    <span class="m-2">{{ 'english' | translate }}</span>
-                </mat-menu-item>
-            </mat-menu>
-        </div>
+      }
     </div>
+    <!-- Right Section -->
+    <div class="sidenav-top-menu__toolbar__sections__right">
+      <!-- Linkedin Link -->
+      <a
+        mat-icon-button
+        href="https://www.linkedin.com/in/sergio-asensio-puyuelo-aa9916117/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <!-- Gmail Link -->
+      <a
+        mat-icon-button
+        href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=maserasen@gmail.com&tf=1"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+        <i class="fab fa-google"></i>
+      </a>
+
+      <!-- Settings Button -->
+      <button mat-icon-button [matMenuTriggerFor]="settings">
+        <mat-icon>settings</mat-icon>
+      </button>
+      <!-- Settings Menu -->
+      <mat-menu #settings="matMenu">
+        <mat-menu-item mat-menu-item [matMenuTriggerFor]="languages">
+          {{ 'languages' | translate }}
+        </mat-menu-item>
+      </mat-menu>
+
+      <!-- Languages Menu -->
+      <mat-menu #languages="matMenu">
+        <mat-menu-item mat-menu-item (click)="changeLanguage.emit(Language.Spanish)">
+          <span class="fi fi-es"></span>
+          <span class="m-2">{{ 'spanish' | translate }}</span>
+        </mat-menu-item>
+        <mat-menu-item mat-menu-item (click)="changeLanguage.emit(Language.English)">
+          <span class="fi fi-um"></span>
+          <span class="m-2">{{ 'english' | translate }}</span>
+        </mat-menu-item>
+      </mat-menu>
+    </div>
+  </div>
 </mat-toolbar>
