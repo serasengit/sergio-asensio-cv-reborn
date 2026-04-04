@@ -24,6 +24,6 @@
 .mat-success {
     color: mat.get-color-from-palette($success) !important;
 }
-.mat-error {
+.mat-mdc-form-field-error {
     color: mat.get-color-from-palette($error) !important;
 }
