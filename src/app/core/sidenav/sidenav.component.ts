@@ -19,6 +19,7 @@ import { AppState } from '../../store/reducers/app.reducers';
     selector: 'app-sidenav',
     templateUrl: './sidenav.component.html',
     styleUrls: ['./sidenav.component.scss'],
+    standalone: false
 })
 export class SidenavComponent implements OnDestroy {
     @ViewChild(MatSidenav) sidenav?: MatSidenav;

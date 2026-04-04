@@ -52,6 +52,7 @@ const CURRICULUM_MODULES: Module[] = [
     selector: 'app-curriculum',
     templateUrl: './curriculum.component.html',
     styleUrls: ['./curriculum.component.scss'],
+    standalone: false
 })
 export class CurriculumComponent implements OnDestroy {
     private readonly unsubscribe$: Subject<void> = new Subject<void>();

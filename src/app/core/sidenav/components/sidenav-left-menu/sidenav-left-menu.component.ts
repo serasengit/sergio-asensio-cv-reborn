@@ -8,6 +8,7 @@ const version = require('package.json').version;
     selector: 'app-sidenav-left-menu',
     templateUrl: './sidenav-left-menu.component.html',
     styleUrls: ['./sidenav-left-menu.component.scss'],
+    standalone: false
 })
 export class SidenavLeftMenuComponent {
     @Output() changeModule = new EventEmitter<Module>();

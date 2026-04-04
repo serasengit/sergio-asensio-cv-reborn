@@ -30,6 +30,7 @@ export const DEFAULT_LANGUAGE = Language.Spanish;
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
+    standalone: false
 })
 export class AppComponent implements OnDestroy {
     private readonly unsubscribe$: Subject<void> = new Subject<void>();

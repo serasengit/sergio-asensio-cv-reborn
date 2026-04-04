@@ -6,6 +6,7 @@ import { Module } from '@core/models/module.model';
     selector: 'app-sidenav-top-menu',
     templateUrl: './sidenav-top-menu.component.html',
     styleUrls: ['./sidenav-top-menu.component.scss'],
+    standalone: false
 })
 export class SidenavTopMenuComponent {
     @Output() toggleSidenav = new EventEmitter<void>();

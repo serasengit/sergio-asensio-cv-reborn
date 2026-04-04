@@ -17,6 +17,7 @@ export interface MessageDialogData {
     selector: 'app-message-dialog',
     templateUrl: './message-dialog.component.html',
     styleUrls: ['./message-dialog.component.scss'],
+    standalone: false
 })
 export class MessageDialogComponent {
     public readonly MessageType = MessageType;

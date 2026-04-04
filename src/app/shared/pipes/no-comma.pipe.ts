@@ -1,6 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-@Pipe({ name: 'noComma' })
+@Pipe({
+    name: 'noComma',
+    standalone: false
+})
 export class NoCommaPipe implements PipeTransform {
     transform(value: string | string[] | null | undefined): string {
         if (Array.isArray(value)) {
