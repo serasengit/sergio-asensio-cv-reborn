@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "angular-base-app": {
+        "sergio-asensio-cv": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -20,7 +20,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/angular-base-app",
+                        "outputPath": "dist/sergio-asensio-cv",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -67,10 +67,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "prod": {
-                            "browserTarget": "angular-base-app:build:prod"
+                            "browserTarget": "sergio-asensio-cv:build:prod"
                         },
                         "dev": {
-                            "browserTarget": "angular-base-app:build:dev"
+                            "browserTarget": "sergio-asensio-cv:build:dev"
                         }
                     },
                     "defaultConfiguration": "dev"
@@ -78,7 +78,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "angular-base-app:build"
+                        "browserTarget": "sergio-asensio-cv:build"
                     }
                 },
                 "test": {

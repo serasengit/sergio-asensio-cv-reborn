@@ -6,6 +6,6 @@ export const environment: Environment = {
     API: {
         prefix: '/api',
         version: 'v1',
-        url: 'https://angular-base-app-',
+        url: 'https://sergio-asensio-cv-',
     },
 };
