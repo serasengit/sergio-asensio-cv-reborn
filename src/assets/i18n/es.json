@@ -19,6 +19,10 @@
     "certifications": "Certificaciones",
     "publications": "Publicaciones",
     "download_cv": "Descargar CV",
+    "brand": {
+        "title": "Sergio Asensio",
+        "subtitle": "Technical Lead · Software Architect"
+    },
     "home_section": {
         "introduction": {
             "title": "Sergio Asensio Puyuelo",
