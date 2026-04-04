@@ -1,6 +1,6 @@
 import { HarnessLoader } from '@angular/cdk/testing';
 import { TestbedHarnessEnvironment } from '@angular/cdk/testing/testbed';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { LOCALE_ID } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatLegacyButtonHarness as MatButtonHarness } from '@angular/material/legacy-button/testing';
@@ -26,27 +26,25 @@ describe('Sidenav: Component ', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            imports: [
-                HttpClientModule,
-                BrowserAnimationsModule,
-                SharedModule,
-                TranslateModule.forRoot({
-                    loader: {
-                        provide: TranslateLoader,
-                        useFactory: HttpLoaderFactory,
-                        deps: [HttpClient],
-                    },
-                    useDefaultLang: true,
-                }),
-                StoreModule.forRoot({ app: appReducer }),
-                EffectsModule.forRoot([]),
-                SidenavModule,
-            ],
-            providers: [
-                { provide: ENVIRONMENT, useValue: environment },
-                { provide: LOCALE_ID, useValue: Language.Spanish },
-            ],
-        }).compileComponents();
+    imports: [BrowserAnimationsModule,
+        SharedModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient],
+            },
+            useDefaultLang: true,
+        }),
+        StoreModule.forRoot({ app: appReducer }),
+        EffectsModule.forRoot([]),
+        SidenavModule],
+    providers: [
+        { provide: ENVIRONMENT, useValue: environment },
+        { provide: LOCALE_ID, useValue: Language.Spanish },
+        provideHttpClient(withInterceptorsFromDi()),
+    ]
+}).compileComponents();
         fixture = TestBed.createComponent(SidenavComponent);
         sidenav = fixture.debugElement.componentInstance;
         fixture.detectChanges();

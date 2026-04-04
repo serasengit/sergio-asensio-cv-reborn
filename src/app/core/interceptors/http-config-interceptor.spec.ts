@@ -1,5 +1,5 @@
-import { HTTP_INTERCEPTORS, HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
+import { HTTP_INTERCEPTORS, HttpClient, HttpErrorResponse, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
 import { appReducer } from '@app/store/reducers/app.reducers';
 import { CoreModule } from '@core/core.module';
@@ -15,16 +15,18 @@ describe('HttpConfigInterceptor: Interceptor', () => {
 
     beforeEach(async () => {
         TestBed.configureTestingModule({
-            imports: [CoreModule, StoreModule.forRoot({ app: appReducer }), HttpClientTestingModule],
-            providers: [
-                {
-                    provide: HTTP_INTERCEPTORS,
-                    useClass: HttpConfigInterceptor,
-                    multi: true,
-                },
-                { provide: ENVIRONMENT, useValue: environment },
-            ],
-        });
+    imports: [CoreModule, StoreModule.forRoot({ app: appReducer })],
+    providers: [
+        {
+            provide: HTTP_INTERCEPTORS,
+            useClass: HttpConfigInterceptor,
+            multi: true,
+        },
+        { provide: ENVIRONMENT, useValue: environment },
+        provideHttpClient(withInterceptorsFromDi()),
+        provideHttpClientTesting(),
+    ]
+});
         // Inject the http service and test controller for each test
         httpClient = TestBed.inject(HttpClient);
         httpTestingController = TestBed.inject(HttpTestingController);
