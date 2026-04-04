@@ -3,7 +3,7 @@ import { TestbedHarnessEnvironment } from '@angular/cdk/testing/testbed';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { LOCALE_ID } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { MatButtonHarness } from '@angular/material/button/testing';
+import { MatLegacyButtonHarness as MatButtonHarness } from '@angular/material/legacy-button/testing';
 import { MatSidenavHarness } from '@angular/material/sidenav/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Language } from '@app/app.component';

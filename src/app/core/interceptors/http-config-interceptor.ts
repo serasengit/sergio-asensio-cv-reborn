@@ -1,6 +1,6 @@
 import { HttpHandler, HttpHeaders, HttpInterceptor, HttpRequest } from '@angular/common/http';
 import { Inject, Injectable } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
 import { AppState } from '@app/store/reducers/app.reducers';
 import { getLanguage } from '@app/store/selectors/app.selectors';
 import { APIError } from '@core/models/API-error.model';
