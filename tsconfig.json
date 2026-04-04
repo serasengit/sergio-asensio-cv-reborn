@@ -2,43 +2,31 @@
 {
     "compileOnSave": false,
     "compilerOptions": {
-      "baseUrl": "./",
-      "outDir": "./dist/out-tsc",
-      "forceConsistentCasingInFileNames": true,
-      "esModuleInterop": true,
-      "strict": true,
-      "noImplicitOverride": true,
-      "noPropertyAccessFromIndexSignature": true,
-      "noImplicitReturns": true,
-      "noFallthroughCasesInSwitch": true,
-      "sourceMap": true,
-      "declaration": false,
-      "experimentalDecorators": true,
-      "moduleResolution": "bundler",
-      "strictNullChecks": false,
-      "resolveJsonModule": true,
-      "importHelpers": true,
-      "target": "ES2022",
-      "module": "es2020",
-      "lib": [
-        "es2020",
-        "dom"
-      ],
-      "paths": {
-        "@core/*": [
-          "src/app/core/*"
-        ],
-        "@features/*": [
-          "src/app/features/*"
-        ],
-        "@shared/*": [
-          "src/app/shared/*"
-        ],
-        "@app/*": [
-          "src/app/*"
-        ]
-      },
-      "useDefineForClassFields": false
+        "baseUrl": "./",
+        "outDir": "./dist/out-tsc",
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "sourceMap": true,
+        "declaration": false,
+        "experimentalDecorators": true,
+        "moduleResolution": "bundler",
+        "strictNullChecks": false,
+        "resolveJsonModule": true,
+        "importHelpers": true,
+        "target": "ES2022",
+        "module": "es2020",
+        "paths": {
+            "@core/*": ["src/app/core/*"],
+            "@features/*": ["src/app/features/*"],
+            "@shared/*": ["src/app/shared/*"],
+            "@app/*": ["src/app/*"]
+        },
+        "useDefineForClassFields": false
     },
     "angularCompilerOptions": {
         "enableI18nLegacyMessageIdFormat": false,
