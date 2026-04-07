@@ -1,0 +1,14 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "sergio-asensio-cv-reborn",
+    "compatibility_date": "2026-04-07",
+    "observability": {
+        "enabled": true,
+    },
+    "assets": {
+        "directory": "./dist/sergio-asensio-cv",
+        "not_found_handling": "single-page-application",
+    },
+    "workers_dev": true,
+    "preview_urls": true,
+}

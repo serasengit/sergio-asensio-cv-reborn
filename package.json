@@ -10,10 +10,12 @@
         "watch": "ng build --watch --configuration %npm_config_env%",
         "test": "ng test",
         "test:coverage": "ng test --watch=false --code-coverage",
-        "dockerize": "docker-compose -f docker-compose.yml -f docker/docker-compose.%npm_config_env%.yml  --profile %npm_config_service% up --build -d",
-        "lint": "eslint .",
+        "dockerize": "docker-compose -f docker-compose.yml -f docker/docker-compose.%npm_config_env%.yml --profile %npm_config_service% up --build -d",
+        "lint": "eslint . tsconfig.json --fix",
         "lint-fix": "eslint . --fix",
-        "format": "prettier --write ."
+        "format": "prettier --write .",
+        "deploy": "wrangler deploy",
+        "preview": "wrangler dev"
     },
     "overrides": {
         "vite": "7.3.2"
@@ -63,6 +65,7 @@
         "karma-jasmine": "~5.1.0",
         "karma-jasmine-html-reporter": "~2.2.0",
         "prettier": "^3.8.1",
-        "typescript": "~5.9.3"
+        "typescript": "~5.9.3",
+        "wrangler": "^4.81.0"
     }
 }
