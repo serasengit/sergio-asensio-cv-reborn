@@ -39,3 +39,19 @@ export interface Module {
     order?: number;
     modules?: Module[];
 }
+
+export function findModuleByUrl(url: string, modules: Module[] = []): Module | undefined {
+    let foundModule: Module;
+    const modulesWithLink = modules.filter((module) => module.link);
+    for (const module of modulesWithLink) {
+        if (url.includes(module.link)) {
+            foundModule = module;
+            break;
+        }
+        if (module.modules?.length) {
+            foundModule = findModuleByUrl(url, module.modules);
+            if (foundModule) break;
+        }
+    }
+    return foundModule;
+}
