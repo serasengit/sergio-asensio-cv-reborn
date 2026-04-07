@@ -1,16 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-education',
+    standalone: true,
     templateUrl: './education.component.html',
     styleUrls: ['./education.component.scss'],
-    standalone: false
+    imports: [TranslateModule],
 })
 export class EducationComponent implements OnInit {
+    constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+    ngOnInit(): void {}
 }

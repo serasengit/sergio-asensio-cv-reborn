@@ -1,32 +1,56 @@
-<mat-nav-list class="sidenav-left-menu__list">
-  @for (module of modules; track module) {
-    <div>
-      <ng-container
-        *ngTemplateOutlet="module?.modules?.length! > 0 ? expandableModule : flatModule; context: { $implicit: module }"
-      ></ng-container>
-    </div>
-  }
-  <span class="sidenav-left-menu__list__version"> v{{ version }} </span>
-</mat-nav-list>
-<ng-template let-module #flatModule>
-  <mat-list-item [routerLink]="module.link" (click)="changeModule.emit(module)">
-    <mat-icon class="m-2">{{ module.icon }} </mat-icon>
-    <a>{{ module.code | translate }} </a>
-  </mat-list-item>
-</ng-template>
-<ng-template let-module #expandableModule>
-  <mat-expansion-panel hideToggle [class.mat-elevation-z0]="true">
-    <mat-expansion-panel-header>
-      <mat-icon>{{ module.icon }} </mat-icon>
-      <a>{{ module.code | translate }}</a>
-    </mat-expansion-panel-header>
-    <mat-divider></mat-divider>
-    @for (module of module.modules; track module) {
-      <mat-nav-list>
-        <ng-container
-          *ngTemplateOutlet="module?.modules?.length > 0 ? expandableModule : flatModule; context: { $implicit: module }"
-        ></ng-container>
-      </mat-nav-list>
+<mat-nav-list class="sidenav-left-menu">
+    @for (module of modules(); track module.code) {
+        <nav class="sidenav-left-menu__module">
+            <ng-container
+                [ngTemplateOutlet]="getTemplateForModule(module)"
+                [ngTemplateOutletContext]="{ $implicit: module }"
+            ></ng-container>
+        </nav>
     }
-  </mat-expansion-panel>
+</mat-nav-list>
+
+<ng-template let-module #flatModule>
+    <mat-list-item
+        (click)="changeModule.emit(module)"
+        (keyup.enter)="changeModule.emit(module)"
+        (keyup.space)="changeModule.emit(module)"
+        tabindex="0"
+        [class]="{
+            'sidenav-left-menu__item': true,
+            'sidenav-left-menu__item--active': isModuleInModule(module),
+        }"
+    >
+        <div class="sidenav-left-menu__item__content">
+            <mat-icon class="sidenav-left-menu__item__content__icon">{{ module.icon }}</mat-icon>
+            <a class="sidenav-left-menu__item__content__link fs-6">{{ module.code | translate }}</a>
+        </div>
+    </mat-list-item>
+</ng-template>
+
+<ng-template let-module #expandableModule>
+    <mat-expansion-panel
+        hideToggle
+        [class.mat-elevation-z0]="true"
+        [expanded]="isModuleInModule(module)"
+        [class]="{
+            'sidenav-left-menu__expansion-panel': true,
+            'sidenav-left-menu__expansion-panel--active': isModuleInModule(module),
+        }"
+    >
+        <mat-expansion-panel-header>
+            <div class="sidenav-left-menu__expansion-panel__header__content">
+                <mat-icon class="sidenav-left-menu__expansion-panel__header__content__icon">{{ module.icon }}</mat-icon>
+                <a class="sidenav-left-menu__expansion-panel__header__content__link fs-6">{{ module.code | translate }}</a>
+            </div>
+        </mat-expansion-panel-header>
+        <mat-divider></mat-divider>
+        <mat-nav-list class="sidenav-left-menu__expansion-panel__sublist">
+            @for (subModule of module.modules; track $index) {
+                <ng-container
+                    [ngTemplateOutlet]="getTemplateForModule(subModule)"
+                    [ngTemplateOutletContext]="{ $implicit: subModule }"
+                ></ng-container>
+            }
+        </mat-nav-list>
+    </mat-expansion-panel>
 </ng-template>

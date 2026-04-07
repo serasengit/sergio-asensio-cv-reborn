@@ -1,0 +1,42 @@
+<mat-sidenav-container class="sidenav">
+    <mat-sidenav
+        #sidenav
+        id="sidenav"
+        [opened]="mustShowSidenav()"
+        [mode]="sidenavMode"
+        class="mat-elevation-z2"
+        (openedChange)="onSidenavToggle($event)"
+    >
+        <mat-toolbar class="sidenav__toolbar" color="primary">
+            <mat-toolbar-row class="sidenav__toolbar__header">
+                <span class="sidenav__toolbar__header__title">
+                    {{ 'brand.title' | translate }}<br />
+                    <span class="sidenav__toolbar__header__subtitle"> {{ 'brand.subtitle' | translate }} </span>
+                </span>
+            </mat-toolbar-row>
+        </mat-toolbar>
+
+        <app-sidenav-left-menu
+            [modules]="leftModules()"
+            (changeModule)="setLeftModule($event); hideSidenav()"
+            [activeModule]="leftModule()"
+        />
+        <span class="sidenav__toolbar__version fs-6 mt-2">v{{ appVersion }}</span>
+    </mat-sidenav>
+    <mat-sidenav-content class="sidenav__content">
+        <app-sidenav-top-menu
+            [deviceType]="deviceType()"
+            [modules]="topModules()"
+            [activeModule]="topModule()"
+            (toggleSidenav)="mustShowSidenav() ? hideSidenav() : showSidenav()"
+            (changeModule)="handleTopModuleChange($event)"
+            (changeLanguage)="setLanguage($event)"
+        />
+        <div class="sidenav__content__router">
+            <router-outlet />
+        </div>
+        @if (deviceType() !== DeviceType.ExtraSmall) {
+        <app-sidenav-bottom-menu [deviceType]="deviceType()" />
+        }
+    </mat-sidenav-content>
+</mat-sidenav-container>

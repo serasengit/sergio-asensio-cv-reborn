@@ -1,22 +1,36 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { Router } from '@angular/router';
+import { NgTemplateOutlet } from '@angular/common';
+import { ChangeDetectionStrategy, Component, input, output, TemplateRef, viewChild } from '@angular/core';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { RouterModule } from '@angular/router';
 import { Module } from '@core/models/module.model';
+import { TranslateModule } from '@ngx-translate/core';
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const version = require('package.json').version;
 @Component({
     selector: 'app-sidenav-left-menu',
+    standalone: true,
+    imports: [NgTemplateOutlet, MatListModule, MatExpansionModule, MatIconModule, TranslateModule, RouterModule],
     templateUrl: './sidenav-left-menu.component.html',
     styleUrls: ['./sidenav-left-menu.component.scss'],
-    standalone: false
+    changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SidenavLeftMenuComponent {
-    @Output() changeModule = new EventEmitter<Module>();
-    @Input() modules?: Module[];
+    readonly modules = input<Module[]>();
+    readonly activeModule = input<Module>();
 
-    constructor(private readonly router: Router) {}
+    readonly changeModule = output<Module>();
 
-    get version(): string {
-        return version;
+    readonly flatModule = viewChild.required<TemplateRef<unknown>>('flatModule');
+    readonly expandableModule = viewChild.required<TemplateRef<unknown>>('expandableModule');
+
+    getTemplateForModule(module: Module): TemplateRef<unknown> | undefined {
+        return module?.modules?.length > 0 ? this.expandableModule() : this.flatModule();
+    }
+
+    public isModuleInModule(module: Module): boolean {
+        if (!module || !this.activeModule()) return false;
+        if (module.code === this.activeModule().code) return true;
+        return module.modules?.some((sub) => sub.code === this.activeModule().code) ?? false;
     }
 }

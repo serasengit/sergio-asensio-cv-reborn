@@ -1,11 +1,23 @@
 export enum ModuleLink {
     Home = '',
-    Curriculum = 'cv',
+    Introduction = 'introduction',
+    Curriculum = 'curriculum',
+    PersonalData = 'personal-data',
+    Profile = 'profile',
+    Education = 'education',
+    Languages = 'languages',
+    SoftwareTools = 'software-tools',
+    WorkExperience = 'work-experience',
+    TrainingCourses = 'training-courses',
+    Certifications = 'certifications',
+    Publications = 'publications',
+    DownloadCV = 'download-cv',
 }
 
 export enum ModuleCode {
     Home = 'home',
-    Curriculum = 'cv',
+    Introduction = 'introduction',
+    Curriculum = 'curriculum',
     PersonalData = 'personal_data',
     Profile = 'profile',
     Education = 'education',
@@ -19,9 +31,11 @@ export enum ModuleCode {
 }
 
 export interface Module {
+    id?: number;
     parentId?: number;
     code: ModuleCode;
     link?: ModuleLink | string;
-    icon: string;
+    icon?: string;
+    order?: number;
     modules?: Module[];
 }

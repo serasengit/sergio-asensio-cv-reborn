@@ -1,0 +1,145 @@
+// Custom utility classes based on Material theme palettes
+
+@use '@angular/material' as mat;
+@use 'theme.scss' as theme;
+@use 'breakpoints.scss' as breakpoints;
+
+// *** GLOBAL MATERIAL COMPONENT STYLES *** //
+
+// Mat-colors
+
+.mat-primary-color {
+    color: mat.m2-get-color-from-palette(theme.$primary) !important;
+}
+.mat-secondary {
+    color: mat.m2-get-color-from-palette(theme.$secondary) !important;
+}
+.mat-tertiary {
+    color: mat.m2-get-color-from-palette(theme.$tertiary) !important;
+}
+.mat-edit {
+    color: mat.m2-get-color-from-palette(theme.$edit) !important;
+}
+.mat-success {
+    color: mat.m2-get-color-from-palette(theme.$success) !important;
+}
+.mat-error {
+    color: mat.m2-get-color-from-palette(theme.$error) !important;
+}
+.mat-warn {
+    color: mat.m2-get-color-from-palette(theme.$warn) !important;
+}
+.mat-muted {
+    color: mat.m2-get-color-from-palette(theme.$muted) !important;
+}
+.mat-raised-warn-button {
+    color: white !important;
+    background-color: mat.m2-get-color-from-palette(theme.$warn, 500) !important;
+    &:disabled {
+        background-color: mat.m2-get-color-from-palette(theme.$warn, 200) !important;
+    }
+    &--active {
+        background-color: mat.m2-get-color-from-palette(theme.$accent, 500) !important;
+        color: white !important;
+        &:disabled {
+            opacity: 0.5 !important;
+            background-color: mat.m2-get-color-from-palette(theme.$accent, 500) !important;
+            color: white !important;
+        }
+    }
+    &--inactive {
+        background-color: mat.m2-get-color-from-palette(theme.$secondary, 600) !important;
+        color: black !important;
+        &:disabled {
+            opacity: 0.5 !important;
+            background-color: mat.m2-get-color-from-palette(theme.$secondary, 600) !important;
+            color: black !important;
+        }
+    }
+}
+
+.mat-icon-warn-button {
+    color: mat.m2-get-color-from-palette(theme.$warn) !important;
+    &--active {
+        color: mat.m2-get-color-from-palette(theme.$accent, 500) !important;
+        &:disabled {
+            opacity: 0.5 !important;
+            color: mat.m2-get-color-from-palette(theme.$accent, 500) !important;
+        }
+    }
+    &--inactive {
+        color: mat.m2-get-color-from-palette(theme.$secondary, 600) !important;
+        &:disabled {
+            opacity: 0.5 !important;
+            color: mat.m2-get-color-from-palette(theme.$secondary, 600) !important;
+        }
+    }
+}
+
+// Mat-buttons
+.mat-raised-primary-button {
+    color: white !important;
+    background-color: mat.m2-get-color-from-palette(theme.$primary) !important;
+    &:disabled {
+        background-color: mat.m2-get-color-from-palette(theme.$primary, 200) !important;
+    }
+}
+.mat-icon-primary-button {
+    color: mat.m2-get-color-from-palette(theme.$primary) !important;
+    &:disabled {
+        color: mat.m2-get-color-from-palette(theme.$primary, 200) !important;
+    }
+}
+.mat-raised-secondary-button {
+    background-color: mat.m2-get-color-from-palette(theme.$secondary) !important;
+    &:disabled {
+        background-color: mat.m2-get-color-from-palette(theme.$secondary, 200) !important;
+    }
+}
+.mat-icon-secondary-button {
+    color: mat.m2-get-color-from-palette(theme.$secondary) !important;
+}
+.mat-raised-tertiary-button {
+    color: white !important;
+    background-color: mat.m2-get-color-from-palette(theme.$tertiary) !important;
+    &:disabled {
+        background-color: mat.m2-get-color-from-palette(theme.$tertiary, 200) !important;
+    }
+}
+.mat-icon-tertiary-button {
+    color: mat.m2-get-color-from-palette(theme.$tertiary) !important;
+    &:disabled {
+        color: mat.m2-get-color-from-palette(theme.$tertiary, 200) !important;
+    }
+}
+.mat-raised-danger-button {
+    color: white !important;
+    background-color: mat.m2-get-color-from-palette(theme.$error) !important;
+    &:disabled {
+        background-color: mat.m2-get-color-from-palette(theme.$error, 200) !important;
+    }
+}
+.mat-icon-danger-button {
+    color: mat.m2-get-color-from-palette(theme.$error) !important;
+}
+.mat-raised-edit-button {
+    color: white !important;
+    background-color: mat.m2-get-color-from-palette(theme.$edit) !important;
+    &:disabled {
+        background-color: mat.m2-get-color-from-palette(theme.$edit, 200) !important;
+    }
+}
+.mat-icon-edit-button {
+    color: mat.m2-get-color-from-palette(theme.$edit) !important;
+}
+
+// Mat-alerts
+.mat-alert-success {
+    background-color: mat.m2-get-color-from-palette(theme.$tertiary, 50) !important;
+}
+.mat-alert-info {
+    background-color: mat.m2-get-color-from-palette(theme.$primary, 50) !important;
+}
+.mat-alert-warning {
+    background-color: mat.m2-get-color-from-palette(theme.$warn, 50) !important;
+}

@@ -1,16 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-publications',
+    standalone: true,
+    imports: [TranslateModule],
     templateUrl: './publications.component.html',
     styleUrls: ['./publications.component.scss'],
-    standalone: false
 })
 export class PublicationsComponent implements OnInit {
+    constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+    ngOnInit(): void {}
 }

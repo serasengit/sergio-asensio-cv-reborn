@@ -1,50 +1,68 @@
+@use '@angular/material' as mat;
+// Import palette
+@use '../../../../styles/theme.scss' as theme;
+
 .sidenav-left-menu {
-    &__list {
-        padding-top: 30px;
-        .mat-expansion-panel {
-            background: #1a202e;
-            color: #a1a2b6;
-            .mat-expansion-panel-header {
-                a {
-                    margin-left: 8px;
+    margin-top: 5px;
+
+    &__item {
+        &__content {
+            margin-left: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            &__link {
+                color: white;
+                margin-left: 10px;
+            }
+            &__icon {
+                color: white;
+            }
+        }
+        &:hover {
+            background-color: mat.m2-get-color-from-palette(theme.$primary, 500);
+        }
+        &--active {
+            background-color: mat.m2-get-color-from-palette(theme.$tertiary, 500);
+            border-radius: 4px;
+            &:hover {
+                background-color: mat.m2-get-color-from-palette(theme.$tertiary, 600);
+            }
+        }
+    }
+    &__expansion-panel {
+        background-color: mat.m2-get-color-from-palette(theme.$primary, 500);
+        color: white;
+        border-radius: 0;
+        box-shadow: none;
+        &__header {
+            &__content {
+                display: flex;
+                align-items: center;
+                &__link {
+                    color: white;
+                    margin-left: 10px;
+                }
+                &__icon {
+                    color: white;
                 }
             }
         }
-        .mat-expansion-panel:hover {
-            background: #141924;
-            color: #ffffff;
-        }
-        .mat-mdc-list-item {
-            .mat-icon {
-                color: #a1a2b6;
-            }
-            a {
-                color: #a1a2b6;
-                font-size: 14px;
+        mat-expansion-panel-header {
+            &:hover {
+                background-color: mat.m2-get-color-from-palette(theme.$primary, 600) !important;
+                cursor: pointer;
             }
         }
-        .mat-mdc-list-item:hover {
-            background: #243c57;
-            .mat-icon {
-                color: #4f80bf;
+        &--active {
+            mat-expansion-panel-header {
+                background-color: mat.m2-get-color-from-palette(theme.$tertiary, 500);
+                border-radius: 4px;
+                &:hover {
+                    background-color: mat.m2-get-color-from-palette(theme.$tertiary, 600);
+                    cursor: pointer;
+                }
             }
-            a {
-                color: #ffffff;
-            }
-        }
-        .mat-expansion-panel-header a {
-            font-size: 14px;
-        }
-        &__version {
-            bottom: 0;
-            justify-content: center;
-            display: flex;
-            color: #a1a2b6;
-            font-size: 10px;
-            background: #2c4766;
-            position: absolute;
-            left: 0;
-            right: 0;
         }
     }
 }

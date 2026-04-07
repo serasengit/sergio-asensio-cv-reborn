@@ -1,5 +1,7 @@
 export enum EnvironmentType {
     Development = 'dev',
+    Docker = 'docker',
+    PreProduction = 'pre',
     Production = 'prod',
 }
 

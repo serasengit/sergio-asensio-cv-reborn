@@ -1,16 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-languages',
+    standalone: true,
     templateUrl: './languages.component.html',
     styleUrls: ['./languages.component.scss'],
-    standalone: false
+    imports: [TranslateModule],
 })
 export class LanguagesComponent implements OnInit {
+    constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+    ngOnInit(): void {}
 }

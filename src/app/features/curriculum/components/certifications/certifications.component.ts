@@ -1,16 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-certifications',
+    standalone: true,
+    imports: [TranslateModule],
     templateUrl: './certifications.component.html',
     styleUrls: ['./certifications.component.scss'],
-    standalone: false
 })
 export class CertificationsComponent implements OnInit {
+    constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+    ngOnInit(): void {}
 }

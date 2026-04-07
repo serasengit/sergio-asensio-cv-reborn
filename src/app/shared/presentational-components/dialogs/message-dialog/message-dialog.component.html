@@ -1,0 +1,40 @@
+<div class="message-dialog">
+    <div class="message-dialog__icon">
+        @switch (data.type) {
+            @case (MessageType.Informative) {
+                <mat-icon color="primary" fontIcon="info" />
+            }
+            @case (MessageType.Success) {
+                <mat-icon color="success" fontIcon="check_circle" />
+            }
+            @case (MessageType.Error) {
+                <mat-icon color="error" fontIcon="error" />
+            }
+            @default {
+                <mat-icon color="warn" fontIcon="warning" />
+            }
+        }
+    </div>
+    @if (data.title) {
+        <h1 mat-dialog-title class="message-dialog__title">
+            {{ data.title | translate }}
+        </h1>
+    }
+    @if (data.messages?.length > 0) {
+        <div mat-dialog-content class="message-dialog__content">
+            @for (message of data.messages; track message) {
+                <p>{{ message | translate }}</p>
+            }
+        </div>
+    }
+    <div mat-dialog-actions class="message-dialog__actions">
+        @for (button of buttons(); track $index) {
+            <button mat-raised-button [class]="button.class" (click)="onClick(button.result)">
+                @if (button.icon) {
+                    <mat-icon>{{ button.icon }}</mat-icon>
+                }
+                {{ button.label | translate }}
+            </button>
+        }
+    </div>
+</div>

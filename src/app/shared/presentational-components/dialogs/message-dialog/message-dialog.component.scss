@@ -1,0 +1,18 @@
+.message-dialog {
+    text-align: center;
+    padding: 10px;
+    &__icon {
+        mat-icon {
+            font-size: 48px;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            box-sizing: content-box;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

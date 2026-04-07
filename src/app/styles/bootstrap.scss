@@ -1,0 +1,5 @@
+// Enable responsive font sizes
+$enable-responsive-font-sizes: true !default;
+
+// Bootstrap full framework import
+@use 'bootstrap/scss/bootstrap';

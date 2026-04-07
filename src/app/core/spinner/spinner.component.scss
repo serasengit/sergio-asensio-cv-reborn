@@ -5,8 +5,9 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(74, 74, 74, 0.8);
     z-index: 99999;
+    background-color: rgba(74, 74, 74, 0.8);
+
     &__progress {
         position: absolute;
         top: 50%;

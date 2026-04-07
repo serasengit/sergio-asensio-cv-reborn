@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
     name: 'noComma',
-    standalone: false
+    standalone: true,
 })
 export class NoCommaPipe implements PipeTransform {
     transform(value: string | string[] | null | undefined): string {

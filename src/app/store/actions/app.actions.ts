@@ -1,6 +1,7 @@
+import { Language } from '@app/app.component';
+import { DeviceType } from '@core/models/device-type.model';
 import { Module } from '@core/models/module.model';
 import { createAction, props } from '@ngrx/store';
-import { DeviceType, Language } from 'src/app/app.component';
 
 export const setDeviceType = createAction('[App] Set Device Type', props<{ deviceType: DeviceType }>());
 
@@ -21,5 +22,9 @@ export const setTopModule = createAction('[App] Set top module', props<{ module:
 export const setLeftModules = createAction('[App] Set left modules', props<{ modules: Module[] }>());
 
 export const setLeftModule = createAction('[App] Set left module', props<{ module: Module }>());
+
+export const APIOperationSuccess = createAction('[App] API Operation Success');
+
+export const APIOperationFailure = createAction('[App] API Operation Failure');
 
 export const purge = createAction('[App] Purge');

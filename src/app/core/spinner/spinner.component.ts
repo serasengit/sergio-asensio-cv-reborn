@@ -1,16 +1,17 @@
-import { Component } from '@angular/core';
-import { select, Store } from '@ngrx/store';
-
+import { Component, inject } from '@angular/core';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { Store } from '@ngrx/store';
 import { AppState } from '../../store/reducers/app.reducers';
 import { showSpinner } from '../../store/selectors/app.selectors';
 
 @Component({
     selector: 'app-spinner',
+    standalone: true,
+    imports: [MatProgressSpinnerModule],
     templateUrl: './spinner.component.html',
     styleUrls: ['./spinner.component.scss'],
-    standalone: false
 })
 export class SpinnerComponent {
-    readonly showSpinner$ = this.store.pipe(select(showSpinner));
-    constructor(readonly store: Store<AppState>) {}
+    readonly appStore = inject(Store<AppState>);
+    readonly showSpinner = this.appStore.selectSignal(showSpinner);
 }

@@ -21,12 +21,10 @@
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
                         "outputPath": {
-                          "base": "dist/sergio-asensio-cv"
+                            "base": "dist/sergio-asensio-cv"
                         },
                         "index": "src/index.html",
-                        "polyfills": [
-                          "src/polyfills.ts"
-                        ],
+                        "polyfills": ["src/polyfills.ts"],
                         "tsConfig": "tsconfig.app.json",
                         "inlineStyleLanguage": "scss",
                         "assets": ["src/favicon.ico", "src/assets"],
@@ -34,9 +32,7 @@
                         "scripts": [],
                         "browser": "src/main.ts",
                         "stylePreprocessorOptions": {
-                          "includePaths": [
-                            "."
-                          ]
+                            "includePaths": ["."]
                         }
                     },
                     "configurations": {
@@ -62,7 +58,7 @@
                             "outputHashing": "all"
                         },
                         "dev": {
-                          "optimization": false,
+                            "optimization": false,
                             "extractLicenses": false,
                             "sourceMap": true,
                             "namedChunks": true
@@ -74,10 +70,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "prod": {
-                          "buildTarget": "sergio-asensio-cv:build:prod"
+                            "buildTarget": "sergio-asensio-cv:build:prod"
                         },
                         "dev": {
-                          "buildTarget": "sergio-asensio-cv:build:dev"
+                            "buildTarget": "sergio-asensio-cv:build:dev"
                         }
                     },
                     "defaultConfiguration": "dev"
@@ -85,7 +81,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                      "buildTarget": "sergio-asensio-cv:build"
+                        "buildTarget": "sergio-asensio-cv:build"
                     }
                 },
                 "test": {
@@ -108,29 +104,29 @@
         "analytics": false
     },
     "schematics": {
-      "@schematics/angular:component": {
-        "type": "component"
-      },
-      "@schematics/angular:directive": {
-        "type": "directive"
-      },
-      "@schematics/angular:service": {
-        "type": "service"
-      },
-      "@schematics/angular:guard": {
-        "typeSeparator": "."
-      },
-      "@schematics/angular:interceptor": {
-        "typeSeparator": "."
-      },
-      "@schematics/angular:module": {
-        "typeSeparator": "."
-      },
-      "@schematics/angular:pipe": {
-        "typeSeparator": "."
-      },
-      "@schematics/angular:resolver": {
-        "typeSeparator": "."
-      }
+        "@schematics/angular:component": {
+            "type": "component"
+        },
+        "@schematics/angular:directive": {
+            "type": "directive"
+        },
+        "@schematics/angular:service": {
+            "type": "service"
+        },
+        "@schematics/angular:guard": {
+            "typeSeparator": "."
+        },
+        "@schematics/angular:interceptor": {
+            "typeSeparator": "."
+        },
+        "@schematics/angular:module": {
+            "typeSeparator": "."
+        },
+        "@schematics/angular:pipe": {
+            "typeSeparator": "."
+        },
+        "@schematics/angular:resolver": {
+            "typeSeparator": "."
+        }
     }
 }

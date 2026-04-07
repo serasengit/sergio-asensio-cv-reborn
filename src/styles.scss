@@ -1,29 +1,4 @@
-@use '@angular/material' as mat;
-// Imports functions, variables, and mixins that are needed by other Bootstrap files
-@import 'node_modules/bootstrap/scss/bootstrap';
-@import 'bootstrap/scss/functions';
-@import 'bootstrap/scss/variables';
-@import 'bootstrap/scss/mixins';
-// Import Roboot
-@import 'bootstrap/scss/reboot';
-@import 'bootstrap/scss/grid';
-@import 'bootstrap/scss/utilities';
-//Material UI Theme (Examples:deeppurple-amber.css,indigo-pink.css,pink-bluegrey.css,purple-green.css)
-@import '@angular/material/prebuilt-themes/indigo-pink.css';
-// Import Countries Flag Icons
-@import 'flag-icons/css/flag-icons.min.css';
-// Import theme variables
-@import 'app/styles/variables.scss';
-// Import fontawesome icons
-@import '@fortawesome/fontawesome-free/css/all.min.css';
-
-// Mat-colors
-.mat-secondary {
-    color: mat.get-color-from-palette($secondary) !important;
-}
-.mat-success {
-    color: mat.get-color-from-palette($success) !important;
-}
-.mat-mdc-form-field-error {
-    color: mat.get-color-from-palette($error) !important;
-}
+// Main stylesheet that imports all partials
+@use 'app/styles/bootstrap';
+@use 'app/styles/theme';
+@use 'app/styles/custom-classes';

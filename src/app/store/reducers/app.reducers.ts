@@ -1,7 +1,7 @@
-import { DEFAULT_LANGUAGE, DeviceType, getDevice, Language } from '@app/app.component';
+import { DEFAULT_LANGUAGE, Language } from '@app/app.component';
+import { DeviceType, getDevice } from '@core/models/device-type.model';
 import { Module, ModuleCode, ModuleLink } from '@core/models/module.model';
 import { createReducer, on } from '@ngrx/store';
-
 import {
     hideSidenav,
     hideSpinner,
@@ -26,16 +26,17 @@ export interface AppState {
     leftModules: Module[];
     leftModule: Module;
 }
+
 const initialState: AppState = {
-    deviceType: getDevice(window.screen.width),
+    deviceType: getDevice(window.innerWidth),
     showSpinner: false,
     showSidenav: false,
     language: DEFAULT_LANGUAGE,
     topModules: [
         {
-            code: ModuleCode.Home,
-            link: ModuleLink.Home,
-            icon: 'home',
+            code: ModuleCode.Introduction,
+            link: ModuleLink.Introduction,
+            icon: 'person',
         },
         {
             code: ModuleCode.Curriculum,

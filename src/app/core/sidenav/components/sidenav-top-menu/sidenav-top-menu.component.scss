@@ -1,53 +1,114 @@
+@use '@angular/material' as mat;
+// Import breakpoints
+@use '../../../../styles/breakpoints' as breakpoints;
+// Import palette
+@use '../../../../styles/theme.scss' as theme;
+
 .sidenav-top-menu {
     &__toolbar {
-        position: fixed;
-        top: 0;
         z-index: 10;
-        min-height: 75px;
-        @media (max-width: 768px) {
-            padding: 0;
+        min-height: 85px;
+        @media (max-width: breakpoints.$breakpoint-small) {
+            min-height: 65px;
         }
+        &__menu {
+            margin-right: 10px;
+        }
+        &__logo {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            max-height: 100%;
+            img {
+                max-height: 50px;
+                width: auto;
+                height: auto;
+                display: block;
+                margin-right: 8px;
+                @media (max-width: breakpoints.$breakpoint-small) {
+                    max-height: 40px;
+                }
+            }
 
+            span {
+                word-break: break-word;
+                flex-flow: nowrap;
+                white-space: normal;
+            }
+        }
         &__sections {
-            margin-left: auto;
-            margin-right: auto;
-            flex-grow: 1;
             display: flex;
             justify-content: space-between;
+            flex: 1;
+            @media (max-width: breakpoints.$breakpoint-large) {
+                justify-content: end;
+            }
+
             button,
             a {
-                display: flex;
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
                 width: auto;
                 height: auto;
                 padding: 16px;
-                @media (max-width: 768px) {
-                    padding: 8px;
-                }
-            }
-            i {
-                font-size: 18px;
             }
 
             &__left {
+                margin-left: 10px;
                 display: flex;
-                justify-content: flex-start;
-                flex-grow: 1;
-                gap: 2px;
-                &__title {
-                    margin: 5px;
-                    @media (max-width: 768px) {
-                        display: none;
+                align-items: center;
+                &__content {
+                    display: flex;
+                    align-items: center;
+                    &__link {
+                        margin: 5px;
+                        @media (max-width: breakpoints.$breakpoint-small) {
+                            display: none;
+                        }
+                    }
+                    &__submodule {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        &__label {
+                            display: inline-flex;
+                            align-items: center;
+                            line-height: 1.2;
+                        }
+                        &--active:not(:hover):not(:focus) {
+                            background-color: mat.m2-get-color-from-palette(theme.$tertiary, 500);
+                            border-radius: 4px;
+                            color: white;
+                            mat-icon {
+                                color: white;
+                            }
+                        }
+                    }
+                    &--active {
+                        background-color: mat.m2-get-color-from-palette(theme.$tertiary, 500);
+                        border-radius: 4px;
                     }
                 }
             }
             &__right {
-                gap: 0px;
                 display: flex;
-                position: fixed;
-                right: 20px;
+                align-items: center;
+                flex-shrink: 0;
+                position: relative;
+                right: auto;
+                justify-content: flex-end;
+                button {
+                    display: flex;
+                }
+                &__content {
+                    &__icon-wrapper {
+                        position: relative;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
             }
         }
     }
