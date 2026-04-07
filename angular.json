@@ -55,13 +55,14 @@
                                     "with": "src/environments/environment.prod.ts"
                                 }
                             ],
-                            "outputHashing": "all"
+                            "outputHashing": "media"
                         },
                         "dev": {
                             "optimization": false,
                             "extractLicenses": false,
                             "sourceMap": true,
-                            "namedChunks": true
+                            "namedChunks": true,
+                            "outputHashing": "media"
                         }
                     },
                     "defaultConfiguration": "prod"
