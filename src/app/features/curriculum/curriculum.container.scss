@@ -1,5 +1,9 @@
+// Import Angular Material styles
 @use '@angular/material' as mat;
+// Import palette
 @use '../../styles/theme.scss' as theme;
+// Import breakpoints
+@use '../../styles/breakpoints.scss' as breakpoints;
 
 html,
 body {
@@ -87,7 +91,7 @@ ul ul a {
 // Timeline Styles
 
 //Movil Styles
-@media (max-width: 767px) {
+@media (max-width: breakpoints.$breakpoint-medium-large) {
     #sidebar {
         width: 69px;
         margin-left: -15px;

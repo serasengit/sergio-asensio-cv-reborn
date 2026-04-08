@@ -6,7 +6,7 @@ import { showSpinner } from '../../store/selectors/app.selectors';
 
 @Component({
     selector: 'app-spinner',
-    standalone: true,
+
     imports: [MatProgressSpinnerModule],
     templateUrl: './spinner.component.html',
     styleUrls: ['./spinner.component.scss'],

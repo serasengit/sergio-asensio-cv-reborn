@@ -31,7 +31,7 @@ export const DEFAULT_LANGUAGE = getDefaultLanguage();
 
 @Component({
     selector: 'app-root',
-    standalone: true,
+
     imports: [RouterOutlet, SpinnerComponent],
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],

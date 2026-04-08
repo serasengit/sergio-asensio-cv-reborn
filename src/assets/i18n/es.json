@@ -50,7 +50,8 @@
                 "Posteriormente, en <b>Grupo Oesía</b>, trabajé como desarrollador y más adelante como analista técnico en proyectos de <b>gestión de residuos</b> y <b>administración pública</b>. Allí asumí responsabilidades de arquitectura, desarrollo full stack, soporte al equipo y transferencia de conocimiento, además de <b>gestionar en solitario</b> el mantenimiento y evolución de una aplicación del Ayuntamiento de Zaragoza.<br><br>",
                 "En <b>UST Global</b> desempeñé el rol de <b>Software Full Stack Senior Analyst Engineer</b>, participando de forma clave en el desarrollo de una aplicación hospitalaria con <b>Angular</b> y <b>Node.js</b>. En esta etapa reforcé especialmente mis capacidades en arquitectura front-end, gestión de estado, desarrollo back-end, revisión de código y trabajo colaborativo en equipos exigentes.<br><br>",
                 "Desde <b>noviembre de 2021</b> desempeño el rol de <b>Technical Lead en Adasa</b>, liderando iniciativas vinculadas al agua, medio ambiente, telemetría, monitorización, meteorología, gestión documental y administración pública. Durante esta etapa he definido y supervisado arquitecturas basadas en <b>Angular, Node.js, TypeScript, Flutter, Python, ThingsBoard, PostgreSQL, Docker, GitLab CI, OpenShift, Azure Functions y sistemas de autenticación como Keycloak/LDAP</b>, con foco en la escalabilidad, la trazabilidad y la mantenibilidad de las soluciones.<br><br>",
-                "A lo largo de mi carrera he afrontado tareas clave como la definición de la <b>arquitectura fundamental de los proyectos</b>, la creación de <b>plantillas base reutilizables</b>, el desarrollo de <b>módulos de referencia</b>, la definición del <b>modelo de datos</b>, la implantación de <b>Docker</b> y <b>CI/CD</b>, la elaboración de <b>manuales técnicos, guías de despliegue y documentación metodológica</b>, así como la creación de <b>videotutoriales y materiales formativos internos</b> para reforzar la capacitación y la transferencia de conocimiento en los equipos."
+                "A lo largo de mi carrera he afrontado tareas clave como la definición de la <b>arquitectura fundamental de los proyectos</b>, la creación de <b>plantillas base reutilizables</b>, el desarrollo de <b>módulos de referencia</b>, la definición del <b>modelo de datos</b>, la implantación de <b>Docker</b> y <b>CI/CD</b>, la elaboración de <b>manuales técnicos, guías de despliegue y documentación metodológica</b>, así como la creación de <b>videotutoriales y materiales formativos internos</b> para reforzar la capacitación y la transferencia de conocimiento en los equipos.<br><br>",
+                "Actualmente desempeño un rol de <b>Technical Lead con responsabilidad end-to-end sobre proyectos</b>, abarcando desde la definición de arquitectura hasta la entrega final en cliente. Actúo como <b>principal interlocutor técnico</b>, liderando equipos de desarrollo, tomando decisiones clave de diseño y asegurando la correcta ejecución de las soluciones en entornos reales."
             ]
         },
         "publications_section": {
@@ -248,7 +249,7 @@
                 "proyect_1": {
                     "date": "Mayo 2025 - Actualidad",
                     "description": [
-                        "<b>Tareas / Responsabilidades:</b><br> Lideré la definición, evolución y desarrollo de una nueva plataforma web para la gestión y control de vertidos no domésticos en La Rioja, orientada a sustituir una solución heredada en Microsoft Access y a centralizar la información en un registro único.<br><br>",
+                        "<b>Tareas / Responsabilidades:</b><br> Lideré la definición, evolución y desarrollo de una nueva plataforma web para la gestión y control de vertidos no domésticos en La Rioja, orientada a sustituir una solución heredada en Microsoft Access y a centralizar la información en un registro único. Dada la ausencia de un Product Owner, asumí directamente toda la gestión del proyecto con el cliente, incluyendo la toma de requisitos, priorización de funcionalidades y seguimiento de entregas.<br><br>La aplicación unifica la gestión de autorizaciones, inspecciones, analíticas, seguimiento de expedientes y cálculo del canon, mejorando la trazabilidad, la interoperabilidad entre organismos y el control de usuarios y operaciones.",
                         "La aplicación unifica la gestión de autorizaciones, inspecciones, analíticas, seguimiento de expedientes y cálculo del canon, mejorando la trazabilidad, la interoperabilidad entre organismos y el control de usuarios y operaciones.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "FRONTEND : Angular 20 + NgRx<br>",
@@ -266,7 +267,7 @@
                         "<b>Tareas / Responsabilidades:</b><br> Lideré una solución orientada a la monitorización, operación y mantenimiento de sistemas de radares meteorológicos, proporcionando una visión centralizada del estado de los radares, sus variables, alarmas e indicadores de disponibilidad.<br><br>",
                         "La plataforma integró capacidades de visualización y análisis con funcionalidades de gestión documental, inventario y mantenimiento, mejorando el control operativo y la trazabilidad del ecosistema radar.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "PLATFORMS : ThingsBoard / Redmine<br>",
+                        "FRONTEND : ThingsBoard / Redmine<br>",
                         "BACKEND : Python / Ruby on Rails<br>",
                         "BBDD : PostgreSQL + TimescaleDB / MySQL<br>",
                         "AUTHENTICATION : Keycloak / LDAP<br>",
@@ -281,10 +282,8 @@
                         "<b>Tareas / Responsabilidades:</b><br> Dirigí el desarrollo de una aplicación orientada al registro manual de datos de sensores y a la documentación de incidencias en distintos tramos, facilitando el trabajo de campo y la trazabilidad operativa.<br><br>",
                         "La solución se desarrolló como aplicación móvil con capacidad offline y evolucionó posteriormente para su uso web, incorporando integraciones de notificación mediante Twitter, Telegram, Email y Firebase Cloud Notifications.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : Flutter<br>",
+                        "FRONTEND : Flutter (Dart)<br>",
                         "BACKEND : PHP<br>",
-                        "PLATFORMS : Mobile / Web<br>",
-                        "CAPABILITIES : Offline mode<br>",
                         "NOTIFICATIONS : Twitter / Telegram / Email / Firebase Cloud Notifications<br><br>"
                     ],
                     "name": "Proyecto: SIRA Auscultación"
@@ -332,7 +331,7 @@
     "education": "Educación",
     "english": "Inglés",
     "home": "Inicio",
-    "home_section": {
+    "introduction_section": {
         "about_me": {
             "contact_link": "<b>¡Hablemos!</b>",
             "content": [
@@ -354,7 +353,7 @@
             "content": [
                 "<b>¡Bienvenido a mi Web!</b><br><br>",
                 "Soy Sergio Asensio, <b>Technical Lead</b> graduado en <b>Matemáticas</b> por la Universidad de Zaragoza, con más de <b>10 años de experiencia en desarrollo de software y soluciones tecnológicas</b> y más de <b>4 años de especialización en el sector del agua y medio ambiente</b>.<br><br>",
-                "A lo largo de mi trayectoria he participado y liderado soluciones <b>web, móviles, plataformas de datos e IoT</b>, definiendo arquitecturas y construyendo productos <b>escalables, mantenibles y orientados a negocio</b> para sectores como <b>administración pública, sanidad, medio ambiente, telemetría, meteorología, gestión documental y monitorización</b>."
+                "Actualmente desempeño un rol de <b>Technical Lead con responsabilidad completa sobre proyectos</b>, abarcando arquitectura, equipo, cliente y entrega. Entre mis responsabilidades se incluyen el <b>liderazgo técnico de equipos de desarrollo</b>, la <b>definición de arquitectura y estándares técnicos</b>, la <b>interlocución directa con cliente y toma de requisitos</b>, la <b>coordinación de entregas y planificación técnica mediante el uso de metodologías ágiles</b> y la <b>supervisión de la calidad de código</b> mediante revisiones continuas.<br><br>A lo largo de mi trayectoria he participado y liderado soluciones <b>web, móviles, plataformas de datos e IoT</b>, definiendo arquitecturas y construyendo productos <b>escalables, mantenibles y orientados a negocio</b> para sectores como <b>administración pública, sanidad, medio ambiente, telemetría, meteorología, gestión documental y monitorización</b>."
             ],
             "title": "Sergio Asensio Puyuelo"
         },

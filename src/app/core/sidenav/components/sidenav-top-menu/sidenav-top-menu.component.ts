@@ -12,7 +12,7 @@ import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-sidenav-top-menu',
-    standalone: true,
+
     imports: [CommonModule, MatToolbarModule, MatMenuModule, MatButtonModule, MatIconModule, MatTooltipModule, TranslateModule],
     templateUrl: './sidenav-top-menu.component.html',
     styleUrls: ['./sidenav-top-menu.component.scss'],

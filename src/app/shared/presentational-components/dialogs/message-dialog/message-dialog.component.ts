@@ -33,7 +33,7 @@ export interface MessageDialogData {
 
 @Component({
     selector: 'app-message-dialog',
-    standalone: true,
+
     imports: [MatIconModule, MatButtonModule, TranslateModule, MatDialogModule],
     templateUrl: './message-dialog.component.html',
     styleUrls: ['./message-dialog.component.scss'],

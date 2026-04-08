@@ -4,7 +4,6 @@ import { VERSION } from '@core/tokens/version.token';
 
 @Component({
     selector: 'app-sidenav-bottom-menu',
-    standalone: true,
     templateUrl: './sidenav-bottom-menu.component.html',
     changeDetection: ChangeDetectionStrategy.OnPush,
 })

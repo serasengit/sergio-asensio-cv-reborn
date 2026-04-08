@@ -24,7 +24,7 @@ import { SidenavTopMenuComponent } from './components/sidenav-top-menu/sidenav-t
 
 @Component({
     selector: 'app-sidenav',
-    standalone: true,
+
     imports: [
         MatSidenavModule,
         MatToolbarModule,

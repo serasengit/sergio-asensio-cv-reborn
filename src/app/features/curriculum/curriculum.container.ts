@@ -59,7 +59,7 @@ const CURRICULUM_MODULES: Module[] = [
 ];
 @Component({
     selector: 'app-curriculum',
-    standalone: true,
+
     imports: [
         CertificationsComponent,
         EducationComponent,

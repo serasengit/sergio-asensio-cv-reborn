@@ -9,7 +9,7 @@ import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-sidenav-left-menu',
-    standalone: true,
+
     imports: [NgTemplateOutlet, MatListModule, MatExpansionModule, MatIconModule, TranslateModule, RouterModule],
     templateUrl: './sidenav-left-menu.component.html',
     styleUrls: ['./sidenav-left-menu.component.scss'],

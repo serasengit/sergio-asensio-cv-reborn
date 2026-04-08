@@ -1,3 +1,6 @@
+// Import breakpoints
+@use '../../../../styles/breakpoints.scss' as breakpoints;
+
 .main-timeline {
     --line-color: #302124;
     --line-width: 3px;
@@ -247,8 +250,7 @@
     border: 4px solid #7fad3d;
 }
 
-/* Tablet grande */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: breakpoints.$breakpoint-extra-large) {
     .main-timeline {
         --gap: 32px;
     }
@@ -262,8 +264,7 @@
     }
 }
 
-/* Tablet / móvil horizontal */
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: breakpoints.$breakpoint-large) {
     .main-timeline {
         --gap: 32px;
         padding-left: 0;
@@ -316,8 +317,7 @@
     }
 }
 
-/* Móvil */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: breakpoints.$breakpoint-medium) {
     .main-timeline:before {
         left: 18px;
     }
@@ -374,8 +374,7 @@
     }
 }
 
-/* Móvil pequeño */
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: breakpoints.$breakpoint-small) {
     .main-timeline .timeline,
     .main-timeline .timeline:nth-child(odd),
     .main-timeline .timeline:nth-child(even) {
