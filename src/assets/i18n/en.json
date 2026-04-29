@@ -27,7 +27,7 @@
         },
         "personal_data_section": {
             "age": "Age:",
-            "ageValue": "34",
+            "age_value": "34",
             "birthdate": "Date of birth:",
             "birthdate_value": "12-02-1992",
             "city": "Location:",
@@ -36,12 +36,13 @@
             "email_value": "maserasen@gmail.com",
             "linkedin": "LinkedIn:",
             "linkedin_value": "sergio-asensio-in",
+            "linkedin_url": "https://www.linkedin.com/in/sergio-asensio-puyuelo-aa9916117/",
             "name": "Full name:",
             "name_value": "Sergio Asensio Puyuelo",
             "phone": "Phone:",
             "phone_value": "678154765"
         },
-        "technical_leadership_section": {
+        "profile_section": {
             "titles": {
                 "team_leadership": "Team leadership",
                 "software_architecture": "Software architecture",
@@ -61,19 +62,6 @@
                 "Evaluation of new technologies, tools, and approaches that may improve the efficiency, quality, and sustainability of the developed solutions.",
                 "Collaboration with other technical leaders and teams across the organisation to align architectural criteria, share knowledge, and strengthen a solid engineering culture.",
                 "Active participation in agile planning, review, and retrospective sessions, contributing to priority adjustment, process improvement, and value delivery."
-            ]
-        },
-        "profile_section": {
-            "content": [
-                "I am Sergio Asensio, a Mathematics graduate from the University of Zaragoza, with more than <b>10 years of experience in software development and technology solutions</b> and more than <b>4 years of experience in the water and environmental sector</b>. Throughout my career, I have contributed to and led projects built with technologies such as <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python and ThingsBoard</b>, working both independently and alongside highly skilled multidisciplinary teams.<br><br>",
-                "As a technical leader, my experience covers a broad range of specialist knowledge in the development of <b>web applications, mobile apps, data platforms and IoT solutions</b>. My versatility is reflected in roles such as <b>Full Stack Developer</b>, <b>Technical Architect</b>, <b>Solution Designer</b>, and lead for <b>database modelling and management</b>, as well as in driving <b>Docker-based containerisation</b> and the adoption of <b>CI/CD practices</b>, with hands-on experience in cloud environments such as <b>OpenShift, Azure and Heroku</b>.<br><br>",
-                "After entering the software development field in <b>March 2016</b>, I completed training in <b>SAP (ABAP)</b>, <b>Java</b> and <b>Salesforce</b>, building the technical foundation that marked the start of my professional career.<br><br>",
-                "During my early years at <b>DxD Applications & IT Solutions</b>, I worked on maintenance and development projects involving <b>Salesforce</b>, REST integrations, <b>Node.js</b> services deployed on <b>Heroku</b>, Java web applications, and ETL processes with <b>Talend</b>. This stage allowed me to grow both as a developer and in my understanding of architecture, integrations, and cloud deployment.<br><br>",
-                "Later, at <b>Grupo Oesía</b>, I worked first as a developer and later as a technical analyst on projects related to <b>waste management</b> and <b>public administration</b>. There, I took on responsibilities in architecture, full stack development, team support, and knowledge transfer, while also <b>single-handedly managing</b> the maintenance and evolution of an application for Zaragoza City Council.<br><br>",
-                "At <b>UST Global</b>, I worked as a <b>Software Full Stack Senior Analyst Engineer</b>, playing a key role in the development of a hospital software solution using <b>Angular</b> and <b>Node.js</b>. During this period, I further strengthened my expertise in front-end architecture, state management, back-end development, code review, and collaborative work within demanding teams.<br><br>",
-                "Since <b>November 2021</b>, I have been working as a <b>Technical Lead at Adasa</b>, leading initiatives related to water, environment, telemetry, monitoring, meteorology, document management, and public administration. During this stage, I have defined and overseen architectures based on <b>Angular, Node.js, TypeScript, Flutter, Python, ThingsBoard, PostgreSQL, Docker, GitLab CI, OpenShift, Azure Functions, and authentication systems such as Keycloak/LDAP</b>, always with a focus on scalability, traceability, and maintainability.<br><br>",
-                "Throughout my career, I have taken ownership of key responsibilities such as defining the <b>core architecture of projects</b>, creating <b>reusable starter templates</b>, developing <b>reference modules</b>, defining the <b>data model</b>, implementing <b>Docker</b> and <b>CI/CD pipelines</b>, producing <b>technical manuals, deployment guides and methodological documentation</b>, as well as creating <b>internal video tutorials and training materials</b> to strengthen team enablement and knowledge sharing.<br><br>",
-                "I currently work as a <b>Technical Lead with end-to-end responsibility across projects</b>, covering everything from architecture definition to final delivery. I act as the <b>main technical point of contact</b>, lead development teams, make key design decisions, and ensure the successful execution of solutions in real-world environments."
             ]
         },
         "publications_section": {
@@ -112,6 +100,14 @@
             "team_enablement_2": "Development of internal video tutorials and training materials to strengthen the team’s technical capabilities."
         },
         "work_experience_section": {
+            "summary": [
+                "During my early years at <b>DxD Applications & IT Solutions</b>, I worked on maintenance and development projects involving <b>Salesforce</b>, REST integrations, <b>Node.js</b> services deployed on <b>Heroku</b>, Java web applications, and ETL processes with <b>Talend</b>. This stage allowed me to grow both as a developer and in my understanding of architecture, integrations, and cloud deployment.<br><br>",
+                "Later, at <b>Grupo Oesía</b>, I worked first as a developer and later as a technical analyst on projects related to <b>waste management</b> and <b>public administration</b>. There, I took on responsibilities in architecture, full stack development, team support, and knowledge transfer, while also <b>single-handedly managing</b> the maintenance and evolution of an application for Zaragoza City Council.<br><br>",
+                "At <b>UST Global</b>, I worked as a <b>Software Full Stack Senior Analyst Engineer</b>, playing a key role in the development of a hospital software solution using <b>Angular</b> and <b>Node.js</b>. During this period, I further strengthened my expertise in front-end architecture, state management, back-end development, code review, and collaborative work within demanding teams.<br><br>",
+                "Since <b>November 2021</b>, I have been working as a <b>Technical Lead at Adasa</b>, leading initiatives related to water, environment, telemetry, monitoring, meteorology, document management, and public administration. During this stage, I have defined and overseen architectures based on <b>Angular, Node.js, TypeScript, Flutter, Python, ThingsBoard, PostgreSQL, Docker, GitLab CI, OpenShift, Azure Functions, and authentication systems such as Keycloak/LDAP</b>, always with a focus on scalability, traceability, and maintainability.<br><br>",
+                "Throughout my career, I have taken ownership of key responsibilities such as defining the <b>core architecture of projects</b>, creating <b>reusable starter templates</b>, developing <b>reference modules</b>, defining the <b>data model</b>, implementing <b>Docker</b> and <b>CI/CD pipelines</b>, producing <b>technical manuals, deployment guides and methodological documentation</b>, as well as creating <b>internal video tutorials and training materials</b> to strengthen team enablement and knowledge sharing.<br><br>",
+                "I currently work as a <b>Technical Lead with end-to-end responsibility across projects</b>, covering everything from architecture definition to final delivery. I act as the <b>main technical point of contact</b>, lead development teams, make key design decisions, and ensure the successful execution of solutions in real-world environments."
+            ],
             "analyst_developer": "Analyst Developer",
             "analyst_developer_content": {
                 "date": "May 2019 - April 2020",
@@ -353,39 +349,46 @@
     "education": "Education",
     "english": "English",
     "home": "Home",
+
     "introduction_section": {
         "about_me": {
-            "contact_link": "<b>Let’s talk!</b>",
+            "contact_link": "<b>Let's talk</b>",
             "content": [
-                "I see every project as an opportunity to build useful, robust solutions with real impact. I am motivated by complex challenges, applied innovation, and continuous improvement, always built on a strong technical foundation.<br><br>",
-                "I place great value on the <b>architecture, foundations, and structure of a project</b>. A strong technical foundation makes it possible to build efficiently, scale safely, and evolve without creating chaos. Without solid architecture, clear standards, and an aligned team, problems appear quickly.<br><br>",
-                "I firmly believe that the best results come from combining <b>technical judgement, organisation, and people</b>.<br><br>",
-                "I hope this website helps you get to know me a little better. If you would like to learn more about my experience and background, I would be delighted to talk:<br><br>"
+                "I approach every project as an opportunity to build <b>useful, robust and impactful solutions</b>.<br><br>",
+                "I place strong emphasis on <b>solid architecture and well-defined technical foundations</b>, as they are key to building efficiently, scaling reliably and evolving systems without unnecessary technical debt.<br><br>",
+                "I believe the best results come from combining <b>technical judgement, organisation, collaboration and aligned teams</b>.<br><br>",
+                "If you would like to know more about my experience, I would be glad to connect."
             ],
-            "title": "About me..."
+            "title": "About me"
         },
+
         "agile": {
             "content": [
-                "I work with agile methodologies such as <b>Scrum</b> and <b>Kanban</b>, aligning the technical evolution of projects with business objectives. I apply practices such as <b>Gitflow</b>, <b>Pull Requests</b>, and continuous review to ensure quality, maintainability, and a well-structured product evolution.<br><br>",
-                "As a technical leader, I promote teams built on <b>trust, autonomy, and continuous improvement</b>, encouraging collaboration, knowledge sharing, and professional growth as key pillars for sustainable results.<br><br>",
-                "I complement agile management with active technical leadership, establishing standards, best practices, and quality criteria that help the team build robust, scalable, and maintainable solutions."
+                "I work with Agile methodologies such as <b>Scrum</b> and <b>Kanban</b>, aligning technical delivery with business objectives and real customer needs.<br><br>",
+                "I apply engineering practices such as <b>Gitflow, Pull Requests, code reviews, testing and continuous integration</b> to ensure quality, maintainability and controlled product evolution.<br><br>",
+                "As a Technical Lead, I promote teams based on <b>trust, autonomy, knowledge sharing and continuous improvement</b>, fostering ownership and professional growth."
             ],
-            "title": "Agility and Team Management"
+            "title": "Agile & Team Leadership"
         },
+
         "introduction": {
             "content": [
-                "<b>Welcome to my website!</b><br><br>",
-                "I am Sergio Asensio, a <b>Technical Lead</b> with a degree in <b>Mathematics</b> from the University of Zaragoza, with more than <b>10 years of experience in software development and technology solutions</b> and more than <b>4 years of specialisation in the water and environmental sector</b>.<br><br>",
-                "I currently work as a <b>Technical Lead with full end-to-end responsibility across projects</b>, covering architecture, team leadership, client interaction, and delivery. My responsibilities include <b>technical leadership of development teams</b>, <b>definition of architecture and technical standards</b>, <b>direct client engagement and requirements gathering</b>, <b>coordination of deliveries and technical planning through agile methodologies</b>, and <b>oversight of code quality</b> through continuous review.<br><br>Throughout my career, I have contributed to and led <b>web, mobile, data platform, and IoT solutions</b>, defining architectures and building <b>scalable, maintainable, and business-oriented products</b> for sectors such as <b>public administration, healthcare, environment, telemetry, meteorology, document management, and monitoring</b>."
+                "<b>Welcome to my website</b><br><br>",
+                "I am Sergio Asensio, a <b>Technical Lead</b> with a degree in <b>Mathematics</b> from the University of Zaragoza, with over <b>10 years of experience in software development and technology solutions</b> and more than <b>4 years specialised in the water and environmental sector</b>.<br><br>",
+                "I currently work as a <b>Technical Lead with end-to-end responsibility</b> across projects, covering everything from requirements gathering and architecture definition to final delivery.<br><br>",
+                "I act as the <b>main technical point of contact</b>, leading development teams, making key design decisions and ensuring <b>quality, scalability and maintainability</b> in real-world production environments."
             ],
             "title": "Sergio Asensio Puyuelo"
         },
+
         "technologies": {
             "content": [
-                "I have experience in the design and development of <b>front-end</b> solutions with <b>Angular and React</b>, <b>back-end</b> solutions with <b>Java, Node.js and Python</b>, mobile applications with <b>Flutter</b>, and enterprise technologies such as <b>Salesforce</b>. I have also worked with <b>ThingsBoard</b> and other technologies geared towards <b>IoT</b> and real-time data environments.<br><br>",
-                "My profile combines architectural vision with hands-on technical execution, covering everything from project foundations, data modelling, and full stack development to application <b>containerisation</b> and deployment in environments such as <b>Azure, OpenShift and Heroku</b>. I have also driven the adoption of <b>CI/CD pipelines</b>, reusable code templates, technical documentation, deployment guides, and internal training materials that accelerate delivery and improve software quality."
+                "I have experience designing <b>software architectures, web and mobile applications, data platforms and IoT solutions</b>, combining technical vision, execution capability and business alignment.<br><br>",
+                "I have worked with technologies such as <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python and ThingsBoard</b>, both independently and within multidisciplinary teams.<br><br>",
+                "My experience includes <b>architecture definition, data modelling, full-stack development, containerisation with Docker, CI/CD implementation</b> and deployment in cloud environments such as <b>OpenShift, Azure and Heroku</b>.<br><br>",
+                "I promote an engineering culture based on <b>Clean Code, SOLID principles, code reviews, testing, continuous integration, technical documentation, reusable templates and deployment guides</b> to strengthen team autonomy and technical quality."
             ],
-            "title": "Architecture and Technologies"
+            "title": "Architecture & Technologies"
         }
     },
     "internal_server_error": "Internal server error",
@@ -393,7 +396,6 @@
     "languages": "Languages",
     "personal_data": "Personal details",
     "profile": "Technical profile",
-    "technical_leadership": "Technical leadership",
     "publications": "Publications",
     "skills": "Skills",
     "software_tools": "Technologies and tools",

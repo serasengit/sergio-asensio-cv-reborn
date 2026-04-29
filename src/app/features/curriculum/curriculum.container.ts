@@ -9,12 +9,11 @@ import { CertificationsComponent } from './components/certifications/certificati
 import { EducationComponent } from './components/education/education.component';
 import { LanguagesComponent } from './components/languages/languages.component';
 import { PersonalDataComponent } from './components/personal-data/personal-data.component';
-import { ProfileComponent } from './components/profile/profile.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { SoftwareToolsComponent } from './components/software-tools/software-tools.component';
 import { TrainingCoursesComponent } from './components/training-courses/training-courses.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
-import { TechnicalLeaderShipComponent } from './technical-leadership/technical-leadership.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const CURRICULUM_MODULES: Module[] = [
     {
@@ -24,10 +23,6 @@ const CURRICULUM_MODULES: Module[] = [
     {
         code: ModuleCode.Profile,
         icon: 'account_circle',
-    },
-    {
-        code: ModuleCode.TechnicalLeaderShip,
-        icon: 'engineering',
     },
     {
         code: ModuleCode.WorkExperience,
@@ -71,7 +66,6 @@ const CURRICULUM_MODULES: Module[] = [
         EducationComponent,
         LanguagesComponent,
         ProfileComponent,
-        TechnicalLeaderShipComponent,
         PersonalDataComponent,
         PublicationsComponent,
         SoftwareToolsComponent,
