@@ -14,6 +14,7 @@ import { PublicationsComponent } from './components/publications/publications.co
 import { SoftwareToolsComponent } from './components/software-tools/software-tools.component';
 import { TrainingCoursesComponent } from './components/training-courses/training-courses.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
+import { TechnicalLeaderShipComponent } from './technical-leadership/technical-leadership.component';
 
 const CURRICULUM_MODULES: Module[] = [
     {
@@ -25,33 +26,38 @@ const CURRICULUM_MODULES: Module[] = [
         icon: 'account_circle',
     },
     {
-        code: ModuleCode.Education,
-        icon: 'school',
-    },
-    {
-        code: ModuleCode.Languages,
-        icon: 'language',
-    },
-    {
-        code: ModuleCode.SoftwareTools,
-        icon: 'code',
+        code: ModuleCode.TechnicalLeaderShip,
+        icon: 'engineering',
     },
     {
         code: ModuleCode.WorkExperience,
         icon: 'trending_up',
     },
     {
-        code: ModuleCode.TrainingCourses,
-        icon: 'menu_book',
+        code: ModuleCode.SoftwareTools,
+        icon: 'code',
+    },
+    {
+        code: ModuleCode.Education,
+        icon: 'school',
     },
     {
         code: ModuleCode.Certifications,
         icon: 'verified',
     },
     {
-        code: ModuleCode.Publications,
-        icon: 'attach_file',
+        code: ModuleCode.TrainingCourses,
+        icon: 'menu_book',
     },
+    {
+        code: ModuleCode.Languages,
+        icon: 'language',
+    },
+    {
+        code: ModuleCode.Publications,
+        icon: 'article',
+    },
+
     {
         code: ModuleCode.DownloadCV,
         icon: 'picture_as_pdf',
@@ -65,6 +71,7 @@ const CURRICULUM_MODULES: Module[] = [
         EducationComponent,
         LanguagesComponent,
         ProfileComponent,
+        TechnicalLeaderShipComponent,
         PersonalDataComponent,
         PublicationsComponent,
         SoftwareToolsComponent,

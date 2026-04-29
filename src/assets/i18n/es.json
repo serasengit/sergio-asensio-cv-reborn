@@ -41,17 +41,39 @@
             "phone": "Teléfono:",
             "phone_value": "678154765"
         },
+        "technical_leadership_section": {
+            "titles": {
+                "team_leadership": "Liderazgo de equipos",
+                "software_architecture": "Arquitectura de software",
+                "technical_quality": "Calidad técnica",
+                "stakeholder_collaboration": "Colaboración con stakeholders",
+                "mentoring_code_review": "Mentoring y revisión técnica",
+                "technological_innovation": "Innovación tecnológica",
+                "engineering_culture": "Cultura de ingeniería",
+                "agility_value_delivery": "Agilidad y entrega de valor"
+            },
+            "content": [
+                "Liderazgo técnico de equipos de desarrollo, proporcionando orientación técnica, soporte en la toma de decisiones y resolución de problemas complejos durante todo el ciclo de vida del proyecto.",
+                "Definición de arquitecturas de software escalables, mantenibles y alineadas con las recomendaciones técnicas de la compañía y las necesidades reales del cliente.",
+                "Establecimiento y aplicación de estándares de desarrollo, buenas prácticas y criterios de calidad basados en principios como Clean Code, SOLID, testing, integración continua y revisión de código.",
+                "Colaboración directa con equipos de producto, cliente y otros stakeholders para comprender requisitos, definir una visión técnica clara y convertir necesidades funcionales en soluciones viables.",
+                "Revisión de código, acompañamiento técnico y mentoring a otros desarrolladores, fomentando la mejora continua, la autonomía del equipo y el crecimiento profesional.",
+                "Evaluación de nuevas tecnologías, herramientas y enfoques que puedan mejorar la eficiencia, la calidad y la sostenibilidad de las soluciones desarrolladas.",
+                "Colaboración con otros líderes técnicos y equipos de la organización para alinear criterios arquitectónicos, compartir conocimiento y reforzar una cultura de ingeniería sólida.",
+                "Participación activa en dinámicas ágiles de planificación, revisión y retrospectiva, contribuyendo a ajustar prioridades, mejorar procesos y asegurar entregas de valor."
+            ]
+        },
         "profile_section": {
             "content": [
                 "Soy Sergio Asensio, graduado en <b>Matemáticas</b> por la Universidad de Zaragoza, con más de <b>10 años de experiencia en desarrollo de software y soluciones tecnológicas</b> y más de <b>4 años de experiencia en el sector del agua y medio ambiente</b>. A lo largo de mi carrera he participado y liderado proyectos desarrollados con tecnologías como <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python y ThingsBoard</b>, trabajando tanto de forma autónoma como junto a equipos multidisciplinares altamente capacitados.<br><br>",
-                "Como líder técnico, mi experiencia abarca un amplio espectro de conocimientos especializados en el desarrollo de <b>aplicaciones web, móviles, plataformas de datos y soluciones IoT</b>. Mi versatilidad se refleja en mis roles como <b>Full Stack Developer</b>, <b>arquitecto técnico</b>, <b>diseñador de soluciones</b>, responsable del <b>modelado y gestión de bases de datos</b>, impulsor de la <b>contenerización con Docker</b> y la implantación de <b>procesos CI/CD</b>, con experiencia en entornos cloud como <b>OpenShift, Azure y Heroku</b>.<br><br>",
+                "Como <b>Technical Lead</b>, mi experiencia abarca el diseño de <b>arquitecturas de software, aplicaciones web, móviles, plataformas de datos y soluciones IoT</b>, combinando visión técnica, capacidad de ejecución y orientación a negocio. He asumido responsabilidades en definición de arquitectura, modelado de datos, desarrollo full stack, contenerización con <b>Docker</b>, implantación de procesos <b>CI/CD</b> y despliegue en entornos cloud como <b>OpenShift, Azure y Heroku</b>.<br><br>",
+                "Actualmente desempeño un rol de <b>Technical Lead con responsabilidad end-to-end sobre proyectos</b>, abarcando desde la toma de requisitos y la definición de arquitectura hasta la entrega final en cliente. Actúo como <b>principal interlocutor técnico</b>, liderando equipos de desarrollo, tomando decisiones clave de diseño y asegurando la calidad, escalabilidad y mantenibilidad de las soluciones en entornos reales.<br><br>",
+                "Mi forma de trabajo se apoya en una cultura de ingeniería basada en la <b>calidad técnica, la colaboración, la mejora continua y la transferencia de conocimiento</b>. Promuevo el uso de buenas prácticas como <b>Clean Code, SOLID, revisión de código, testing e integración continua</b>, además de impulsar estándares, plantillas reutilizables, documentación técnica, guías de despliegue y materiales formativos internos para reforzar la autonomía y capacidad técnica de los equipos.<br><br>",
                 "Tras iniciarme en el mundo de la programación en <b>marzo de 2016</b>, completé formación en <b>SAP (ABAP)</b>, <b>Java</b> y <b>Salesforce</b>, consolidando una base técnica que marcaría el inicio de mi trayectoria profesional.<br><br>",
                 "Durante mis primeros años en <b>DxD Applications & IT Solutions</b>, participé en proyectos de mantenimiento y desarrollo sobre <b>Salesforce</b>, integraciones REST, servicios en <b>Node.js</b> desplegados en <b>Heroku</b>, aplicaciones Java web y procesos ETL con <b>Talend</b>. Esta etapa me permitió crecer tanto como desarrollador como en la comprensión de arquitecturas, integraciones y despliegues en la nube.<br><br>",
                 "Posteriormente, en <b>Grupo Oesía</b>, trabajé como desarrollador y más adelante como analista técnico en proyectos de <b>gestión de residuos</b> y <b>administración pública</b>. Allí asumí responsabilidades de arquitectura, desarrollo full stack, soporte al equipo y transferencia de conocimiento, además de <b>gestionar en solitario</b> el mantenimiento y evolución de una aplicación del Ayuntamiento de Zaragoza.<br><br>",
                 "En <b>UST Global</b> desempeñé el rol de <b>Software Full Stack Senior Analyst Engineer</b>, participando de forma clave en el desarrollo de una aplicación hospitalaria con <b>Angular</b> y <b>Node.js</b>. En esta etapa reforcé especialmente mis capacidades en arquitectura front-end, gestión de estado, desarrollo back-end, revisión de código y trabajo colaborativo en equipos exigentes.<br><br>",
-                "Desde <b>noviembre de 2021</b> desempeño el rol de <b>Technical Lead en Adasa</b>, liderando iniciativas vinculadas al agua, medio ambiente, telemetría, monitorización, meteorología, gestión documental y administración pública. Durante esta etapa he definido y supervisado arquitecturas basadas en <b>Angular, Node.js, TypeScript, Flutter, Python, ThingsBoard, PostgreSQL, Docker, GitLab CI, OpenShift, Azure Functions y sistemas de autenticación como Keycloak/LDAP</b>, con foco en la escalabilidad, la trazabilidad y la mantenibilidad de las soluciones.<br><br>",
-                "A lo largo de mi carrera he afrontado tareas clave como la definición de la <b>arquitectura fundamental de los proyectos</b>, la creación de <b>plantillas base reutilizables</b>, el desarrollo de <b>módulos de referencia</b>, la definición del <b>modelo de datos</b>, la implantación de <b>Docker</b> y <b>CI/CD</b>, la elaboración de <b>manuales técnicos, guías de despliegue y documentación metodológica</b>, así como la creación de <b>videotutoriales y materiales formativos internos</b> para reforzar la capacitación y la transferencia de conocimiento en los equipos.<br><br>",
-                "Actualmente desempeño un rol de <b>Technical Lead con responsabilidad end-to-end sobre proyectos</b>, abarcando desde la definición de arquitectura hasta la entrega final en cliente. Actúo como <b>principal interlocutor técnico</b>, liderando equipos de desarrollo, tomando decisiones clave de diseño y asegurando la correcta ejecución de las soluciones en entornos reales."
+                "Desde <b>noviembre de 2021</b> desempeño el rol de <b>Technical Lead en Adasa</b>, liderando iniciativas vinculadas al agua, medio ambiente, telemetría, monitorización, meteorología, gestión documental y administración pública. Durante esta etapa he definido y supervisado arquitecturas basadas en <b>Angular, Node.js, TypeScript, Flutter, Python, ThingsBoard, PostgreSQL, TimescaleDB, Docker, GitLab CI, OpenShift, Azure Functions y sistemas de autenticación como Keycloak/LDAP</b>, con foco en la escalabilidad, la trazabilidad y la mantenibilidad de las soluciones."
             ]
         },
         "publications_section": {
@@ -98,10 +120,10 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Actué como analista técnico en un proyecto de gestión de residuos para el Gobierno de Aragón, centrando mi trabajo en la definición e implementación de nuevos módulos y en la evolución de la arquitectura de la solución.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : Angular 8<br>",
-                        "BACKEND : Java / JPA / Spring Boot<br>",
-                        "BBDD : Oracle<br>",
-                        "DEPLOYMENT : Docker<br><br>"
+                        "Front-End : Angular 8<br>",
+                        "Back-End : Java / JPA / Spring Boot<br>",
+                        "Database : Oracle<br>",
+                        "Deployment : Docker<br><br>"
                     ],
                     "name": "Proyecto: AST Residuos (Regreso)"
                 }
@@ -119,7 +141,7 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Desarrollé y mantuve integraciones REST entre la plataforma Salesforce, la página web de ACNUR y la pasarela de pago.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "PLATFORM : Salesforce<br><br>"
+                        "Platform : Salesforce<br><br>"
                     ],
                     "name": "Proyecto: ACNUR"
                 },
@@ -128,7 +150,7 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Estructuré, desarrollé y organicé el modelo de código Apex, incluyendo principalmente triggers, Visualforce, workflows y clases de prueba.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "PLATFORM : Salesforce<br><br>"
+                        "Platform : Salesforce<br><br>"
                     ],
                     "name": "Proyecto: Grupo Álava"
                 },
@@ -137,10 +159,10 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Fui el principal responsable del desarrollo y publicación en Heroku de un servicio web para gestionar el envío masivo de datos de usuario a una plataforma SMS y el almacenamiento de las respuestas recibidas en PostgreSQL.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "BACKEND : Node.js<br>",
-                        "INTEGRATION : Eloqua / SMS platform<br>",
-                        "BBDD : PostgreSQL<br>",
-                        "DEPLOYMENT : Heroku<br><br>"
+                        "Back-End : Node.js<br>",
+                        "Integration : Eloqua / SMS platform<br>",
+                        "Database : PostgreSQL<br>",
+                        "Deployment : Heroku<br><br>"
                     ],
                     "name": "Proyecto: Deloitte Norway SMS"
                 },
@@ -149,7 +171,7 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Me encargué del mantenimiento y desarrollo de nuevos módulos en una aplicación Angular para un concesionario de automóviles.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : Angular<br><br>"
+                        "Front-End : Angular<br><br>"
                     ],
                     "name": "Proyecto: AM Bergé-Driber"
                 },
@@ -158,10 +180,10 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Investigué, desarrollé y publiqué en Heroku una aplicación Java de envío masivo de SMS integrada con Node.js, Marketing Cloud, Salesforce y Talend mediante servicios REST.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "BACKEND : Java / Node.js<br>",
-                        "INTEGRATION : Marketing Cloud / Salesforce / REST APIs<br>",
+                        "Back-End : Java / Node.js<br>",
+                        "Integration : Marketing Cloud / Salesforce / REST APIs<br>",
                         "ETL : Talend Open Studio<br>",
-                        "DEPLOYMENT : Heroku<br><br>"
+                        "Deployment : Heroku<br><br>"
                     ],
                     "name": "Proyecto: Enel - Notificaciones SMS"
                 },
@@ -170,7 +192,7 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Participé en el mantenimiento y desarrollo de evolutivos de una aplicación multipaís, tanto a nivel de administración como de desarrollo de código.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "PLATFORM : Salesforce<br>",
+                        "Platform : Salesforce<br>",
                         "ETL : Talend Open Studio<br><br>"
                     ],
                     "name": "Proyecto: Enel - Mantenimiento"
@@ -181,10 +203,10 @@
                         "<b>Tareas / Responsabilidades:</b><br> Participé como desarrollador Full Stack en un proyecto de energía centrado en la creación de una aplicación Java Web que replicaba determinadas funcionalidades de Salesforce.<br><br>",
                         "En este proyecto trabajé con tecnologías web, servicios REST, base de datos y herramientas de integración y migración masiva de datos, ampliando mi experiencia en desarrollo full stack y despliegue en Heroku.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : HTML / CSS / jQuery / JSP / JavaScript<br>",
-                        "BACKEND : Java / Spring MVC / Hibernate<br>",
-                        "BBDD : PostgreSQL<br>",
-                        "DEPLOYMENT : Heroku<br><br>"
+                        "Front-End : HTML / CSS / jQuery / JSP / JavaScript<br>",
+                        "Back-End : Java / Spring MVC / Hibernate<br>",
+                        "Database : PostgreSQL<br>",
+                        "Deployment : Heroku<br><br>"
                     ],
                     "name": "Proyecto: Enel - Emergencia Chile - Heroku"
                 },
@@ -193,8 +215,8 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Realicé tareas de mantenimiento orientadas a la resolución de incidencias en la plataforma Salesforce, tanto a nivel de administración como de desarrollo de código Apex.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "PLATFORM : Salesforce<br>",
-                        "AUTHENTICATION : Identity Connect<br><br>"
+                        "Platform : Salesforce<br>",
+                        "Authentication : Identity Connect<br><br>"
                     ],
                     "name": "Proyecto: AM Bergé-Transforma"
                 }
@@ -208,10 +230,10 @@
                         "<b>Tareas / Responsabilidades:</b><br> Participé de forma clave en el desarrollo de una aplicación hospitalaria, asumiendo tareas de estimación, desarrollo y demostración de nuevos módulos solicitados por cliente.<br><br>",
                         "Contribuí además a la mejora de la arquitectura tanto en front-end como en back-end, reforzando especialmente mis conocimientos en Angular, gestión de estado, maquetación, revisión de Pull Requests y transferencia de conocimiento dentro del equipo.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : Angular + NgRx<br>",
-                        "BACKEND : Node.js<br>",
-                        "BBDD : PostgreSQL<br>",
-                        "DEPLOYMENT : Azure<br><br>"
+                        "Front-End : Angular + NgRx<br>",
+                        "Back-End : Node.js<br>",
+                        "Database : PostgreSQL<br>",
+                        "Deployment : Azure<br><br>"
                     ],
                     "name": "Proyecto: Desarrollo Hospitalario"
                 }
@@ -224,9 +246,9 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Fui el principal y único responsable de un proyecto en cliente final, encargándome del mantenimiento y ampliación de funcionalidades de la aplicación de personal del Ayuntamiento de Zaragoza.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : JSPX<br>",
-                        "BACKEND : Java / PrimeFaces<br>",
-                        "BBDD : SQL<br><br>"
+                        "Front-End : JSPX<br>",
+                        "Back-End : Java / PrimeFaces<br>",
+                        "Database : SQL<br><br>"
                     ],
                     "name": "Proyecto: Aplicación Personal Ayuntamiento Zaragoza"
                 },
@@ -235,10 +257,10 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Participé en el desarrollo de un sistema de gestión de calidad ambiental y residuos para la administración autonómica y central, centrado en la construcción de componentes front-end y servicios back-end.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : Angular 7<br>",
-                        "BACKEND : Java / JPA / Spring Boot<br>",
-                        "BBDD : Oracle<br>",
-                        "DEPLOYMENT : Docker<br><br>"
+                        "Front-End : Angular 7<br>",
+                        "Back-End : Java / JPA / Spring Boot<br>",
+                        "Database : Oracle<br>",
+                        "Deployment : Docker<br><br>"
                     ],
                     "name": "Proyecto: AST Residuos"
                 }
@@ -249,14 +271,14 @@
                 "proyect_1": {
                     "date": "Mayo 2025 - Actualidad",
                     "description": [
-                        "<b>Tareas / Responsabilidades:</b><br> Lideré la definición, evolución y desarrollo de una nueva plataforma web para la gestión y control de vertidos no domésticos en La Rioja, orientada a sustituir una solución heredada en Microsoft Access y a centralizar la información en un registro único. Dada la ausencia de un Product Owner, asumí directamente toda la gestión del proyecto con el cliente, incluyendo la toma de requisitos, priorización de funcionalidades y seguimiento de entregas.<br><br>La aplicación unifica la gestión de autorizaciones, inspecciones, analíticas, seguimiento de expedientes y cálculo del canon, mejorando la trazabilidad, la interoperabilidad entre organismos y el control de usuarios y operaciones.",
+                        "<b>Tareas / Responsabilidades:</b><br> Lideré la definición, evolución y desarrollo de una nueva plataforma web para la gestión y control de vertidos no domésticos en La Rioja, orientada a sustituir una solución heredada en Microsoft Access y a centralizar la información en un registro único. Dada la ausencia de un Product Owner, asumí directamente toda la gestión del proyecto con el cliente, incluyendo la toma de requisitos, priorización de funcionalidades y seguimiento de entregas.<br><br>",
                         "La aplicación unifica la gestión de autorizaciones, inspecciones, analíticas, seguimiento de expedientes y cálculo del canon, mejorando la trazabilidad, la interoperabilidad entre organismos y el control de usuarios y operaciones.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : Angular 20 + NgRx<br>",
-                        "BACKEND : Node.js 20<br>",
-                        "BBDD : PostgreSQL + TimescaleDB<br>",
-                        "NOTIFICATIONS : Apprise<br>",
-                        "DEPLOYMENT : Docker + ElliotCloud<br>",
+                        "Front-End : Angular 20 + NgRx<br>",
+                        "Back-End : Node.js 20<br>",
+                        "Database : PostgreSQL + TimescaleDB<br>",
+                        "Notifications : Apprise<br>",
+                        "Deployment : Docker + ElliotCloud<br>",
                         "CI/CD : GitLab CI pipelines<br><br>"
                     ],
                     "name": "Proyecto: Registro Central de Vertidos no Domésticos - CARE Wastewater Control Center"
@@ -267,11 +289,11 @@
                         "<b>Tareas / Responsabilidades:</b><br> Lideré una solución orientada a la monitorización, operación y mantenimiento de sistemas de radares meteorológicos, proporcionando una visión centralizada del estado de los radares, sus variables, alarmas e indicadores de disponibilidad.<br><br>",
                         "La plataforma integró capacidades de visualización y análisis con funcionalidades de gestión documental, inventario y mantenimiento, mejorando el control operativo y la trazabilidad del ecosistema radar.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : ThingsBoard / Redmine<br>",
-                        "BACKEND : Python / Ruby on Rails<br>",
-                        "BBDD : PostgreSQL + TimescaleDB / MySQL<br>",
-                        "AUTHENTICATION : Keycloak / LDAP<br>",
-                        "DEPLOYMENT : Docker + VM<br>",
+                        "Front-End : ThingsBoard / Redmine<br>",
+                        "Back-End : Python / Ruby on Rails<br>",
+                        "Database : PostgreSQL + TimescaleDB / MySQL<br>",
+                        "Authentication : Keycloak / LDAP<br>",
+                        "Deployment : Docker + VM<br>",
                         "CI/CD : GitLab CI pipelines<br><br>"
                     ],
                     "name": "Proyecto: C-OM (Centro de Operaciones y Monitorización) - AEMET"
@@ -282,9 +304,9 @@
                         "<b>Tareas / Responsabilidades:</b><br> Dirigí el desarrollo de una aplicación orientada al registro manual de datos de sensores y a la documentación de incidencias en distintos tramos, facilitando el trabajo de campo y la trazabilidad operativa.<br><br>",
                         "La solución se desarrolló como aplicación móvil con capacidad offline y evolucionó posteriormente para su uso web, incorporando integraciones de notificación mediante Twitter, Telegram, Email y Firebase Cloud Notifications.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : Flutter (Dart)<br>",
-                        "BACKEND : PHP<br>",
-                        "NOTIFICATIONS : Twitter / Telegram / Email / Firebase Cloud Notifications<br><br>"
+                        "Front-End : Flutter (Dart)<br>",
+                        "Back-End : PHP<br>",
+                        "Notifications : Twitter / Telegram / Email / Firebase Cloud Notifications<br><br>"
                     ],
                     "name": "Proyecto: SIRA Auscultación"
                 },
@@ -294,8 +316,8 @@
                         "<b>Tareas / Responsabilidades:</b><br> Lideré la migración integral de una aplicación de gestión documental heredada en PHP, abordando tanto la renovación tecnológica de la solución como la migración de su información a una nueva estructura de datos.<br><br>",
                         "Mi trabajo incluyó la definición y desarrollo de una nueva interfaz, la construcción de un nuevo back-end y la ejecución de la migración de datos mediante procesos ETL.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : Angular 14 + NgRx<br>",
-                        "BACKEND : Node.js 17<br>",
+                        "Front-End : Angular 14 + NgRx<br>",
+                        "Back-End : Node.js 17<br>",
                         "ETL : Talend Open Studio<br><br>"
                     ],
                     "name": "Proyecto: Migración de Aplicación de Gestión Documental"
@@ -305,8 +327,8 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Lideré la optimización de varias Azure Functions en un proyecto internacional de telemetría orientado a generar mapas de cobertura móvil a partir de coordenadas específicas, mejorando la eficiencia y precisión del sistema.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "BACKEND : Node.js<br>",
-                        "CLOUD : Azure Functions<br><br>"
+                        "Back-End : Node.js<br>",
+                        "Cloud : Azure Functions<br><br>"
                     ],
                     "name": "Proyecto: Azure Functions - Telemetría Internacional"
                 },
@@ -316,10 +338,10 @@
                         "<b>Tareas / Responsabilidades:</b><br> Fui responsable del desarrollo de un producto interno orientado a ayudar a las depuradoras de aguas residuales a gestionar el proceso de aireación en línea y optimizar la operación de planta.<br><br>",
                         "La solución permitió mejorar la calidad del agua depurada, reducir la presencia de reactivos y subproductos químicos y optimizar el consumo energético, apoyándose en una arquitectura contenerizada y desplegada en la nube.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "FRONTEND : Angular 13 + NgRx<br>",
-                        "BACKEND : Node.js 17<br>",
-                        "BBDD : PostgreSQL<br>",
-                        "DEPLOYMENT : Docker / OpenShift<br><br>"
+                        "Front-End : Angular 13 + NgRx<br>",
+                        "Back-End : Node.js 17<br>",
+                        "Database : PostgreSQL<br>",
+                        "Deployment : Docker / OpenShift<br><br>"
                     ],
                     "name": "Proyecto: OptimEDAR"
                 }
@@ -344,8 +366,9 @@
         },
         "agile": {
             "content": [
-                "Trabajo con metodologías ágiles como <b>Scrum</b> y <b>Kanban</b>, alineando la evolución técnica de los proyectos con los objetivos de negocio. Aplico prácticas como <b>Gitflow</b>, <b>Pull Requests</b> y revisión continua para garantizar calidad, mantenibilidad y una evolución ordenada del producto.<br><br>",
-                "Como líder técnico, promuevo equipos basados en la <b>confianza, la autonomía y la mejora continua</b>, impulsando la colaboración, la transferencia de conocimiento y el desarrollo profesional como pilares para obtener resultados sostenibles."
+                "Trabajo con metodologías ágiles como <b>Scrum</b> y <b>Kanban</b>, alineando la evolución técnica de los proyectos con los objetivos de negocio. Aplico prácticas como <b>Gitflow</b>, <b>Pull Requests</b>, revisión continua, testing e integración continua para garantizar calidad, mantenibilidad y una evolución ordenada del producto.<br><br>",
+                "Como líder técnico, promuevo equipos basados en la <b>confianza, la autonomía y la mejora continua</b>, impulsando la colaboración, la transferencia de conocimiento y el desarrollo profesional como pilares para obtener resultados sostenibles.<br><br>",
+                "Complemento la gestión ágil con un liderazgo técnico activo, estableciendo estándares, buenas prácticas y criterios de calidad que ayuden al equipo a construir soluciones sólidas, escalables y mantenibles."
             ],
             "title": "Agilidad y Gestión de Equipos"
         },
@@ -370,6 +393,7 @@
     "languages": "Idiomas",
     "personal_data": "Datos personales",
     "profile": "Perfil técnico",
+    "technical_leadership": "Liderazgo técnico",
     "publications": "Publicaciones",
     "skills": "Habilidades",
     "software_tools": "Tecnologías y herramientas",

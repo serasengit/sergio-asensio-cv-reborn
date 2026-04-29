@@ -20,6 +20,7 @@ export enum ModuleCode {
     Curriculum = 'curriculum',
     PersonalData = 'personal_data',
     Profile = 'profile',
+    TechnicalLeaderShip = 'technical_leadership',
     Education = 'education',
     Languages = 'languages',
     SoftwareTools = 'software_tools',
