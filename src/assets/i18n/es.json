@@ -115,10 +115,12 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Actué como analista técnico en un proyecto de gestión de residuos para el Gobierno de Aragón, centrando mi trabajo en la definición e implementación de nuevos módulos y en la evolución de la arquitectura de la solución.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : Angular 8<br>",
-                        "Back-End : Java / JPA / Spring Boot<br>",
-                        "Database : Oracle<br>",
-                        "Deployment : Docker<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> Angular 8</li>",
+                        "<li><strong>Back-End:</strong> Java / JPA / Spring Boot</li>",
+                        "<li><strong>Base de datos:</strong> Oracle</li>",
+                        "<li><strong>Despliegue:</strong> Docker</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: AST Residuos (Regreso)"
                 }
@@ -136,7 +138,9 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Desarrollé y mantuve integraciones REST entre la plataforma Salesforce, la página web de ACNUR y la pasarela de pago.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Platform : Salesforce<br><br>"
+                        "<ul>",
+                        "<li><strong>Plataforma:</strong> Salesforce</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: ACNUR"
                 },
@@ -145,7 +149,9 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Estructuré, desarrollé y organicé el modelo de código Apex, incluyendo principalmente triggers, Visualforce, workflows y clases de prueba.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Platform : Salesforce<br><br>"
+                        "<ul>",
+                        "<li><strong>Plataforma:</strong> Salesforce</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: Grupo Álava"
                 },
@@ -154,10 +160,12 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Fui el principal responsable del desarrollo y publicación en Heroku de un servicio web para gestionar el envío masivo de datos de usuario a una plataforma SMS y el almacenamiento de las respuestas recibidas en PostgreSQL.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Back-End : Node.js<br>",
-                        "Integration : Eloqua / SMS platform<br>",
-                        "Database : PostgreSQL<br>",
-                        "Deployment : Heroku<br><br>"
+                        "<ul>",
+                        "<li><strong>Back-End:</strong> Node.js</li>",
+                        "<li><strong>Integración:</strong> Eloqua / plataforma SMS</li>",
+                        "<li><strong>Base de datos:</strong> PostgreSQL</li>",
+                        "<li><strong>Despliegue:</strong> Heroku</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: Deloitte Norway SMS"
                 },
@@ -166,7 +174,9 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Me encargué del mantenimiento y desarrollo de nuevos módulos en una aplicación Angular para un concesionario de automóviles.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : Angular<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> Angular</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: AM Bergé-Driber"
                 },
@@ -175,10 +185,12 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Investigué, desarrollé y publiqué en Heroku una aplicación Java de envío masivo de SMS integrada con Node.js, Marketing Cloud, Salesforce y Talend mediante servicios REST.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Back-End : Java / Node.js<br>",
-                        "Integration : Marketing Cloud / Salesforce / REST APIs<br>",
-                        "ETL : Talend Open Studio<br>",
-                        "Deployment : Heroku<br><br>"
+                        "<ul>",
+                        "<li><strong>Back-End:</strong> Java / Node.js</li>",
+                        "<li><strong>Integración:</strong> Marketing Cloud / Salesforce / REST APIs</li>",
+                        "<li><strong>ETL:</strong> Talend Open Studio</li>",
+                        "<li><strong>Despliegue:</strong> Heroku</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: Enel - Notificaciones SMS"
                 },
@@ -187,8 +199,10 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Participé en el mantenimiento y desarrollo de evolutivos de una aplicación multipaís, tanto a nivel de administración como de desarrollo de código.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Platform : Salesforce<br>",
-                        "ETL : Talend Open Studio<br><br>"
+                        "<ul>",
+                        "<li><strong>Plataforma:</strong> Salesforce</li>",
+                        "<li><strong>ETL:</strong> Talend Open Studio</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: Enel - Mantenimiento"
                 },
@@ -198,10 +212,12 @@
                         "<b>Tareas / Responsabilidades:</b><br> Participé como desarrollador Full Stack en un proyecto de energía centrado en la creación de una aplicación Java Web que replicaba determinadas funcionalidades de Salesforce.<br><br>",
                         "En este proyecto trabajé con tecnologías web, servicios REST, base de datos y herramientas de integración y migración masiva de datos, ampliando mi experiencia en desarrollo full stack y despliegue en Heroku.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : HTML / CSS / jQuery / JSP / JavaScript<br>",
-                        "Back-End : Java / Spring MVC / Hibernate<br>",
-                        "Database : PostgreSQL<br>",
-                        "Deployment : Heroku<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> HTML / CSS / jQuery / JSP / JavaScript</li>",
+                        "<li><strong>Back-End:</strong> Java / Spring MVC / Hibernate</li>",
+                        "<li><strong>Base de datos:</strong> PostgreSQL</li>",
+                        "<li><strong>Despliegue:</strong> Heroku</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: Enel - Emergencia Chile - Heroku"
                 },
@@ -210,8 +226,10 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Realicé tareas de mantenimiento orientadas a la resolución de incidencias en la plataforma Salesforce, tanto a nivel de administración como de desarrollo de código Apex.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Platform : Salesforce<br>",
-                        "Authentication : Identity Connect<br><br>"
+                        "<ul>",
+                        "<li><strong>Plataforma:</strong> Salesforce</li>",
+                        "<li><strong>Autenticación:</strong> Identity Connect</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: AM Bergé-Transforma"
                 }
@@ -225,10 +243,12 @@
                         "<b>Tareas / Responsabilidades:</b><br> Participé de forma clave en el desarrollo de una aplicación hospitalaria, asumiendo tareas de estimación, desarrollo y demostración de nuevos módulos solicitados por cliente.<br><br>",
                         "Contribuí además a la mejora de la arquitectura tanto en front-end como en back-end, reforzando especialmente mis conocimientos en Angular, gestión de estado, maquetación, revisión de Pull Requests y transferencia de conocimiento dentro del equipo.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : Angular + NgRx<br>",
-                        "Back-End : Node.js<br>",
-                        "Database : PostgreSQL<br>",
-                        "Deployment : Azure<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> Angular + NgRx</li>",
+                        "<li><strong>Back-End:</strong> Node.js</li>",
+                        "<li><strong>Base de datos:</strong> PostgreSQL</li>",
+                        "<li><strong>Despliegue:</strong> Azure</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: Desarrollo Hospitalario"
                 }
@@ -241,9 +261,11 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Fui el principal y único responsable de un proyecto en cliente final, encargándome del mantenimiento y ampliación de funcionalidades de la aplicación de personal del Ayuntamiento de Zaragoza.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : JSPX<br>",
-                        "Back-End : Java / PrimeFaces<br>",
-                        "Database : SQL<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> JSPX</li>",
+                        "<li><strong>Back-End:</strong> Java / PrimeFaces</li>",
+                        "<li><strong>Base de datos:</strong> SQL</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: Aplicación Personal Ayuntamiento Zaragoza"
                 },
@@ -252,10 +274,12 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Participé en el desarrollo de un sistema de gestión de calidad ambiental y residuos para la administración autonómica y central, centrado en la construcción de componentes front-end y servicios back-end.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : Angular 7<br>",
-                        "Back-End : Java / JPA / Spring Boot<br>",
-                        "Database : Oracle<br>",
-                        "Deployment : Docker<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> Angular 7</li>",
+                        "<li><strong>Back-End:</strong> Java / JPA / Spring Boot</li>",
+                        "<li><strong>Base de datos:</strong> Oracle</li>",
+                        "<li><strong>Despliegue:</strong> Docker</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: AST Residuos"
                 }
@@ -269,12 +293,14 @@
                         "<b>Tareas / Responsabilidades:</b><br> Lideré la definición, evolución y desarrollo de una nueva plataforma web para la gestión y control de vertidos no domésticos en La Rioja, orientada a sustituir una solución heredada en Microsoft Access y a centralizar la información en un registro único. Dada la ausencia de un Product Owner, asumí directamente toda la gestión del proyecto con el cliente, incluyendo la toma de requisitos, priorización de funcionalidades y seguimiento de entregas.<br><br>",
                         "La aplicación unifica la gestión de autorizaciones, inspecciones, analíticas, seguimiento de expedientes y cálculo del canon, mejorando la trazabilidad, la interoperabilidad entre organismos y el control de usuarios y operaciones.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : Angular 20 + NgRx<br>",
-                        "Back-End : Node.js 20<br>",
-                        "Database : PostgreSQL + TimescaleDB<br>",
-                        "Notifications : Apprise<br>",
-                        "Deployment : Docker + ElliotCloud<br>",
-                        "CI/CD : GitLab CI pipelines<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> Angular 20 + NgRx</li>",
+                        "<li><strong>Back-End:</strong> Node.js 20</li>",
+                        "<li><strong>Base de datos:</strong> PostgreSQL + TimescaleDB</li>",
+                        "<li><strong>Notificaciones:</strong> Apprise</li>",
+                        "<li><strong>Despliegue:</strong> Docker + ElliotCloud</li>",
+                        "<li><strong>CI/CD:</strong> GitLab CI pipelines</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: Registro Central de Vertidos no Domésticos - CARE Wastewater Control Center"
                 },
@@ -284,12 +310,14 @@
                         "<b>Tareas / Responsabilidades:</b><br> Lideré una solución orientada a la monitorización, operación y mantenimiento de sistemas de radares meteorológicos, proporcionando una visión centralizada del estado de los radares, sus variables, alarmas e indicadores de disponibilidad.<br><br>",
                         "La plataforma integró capacidades de visualización y análisis con funcionalidades de gestión documental, inventario y mantenimiento, mejorando el control operativo y la trazabilidad del ecosistema radar.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : ThingsBoard / Redmine<br>",
-                        "Back-End : Python / Ruby on Rails<br>",
-                        "Database : PostgreSQL + TimescaleDB / MySQL<br>",
-                        "Authentication : Keycloak / LDAP<br>",
-                        "Deployment : Docker + VM<br>",
-                        "CI/CD : GitLab CI pipelines<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> ThingsBoard / Redmine</li>",
+                        "<li><strong>Back-End:</strong> Python / Ruby on Rails</li>",
+                        "<li><strong>Base de datos:</strong> PostgreSQL + TimescaleDB / MySQL</li>",
+                        "<li><strong>Autenticación:</strong> Keycloak / LDAP</li>",
+                        "<li><strong>Despliegue:</strong> Docker + VM</li>",
+                        "<li><strong>CI/CD:</strong> GitLab CI pipelines</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: C-OM (Centro de Operaciones y Monitorización) - AEMET"
                 },
@@ -299,9 +327,11 @@
                         "<b>Tareas / Responsabilidades:</b><br> Dirigí el desarrollo de una aplicación orientada al registro manual de datos de sensores y a la documentación de incidencias en distintos tramos, facilitando el trabajo de campo y la trazabilidad operativa.<br><br>",
                         "La solución se desarrolló como aplicación móvil con capacidad offline y evolucionó posteriormente para su uso web, incorporando integraciones de notificación mediante Twitter, Telegram, Email y Firebase Cloud Notifications.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : Flutter (Dart)<br>",
-                        "Back-End : PHP<br>",
-                        "Notifications : Twitter / Telegram / Email / Firebase Cloud Notifications<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> Flutter (Dart)</li>",
+                        "<li><strong>Back-End:</strong> PHP</li>",
+                        "<li><strong>Notificaciones:</strong> Twitter / Telegram / Email / Firebase Cloud Notifications</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: SIRA Auscultación"
                 },
@@ -311,9 +341,11 @@
                         "<b>Tareas / Responsabilidades:</b><br> Lideré la migración integral de una aplicación de gestión documental heredada en PHP, abordando tanto la renovación tecnológica de la solución como la migración de su información a una nueva estructura de datos.<br><br>",
                         "Mi trabajo incluyó la definición y desarrollo de una nueva interfaz, la construcción de un nuevo back-end y la ejecución de la migración de datos mediante procesos ETL.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : Angular 14 + NgRx<br>",
-                        "Back-End : Node.js 17<br>",
-                        "ETL : Talend Open Studio<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> Angular 14 + NgRx</li>",
+                        "<li><strong>Back-End:</strong> Node.js 17</li>",
+                        "<li><strong>ETL:</strong> Talend Open Studio</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: Migración de Aplicación de Gestión Documental"
                 },
@@ -322,8 +354,10 @@
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Lideré la optimización de varias Azure Functions en un proyecto internacional de telemetría orientado a generar mapas de cobertura móvil a partir de coordenadas específicas, mejorando la eficiencia y precisión del sistema.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Back-End : Node.js<br>",
-                        "Cloud : Azure Functions<br><br>"
+                        "<ul>",
+                        "<li><strong>Back-End:</strong> Node.js</li>",
+                        "<li><strong>Cloud:</strong> Azure Functions</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: Azure Functions - Telemetría Internacional"
                 },
@@ -333,10 +367,12 @@
                         "<b>Tareas / Responsabilidades:</b><br> Fui responsable del desarrollo de un producto interno orientado a ayudar a las depuradoras de aguas residuales a gestionar el proceso de aireación en línea y optimizar la operación de planta.<br><br>",
                         "La solución permitió mejorar la calidad del agua depurada, reducir la presencia de reactivos y subproductos químicos y optimizar el consumo energético, apoyándose en una arquitectura contenerizada y desplegada en la nube.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
-                        "Front-End : Angular 13 + NgRx<br>",
-                        "Back-End : Node.js 17<br>",
-                        "Database : PostgreSQL<br>",
-                        "Deployment : Docker / OpenShift<br><br>"
+                        "<ul>",
+                        "<li><strong>Front-End:</strong> Angular 13 + NgRx</li>",
+                        "<li><strong>Back-End:</strong> Node.js 17</li>",
+                        "<li><strong>Base de datos:</strong> PostgreSQL</li>",
+                        "<li><strong>Despliegue:</strong> Docker / OpenShift</li>",
+                        "</ul>"
                     ],
                     "name": "Proyecto: OptimEDAR"
                 }
