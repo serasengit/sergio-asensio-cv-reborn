@@ -1,9 +1,9 @@
-<div id="profile" class="profile pt-4">
+<div id="profile" class="profile pt-4 w-100">
     <h1 class="profile__title fw-bold fs-3 mat-tertiary text-center">
         {{ 'profile' | translate }}
     </h1>
 
-    <div class="container px-0 w-100 mt-4">
+    <div class="container-fluid px-0 w-100 mt-4">
         <div class="row g-4">
             <div class="col-12 col-md-6" *ngFor="let item of 'curriculum_page.profile_section.content' | translate; let i = index">
                 <div class="profile__card h-100 rounded-4 p-4">
