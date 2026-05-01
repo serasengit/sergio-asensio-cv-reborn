@@ -290,8 +290,8 @@
                 "proyect_1": {
                     "date": "Mayo 2025 - Actualidad",
                     "description": [
-                        "<b>Tareas / Responsabilidades:</b><br> Lideré la definición, evolución y desarrollo de una nueva plataforma web para la gestión y control de vertidos no domésticos en La Rioja, orientada a sustituir una solución heredada en Microsoft Access y a centralizar la información en un registro único. Dada la ausencia de un Product Owner, asumí directamente toda la gestión del proyecto con el cliente, incluyendo la toma de requisitos, priorización de funcionalidades y seguimiento de entregas.<br><br>",
-                        "La aplicación unifica la gestión de autorizaciones, inspecciones, analíticas, seguimiento de expedientes y cálculo del canon, mejorando la trazabilidad, la interoperabilidad entre organismos y el control de usuarios y operaciones.<br><br>",
+                        "<b>Responsabilidades:</b><br> Definición, evolución y desarrollo de una nueva plataforma web para la gestión y control de vertidos no domésticos en La Rioja, orientada a sustituir una solución legacy en Microsoft Access y centralizar la información en un registro único. Ante la ausencia de Product Owner, también se asumió la gestión directa del proyecto con el cliente, incluyendo la toma de requisitos, la priorización funcional y el seguimiento de entregas.<br><br>",
+                        "La aplicación integra la gestión de autorizaciones, inspecciones, analíticas de laboratorio, expedientes y cálculos del canon de vertido, mejorando la trazabilidad, la interoperabilidad entre organismos y el control operativo y de usuarios.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> Angular 20 + NgRx</li>",
@@ -299,16 +299,16 @@
                         "<li><strong>Base de datos:</strong> PostgreSQL + TimescaleDB</li>",
                         "<li><strong>Notificaciones:</strong> Apprise</li>",
                         "<li><strong>Despliegue:</strong> Docker + ElliotCloud</li>",
-                        "<li><strong>CI/CD:</strong> GitLab CI pipelines</li>",
+                        "<li><strong>CI/CD:</strong> pipelines GitLab CI</li>",
                         "</ul>"
                     ],
-                    "name": "Proyecto: Registro Central de Vertidos no Domésticos - CARE Wastewater Control Center"
+                    "name": "Proyecto: Registro Central de Vertidos No Domésticos - CARE Centro de Control de Vertidos"
                 },
                 "proyect_2": {
                     "date": "Mayo 2024 - Mayo 2025",
                     "description": [
-                        "<b>Tareas / Responsabilidades:</b><br> Lideré una solución orientada a la monitorización, operación y mantenimiento de sistemas de radares meteorológicos, proporcionando una visión centralizada del estado de los radares, sus variables, alarmas e indicadores de disponibilidad.<br><br>",
-                        "La plataforma integró capacidades de visualización y análisis con funcionalidades de gestión documental, inventario y mantenimiento, mejorando el control operativo y la trazabilidad del ecosistema radar.<br><br>",
+                        "<b>Responsabilidades:</b><br> Desarrollo de una solución orientada a la monitorización, operación y mantenimiento de sistemas de radar meteorológico, proporcionando una visión centralizada del estado de los radares, variables, alarmas e indicadores de disponibilidad.<br><br>",
+                        "La plataforma combinaba capacidades de visualización y analítica con funcionalidades de gestión documental, inventario y mantenimiento, mejorando el control operativo y la trazabilidad del ecosistema radar.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> ThingsBoard / Redmine</li>",
@@ -316,16 +316,16 @@
                         "<li><strong>Base de datos:</strong> PostgreSQL + TimescaleDB / MySQL</li>",
                         "<li><strong>Autenticación:</strong> Keycloak / LDAP</li>",
                         "<li><strong>Despliegue:</strong> Docker + VM</li>",
-                        "<li><strong>CI/CD:</strong> GitLab CI pipelines</li>",
+                        "<li><strong>CI/CD:</strong> pipelines GitLab CI</li>",
                         "</ul>"
                     ],
-                    "name": "Proyecto: C-OM (Centro de Operaciones y Monitorización) - AEMET"
+                    "name": "Proyecto: C-OM Centro de Operación y Monitorización - AEMET"
                 },
                 "proyect_3": {
                     "date": "Enero 2023 - Mayo 2024",
                     "description": [
-                        "<b>Tareas / Responsabilidades:</b><br> Dirigí el desarrollo de una aplicación orientada al registro manual de datos de sensores y a la documentación de incidencias en distintos tramos, facilitando el trabajo de campo y la trazabilidad operativa.<br><br>",
-                        "La solución se desarrolló como aplicación móvil con capacidad offline y evolucionó posteriormente para su uso web, incorporando integraciones de notificación mediante Twitter, Telegram, Email y Firebase Cloud Notifications.<br><br>",
+                        "<b>Responsabilidades:</b><br> Coordinación del desarrollo de una aplicación orientada a la introducción manual de datos de sensores y al registro de incidencias en diferentes tramos, dando soporte al trabajo de campo y a la trazabilidad operativa.<br><br>",
+                        "La solución se desarrolló inicialmente como una aplicación móvil con capacidades offline y posteriormente evolucionó para su uso web, incorporando integraciones de notificación con Twitter, Telegram, Email y Firebase Cloud Notifications.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> Flutter (Dart)</li>",
@@ -338,8 +338,8 @@
                 "proyect_4": {
                     "date": "Enero 2023 - Mayo 2024",
                     "description": [
-                        "<b>Tareas / Responsabilidades:</b><br> Lideré la migración integral de una aplicación de gestión documental heredada en PHP, abordando tanto la renovación tecnológica de la solución como la migración de su información a una nueva estructura de datos.<br><br>",
-                        "Mi trabajo incluyó la definición y desarrollo de una nueva interfaz, la construcción de un nuevo back-end y la ejecución de la migración de datos mediante procesos ETL.<br><br>",
+                        "<b>Responsabilidades:</b><br> Migración end-to-end de una aplicación legacy de gestión documental basada en PHP, abarcando tanto la modernización tecnológica de la solución como la migración de sus datos a una nueva estructura.<br><br>",
+                        "El trabajo incluyó la definición y desarrollo de una nueva interfaz, la construcción de un nuevo back-end y la ejecución de procesos de migración de datos mediante ETL.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> Angular 14 + NgRx</li>",
@@ -352,7 +352,7 @@
                 "proyect_5": {
                     "date": "Mayo 2022 - Enero 2023",
                     "description": [
-                        "<b>Tareas / Responsabilidades:</b><br> Lideré la optimización de varias Azure Functions en un proyecto internacional de telemetría orientado a generar mapas de cobertura móvil a partir de coordenadas específicas, mejorando la eficiencia y precisión del sistema.<br><br>",
+                        "<b>Responsabilidades:</b><br> Optimización de varias Azure Functions dentro de un proyecto internacional de telemetría orientado a generar mapas de cobertura móvil a partir de coordenadas específicas, mejorando la eficiencia y precisión del sistema.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "<ul>",
                         "<li><strong>Back-End:</strong> Node.js</li>",
@@ -364,8 +364,8 @@
                 "proyect_6": {
                     "date": "Noviembre 2021 - Mayo 2022",
                     "description": [
-                        "<b>Tareas / Responsabilidades:</b><br> Fui responsable del desarrollo de un producto interno orientado a ayudar a las depuradoras de aguas residuales a gestionar el proceso de aireación en línea y optimizar la operación de planta.<br><br>",
-                        "La solución permitió mejorar la calidad del agua depurada, reducir la presencia de reactivos y subproductos químicos y optimizar el consumo energético, apoyándose en una arquitectura contenerizada y desplegada en la nube.<br><br>",
+                        "<b>Responsabilidades:</b><br> Desarrollo de un producto interno diseñado para ayudar a estaciones depuradoras de aguas residuales a gestionar el proceso de aireación en tiempo real y optimizar la operación de planta.<br><br>",
+                        "La solución contribuía a mejorar la calidad del agua tratada, reducir la presencia de reactivos químicos y subproductos, y optimizar el consumo energético, todo ello sobre una arquitectura cloud contenerizada.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> Angular 13 + NgRx</li>",
@@ -389,8 +389,8 @@
             "contact_link": "<b>¡Hablemos!</b>",
             "content": [
                 "Entiendo cada proyecto como una oportunidad para construir <b>soluciones útiles, sólidas y con impacto real</b>.<br><br>",
-                "Doy especial importancia a una <b>arquitectura bien definida y unos cimientos técnicos sólidos</b>, clave para construir de forma eficiente, escalar con seguridad y evolucionar sin generar deuda técnica innecesaria.<br><br>",
-                "Creo que los mejores resultados nacen de combinar <b>criterio técnico, organización, colaboración y equipos alineados</b>.<br><br>",
+                "Doy especial importancia a combinar <b>criterio técnico, visión de producto y orientación a resultados</b>, buscando siempre soluciones que aporten valor real, sean mantenibles y puedan evolucionar de forma sostenible.<br><br>",
+                "A lo largo de mi trayectoria, cada proyecto ha supuesto una oportunidad para seguir creciendo profesionalmente, aprendiendo de nuevos contextos, tecnologías y equipos.<br><br>",
                 "Si deseas conocer más sobre mi experiencia y trayectoria, estaré encantado de conversar contigo."
             ],
             "title": "Sobre mí"
@@ -398,8 +398,9 @@
         "agile": {
             "content": [
                 "Trabajo con metodologías ágiles como <b>Scrum</b> y <b>Kanban</b>, alineando la evolución técnica de los proyectos con los objetivos de negocio y las necesidades reales del cliente.<br><br>",
-                "Aplico prácticas como <b>Gitflow, Pull Requests, revisión de código, testing e integración continua</b> para garantizar calidad, mantenibilidad y una evolución ordenada del producto.<br><br>",
-                "Como líder técnico, promuevo equipos basados en la <b>confianza, la autonomía, la transferencia de conocimiento y la mejora continua</b>, impulsando la responsabilidad técnica y el crecimiento profesional."
+                "Aplico prácticas como <b>Gitflow, Pull Requests, revisión de código, testing e integración continua</b> para favorecer una evolución ordenada, colaborativa y mantenible del producto.<br><br>",
+                "Como líder técnico, promuevo equipos basados en la <b>confianza, la autonomía, la transferencia de conocimiento y la mejora continua</b>, impulsando la responsabilidad técnica y el crecimiento profesional.<br><br>",
+                "También he participado en la <b>definición de metodologías, guías de trabajo y manuales técnicos</b>, orientados a estandarizar la ejecución de proyectos y facilitar la incorporación de buenas prácticas en los equipos."
             ],
             "title": "Agilidad y Gestión de Equipos"
         },
@@ -407,8 +408,9 @@
             "content": [
                 "<b>¡Bienvenido a mi web!</b><br><br>",
                 "Soy Sergio Asensio, <b>Technical Lead</b> graduado en <b>Matemáticas</b> por la Universidad de Zaragoza, con más de <b>10 años de experiencia en desarrollo de software y soluciones tecnológicas</b> y más de <b>4 años de especialización en el sector del agua y medio ambiente</b>.<br><br>",
-                "Actualmente desempeño un rol de <b>Technical Lead con responsabilidad end-to-end sobre proyectos</b>, abarcando desde la toma de requisitos y la definición de arquitectura hasta la entrega final en cliente.<br><br>",
-                "Actúo como <b>principal interlocutor técnico</b>, liderando equipos de desarrollo, tomando decisiones clave de diseño y asegurando la <b>calidad, escalabilidad y mantenibilidad</b> de las soluciones en entornos reales."
+                "Actualmente desempeño un rol con <b>responsabilidad end-to-end sobre proyectos</b>, abarcando desde la toma de requisitos y la definición técnica hasta la entrega final al cliente.<br><br>",
+                "Actúo como <b>principal interlocutor técnico</b>, liderando equipos de desarrollo, tomando decisiones clave de diseño y asegurando que las soluciones respondan tanto a las necesidades funcionales como a los requisitos técnicos y de negocio del proyecto.<br><br>",
+                "Mi perfil combina experiencia como <b>Full Stack Developer, responsable técnico, diseñador de soluciones y coordinador de equipos</b>, aportando una visión integral del ciclo de vida del software."
             ],
             "title": "Sergio Asensio Puyuelo"
         },
@@ -416,8 +418,9 @@
             "content": [
                 "Cuento con experiencia en el diseño de <b>arquitecturas de software, aplicaciones web, aplicaciones móviles, plataformas de datos y soluciones IoT</b>, combinando visión técnica, capacidad de ejecución y orientación a negocio.<br><br>",
                 "He trabajado con tecnologías como <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python y ThingsBoard</b>, tanto de forma autónoma como junto a equipos multidisciplinares.<br><br>",
-                "Mi experiencia incluye <b>definición de arquitectura, modelado de datos, desarrollo full stack, contenerización con Docker, implantación de procesos CI/CD</b> y despliegue en entornos cloud como <b>OpenShift, Azure y Heroku</b>.<br><br>",
-                "Promuevo una cultura de ingeniería basada en <b>Clean Code, SOLID, revisión de código, testing, integración continua, documentación técnica, plantillas reutilizables y guías de despliegue</b> para reforzar la autonomía y calidad técnica de los equipos."
+                "Mi experiencia incluye <b>modelado de datos, desarrollo full stack, diseño de módulos base, creación de plantillas reutilizables, contenerización con Docker, implantación de procesos CI/CD</b> y despliegue en entornos cloud como <b>OpenShift, Azure y Heroku</b>.<br><br>",
+                "También he participado en la <b>definición y gestión de estructuras de base de datos</b>, estableciendo modelos, relaciones e integraciones orientadas a garantizar la integridad, eficiencia y evolución del sistema.<br><br>",
+                "Promuevo una cultura de ingeniería basada en <b>Clean Code, SOLID, revisión de código, testing, integración continua y documentación técnica</b>, reforzando la autonomía y calidad técnica de los equipos."
             ],
             "title": "Arquitectura y Tecnologías"
         }

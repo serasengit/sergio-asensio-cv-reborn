@@ -291,7 +291,7 @@
                 "proyect_1": {
                     "date": "May 2025 - Present",
                     "description": [
-                        "<b>Responsibilities:</b><br> I led the definition, evolution, and development of a new web platform for the management and control of non-domestic discharges in La Rioja, aimed at replacing a legacy Microsoft Access solution and centralising information within a single registry. Due to the absence of a Product Owner, I also took direct ownership of project management with the client, including requirements gathering, feature prioritisation, and delivery tracking.<br><br>",
+                        "<b>Responsibilities:</b><br> Definition, evolution, and development of a new web platform for the management and control of non-domestic discharges in La Rioja, aimed at replacing a legacy Microsoft Access solution and centralising information within a single registry. Due to the absence of a Product Owner, direct responsibility for project management with the client was also assumed, including requirements gathering, feature prioritisation, and delivery tracking.<br><br>",
                         "The application brings together the management of authorisations, inspections, laboratory analyses, case tracking, and discharge fee calculations, improving traceability, interoperability across organisations, and user and operational control.<br><br>",
                         "<b>Project architecture:</b><br>",
                         "<ul>",
@@ -308,7 +308,7 @@
                 "proyect_2": {
                     "date": "May 2024 - May 2025",
                     "description": [
-                        "<b>Responsibilities:</b><br> I led a solution focused on the monitoring, operation, and maintenance of meteorological radar systems, providing a centralised view of radar status, variables, alarms, and availability indicators.<br><br>",
+                        "<b>Responsibilities:</b><br> Development of a solution focused on the monitoring, operation, and maintenance of meteorological radar systems, providing a centralised view of radar status, variables, alarms, and availability indicators.<br><br>",
                         "The platform combined visualisation and analytics capabilities with document management, inventory, and maintenance features, improving operational control and traceability across the radar ecosystem.<br><br>",
                         "<b>Project architecture:</b><br>",
                         "<ul>",
@@ -325,7 +325,7 @@
                 "proyect_3": {
                     "date": "January 2023 - May 2024",
                     "description": [
-                        "<b>Responsibilities:</b><br> I led the development of an application designed for manual sensor data entry and incident reporting across different sections, supporting fieldwork and operational traceability.<br><br>",
+                        "<b>Responsibilities:</b><br> Coordination of the development of an application designed for manual sensor data entry and incident reporting across different sections, supporting fieldwork and operational traceability.<br><br>",
                         "The solution was initially developed as an offline-capable mobile application and later evolved for web use, incorporating notification integrations with Twitter, Telegram, Email, and Firebase Cloud Notifications.<br><br>",
                         "<b>Project architecture:</b><br>",
                         "<ul>",
@@ -339,8 +339,8 @@
                 "proyect_4": {
                     "date": "January 2023 - May 2024",
                     "description": [
-                        "<b>Responsibilities:</b><br> I led the end-to-end migration of a legacy PHP-based document management application, covering both the technological modernisation of the solution and the migration of its data into a new structure.<br><br>",
-                        "My work included defining and developing a new interface, building a new back-end, and carrying out data migration through ETL processes.<br><br>",
+                        "<b>Responsibilities:</b><br> End-to-end migration of a legacy PHP-based document management application, covering both the technological modernisation of the solution and the migration of its data into a new structure.<br><br>",
+                        "The work included defining and developing a new interface, building a new back-end, and carrying out data migration through ETL processes.<br><br>",
                         "<b>Project architecture:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> Angular 14 + NgRx</li>",
@@ -353,7 +353,7 @@
                 "proyect_5": {
                     "date": "May 2022 - January 2023",
                     "description": [
-                        "<b>Responsibilities:</b><br> I led the optimisation of several Azure Functions within an international telemetry project aimed at generating mobile coverage maps from specific coordinates, improving both system efficiency and accuracy.<br><br>",
+                        "<b>Responsibilities:</b><br> Optimisation of several Azure Functions within an international telemetry project aimed at generating mobile coverage maps from specific coordinates, improving both system efficiency and accuracy.<br><br>",
                         "<b>Project architecture:</b><br>",
                         "<ul>",
                         "<li><strong>Back-End:</strong> Node.js</li>",
@@ -365,7 +365,7 @@
                 "proyect_6": {
                     "date": "November 2021 - May 2022",
                     "description": [
-                        "<b>Responsibilities:</b><br> I was responsible for the development of an internal product designed to help wastewater treatment plants manage the aeration process in real time and optimise plant operations.<br><br>",
+                        "<b>Responsibilities:</b><br> Development of an internal product designed to help wastewater treatment plants manage the aeration process in real time and optimise plant operations.<br><br>",
                         "The solution helped improve treated water quality, reduce the presence of chemical reagents and by-products, and optimise energy consumption, all supported by a containerised cloud-based architecture.<br><br>",
                         "<b>Project architecture:</b><br>",
                         "<ul>",
@@ -387,40 +387,43 @@
     "home": "Home",
     "introduction_section": {
         "about_me": {
-            "contact_link": "<b>Let's talk</b>",
+            "contact_link": "<b>Let's talk!</b>",
             "content": [
-                "I approach every project as an opportunity to build <b>useful, robust and impactful solutions</b>.<br><br>",
-                "I place strong emphasis on <b>solid architecture and well-defined technical foundations</b>, as they are key to building efficiently, scaling reliably and evolving systems without unnecessary technical debt.<br><br>",
-                "I believe the best results come from combining <b>technical judgement, organisation, collaboration and aligned teams</b>.<br><br>",
-                "If you would like to know more about my experience, I would be glad to connect."
+                "I see every project as an opportunity to build <b>useful, robust solutions with real impact</b>.<br><br>",
+                "I place special importance on combining <b>technical judgment, product vision, and results orientation</b>, always aiming to create solutions that provide real value, are maintainable, and can evolve sustainably.<br><br>",
+                "Throughout my career, every project has been an opportunity to continue growing professionally, learning from new contexts, technologies, and teams.<br><br>",
+                "If you would like to know more about my experience and professional background, I would be happy to talk."
             ],
-            "title": "About me"
+            "title": "About Me"
         },
         "agile": {
             "content": [
-                "I work with Agile methodologies such as <b>Scrum</b> and <b>Kanban</b>, aligning technical delivery with business objectives and real customer needs.<br><br>",
-                "I apply engineering practices such as <b>Gitflow, Pull Requests, code reviews, testing and continuous integration</b> to ensure quality, maintainability and controlled product evolution.<br><br>",
-                "As a Technical Lead, I promote teams based on <b>trust, autonomy, knowledge sharing and continuous improvement</b>, fostering ownership and professional growth."
+                "I work with agile methodologies such as <b>Scrum</b> and <b>Kanban</b>, aligning the technical evolution of projects with business objectives and real client needs.<br><br>",
+                "I apply practices such as <b>Gitflow, Pull Requests, code reviews, testing, and continuous integration</b> to support an orderly, collaborative, and maintainable evolution of the product.<br><br>",
+                "As a technical leader, I promote teams based on <b>trust, autonomy, knowledge sharing, and continuous improvement</b>, fostering technical ownership and professional growth.<br><br>",
+                "I have also contributed to the <b>definition of methodologies, work guidelines, and technical manuals</b>, aimed at standardizing project execution and helping teams adopt good practices."
             ],
-            "title": "Agile & Team Leadership"
+            "title": "Agility and Team Management"
         },
         "introduction": {
             "content": [
-                "<b>Welcome to my website</b><br><br>",
-                "I am Sergio Asensio, a <b>Technical Lead</b> with a degree in <b>Mathematics</b> from the University of Zaragoza, with over <b>10 years of experience in software development and technology solutions</b> and more than <b>4 years specialised in the water and environmental sector</b>.<br><br>",
-                "I currently work as a <b>Technical Lead with end-to-end responsibility</b> across projects, covering everything from requirements gathering and architecture definition to final delivery.<br><br>",
-                "I act as the <b>main technical point of contact</b>, leading development teams, making key design decisions and ensuring <b>quality, scalability and maintainability</b> in real-world production environments."
+                "<b>Welcome to my website!</b><br><br>",
+                "I am Sergio Asensio, a <b>Technical Lead</b> with a degree in <b>Mathematics</b> from the University of Zaragoza, with more than <b>10 years of experience in software development and technological solutions</b> and over <b>4 years specializing in the water and environmental sector</b>.<br><br>",
+                "I currently hold a role with <b>end-to-end responsibility for projects</b>, covering requirements gathering, technical definition, and final delivery to the client.<br><br>",
+                "I act as the <b>main technical point of contact</b>, leading development teams, making key design decisions, and ensuring that solutions respond to both functional needs and the technical and business requirements of the project.<br><br>",
+                "My profile combines experience as a <b>Full Stack Developer, technical lead, solution designer, and team coordinator</b>, providing a comprehensive view of the software lifecycle."
             ],
             "title": "Sergio Asensio Puyuelo"
         },
         "technologies": {
             "content": [
-                "I have experience designing <b>software architectures, web and mobile applications, data platforms and IoT solutions</b>, combining technical vision, execution capability and business alignment.<br><br>",
-                "I have worked with technologies such as <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python and ThingsBoard</b>, both independently and within multidisciplinary teams.<br><br>",
-                "My experience includes <b>architecture definition, data modelling, full-stack development, containerisation with Docker, CI/CD implementation</b> and deployment in cloud environments such as <b>OpenShift, Azure and Heroku</b>.<br><br>",
-                "I promote an engineering culture based on <b>Clean Code, SOLID principles, code reviews, testing, continuous integration, technical documentation, reusable templates and deployment guides</b> to strengthen team autonomy and technical quality."
+                "I have experience designing <b>software architectures, web applications, mobile applications, data platforms, and IoT solutions</b>, combining technical vision, execution capacity, and business orientation.<br><br>",
+                "I have worked with technologies such as <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python, and ThingsBoard</b>, both independently and as part of multidisciplinary teams.<br><br>",
+                "My experience includes <b>data modeling, full-stack development, base module design, creation of reusable templates, Docker containerization, CI/CD process implementation</b>, and deployment in cloud environments such as <b>OpenShift, Azure, and Heroku</b>.<br><br>",
+                "I have also contributed to the <b>definition and management of database structures</b>, establishing models, relationships, and integrations aimed at ensuring system integrity, efficiency, and evolution.<br><br>",
+                "I promote an engineering culture based on <b>Clean Code, SOLID, code reviews, testing, continuous integration, and technical documentation</b>, strengthening team autonomy and technical quality."
             ],
-            "title": "Architecture & Technologies"
+            "title": "Architecture and Technologies"
         }
     },
     "internal_server_error": "Internal server error",
