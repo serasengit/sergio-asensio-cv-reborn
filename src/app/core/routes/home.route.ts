@@ -2,6 +2,12 @@ import { Route } from '@angular/router';
 import { ModuleLink } from '@core/models/module.model';
 
 export const homeRoutes: Route[] = [
+    // Redirect empty path to introduction
+    {
+        path: '',
+        pathMatch: 'full',
+        redirectTo: ModuleLink.Introduction,
+    },
     // Match curriculum route
     {
         path: ModuleLink.Curriculum,

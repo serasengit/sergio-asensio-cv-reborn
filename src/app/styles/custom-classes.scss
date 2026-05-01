@@ -32,48 +32,29 @@
 .mat-muted {
     color: mat.m2-get-color-from-palette(theme.$muted) !important;
 }
-.mat-raised-warn-button {
-    color: white !important;
-    background-color: mat.m2-get-color-from-palette(theme.$warn, 500) !important;
-    &:disabled {
-        background-color: mat.m2-get-color-from-palette(theme.$warn, 200) !important;
-    }
-    &--active {
-        background-color: mat.m2-get-color-from-palette(theme.$accent, 500) !important;
-        color: white !important;
-        &:disabled {
-            opacity: 0.5 !important;
-            background-color: mat.m2-get-color-from-palette(theme.$accent, 500) !important;
-            color: white !important;
-        }
-    }
-    &--inactive {
-        background-color: mat.m2-get-color-from-palette(theme.$secondary, 600) !important;
-        color: black !important;
-        &:disabled {
-            opacity: 0.5 !important;
-            background-color: mat.m2-get-color-from-palette(theme.$secondary, 600) !important;
-            color: black !important;
-        }
-    }
+.mat-bg-primary {
+    background-color: mat.m2-get-color-from-palette(theme.$primary) !important;
 }
-
-.mat-icon-warn-button {
-    color: mat.m2-get-color-from-palette(theme.$warn) !important;
-    &--active {
-        color: mat.m2-get-color-from-palette(theme.$accent, 500) !important;
-        &:disabled {
-            opacity: 0.5 !important;
-            color: mat.m2-get-color-from-palette(theme.$accent, 500) !important;
-        }
-    }
-    &--inactive {
-        color: mat.m2-get-color-from-palette(theme.$secondary, 600) !important;
-        &:disabled {
-            opacity: 0.5 !important;
-            color: mat.m2-get-color-from-palette(theme.$secondary, 600) !important;
-        }
-    }
+.mat-bg-secondary {
+    background-color: mat.m2-get-color-from-palette(theme.$secondary) !important;
+}
+.mat-bg-tertiary {
+    background-color: mat.m2-get-color-from-palette(theme.$tertiary) !important;
+}
+.mat-bg-edit {
+    background-color: mat.m2-get-color-from-palette(theme.$edit) !important;
+}
+.mat-bg-success {
+    background-color: mat.m2-get-color-from-palette(theme.$success) !important;
+}
+.mat-bg-error {
+    background-color: mat.m2-get-color-from-palette(theme.$error) !important;
+}
+.mat-bg-warn {
+    background-color: mat.m2-get-color-from-palette(theme.$warn) !important;
+}
+.mat-bg-muted {
+    background-color: mat.m2-get-color-from-palette(theme.$muted) !important;
 }
 
 // Mat-buttons

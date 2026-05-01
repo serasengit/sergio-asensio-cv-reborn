@@ -13,6 +13,7 @@ body {
 .wrapper {
     display: flex;
     align-items: stretch;
+    background: transparent;
 }
 
 p {
@@ -39,6 +40,7 @@ ul ul a {
     margin-right: 20px;
     font-size: 15px;
     transition: all 0.3s;
+    background: transparent;
 }
 #main.active {
     margin-left: 15px;
@@ -112,7 +114,6 @@ ul ul a {
     #sidebar ul li a {
         padding-bottom: 1px;
         padding-left: 28px;
-
         margin-top: 0px;
     }
     .lead {

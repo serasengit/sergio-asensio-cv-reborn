@@ -1,14 +1,14 @@
 <section id="personal_data" class="personal-data w-100">
-    <h1 class="personal-data__title fw-bold fs-3 text-secondary text-center mb-4">
+    <h1 class="personal-data__title fw-bold fs-3 mat-tertiary text-center mb-4">
         {{ 'personal_data' | translate }}
     </h1>
 
     <div class="container-fluid px-0 w-100">
-        <div class="personal-data__card card border-0 shadow rounded-4 bg-light w-100">
+        <div class="personal-data__card card bg-light w-100">
             <div class="card-body p-4 p-md-5 w-100">
                 <div class="row g-4 w-100 m-0">
                     <div class="col-12 col-md-6">
-                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center">
+                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center border border-1">
                             <mat-icon class="mat-primary mb-2">person</mat-icon>
 
                             <p class="personal-data__value mb-0 mt-2">
@@ -18,7 +18,7 @@
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center">
+                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center border border-1">
                             <mat-icon class="mat-primary mb-2">location_on</mat-icon>
 
                             <p class="personal-data__value mb-0 mt-2">
@@ -28,7 +28,7 @@
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center">
+                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center border border-1">
                             <mat-icon class="mat-primary mb-2">call</mat-icon>
 
                             <p class="personal-data__value mb-0 mt-2">
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center">
+                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center border border-1">
                             <mat-icon class="mat-primary mb-2">cake</mat-icon>
 
                             <p class="personal-data__value mb-0 mt-2">
@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <div class="personal-data__item p-3 rounded-3 bg-white shadow-sm text-center">
+                        <div class="personal-data__item p-3 rounded-3 bg-white shadow-sm text-center border border-1">
                             <mat-icon class="mat-primary mb-2">email</mat-icon>
 
                             <p class="personal-data__value mb-0 mt-2">
@@ -57,13 +57,20 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center">
-                            <mat-icon class="mat-primary mb-2">link</mat-icon>
+                        <a
+                            href="https://www.linkedin.com/in/sergio-asensio-puyuelo-aa9916117/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-decoration-none text-reset"
+                        >
+                            <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center border border-1">
+                                <mat-icon class="mat-primary mb-2">link</mat-icon>
 
-                            <p class="personal-data__value mb-0 mt-2">
-                                {{ 'curriculum_page.personal_data_section.linkedin_value' | translate }}
-                            </p>
-                        </div>
+                                <p class="personal-data__value mb-0 mt-2">
+                                    {{ 'curriculum_page.personal_data_section.linkedin_value' | translate }}
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
