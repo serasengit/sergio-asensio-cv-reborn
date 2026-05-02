@@ -1,6 +1,6 @@
 
 # ---- Base Node ----
-FROM node:alpine as base
+FROM node:20-slim AS base
 # Set working directory
 RUN mkdir -p /app
 WORKDIR /app
@@ -8,16 +8,16 @@ WORKDIR /app
 # ---- Dependencies ----
 FROM base AS dependencies
 # Copy configs to /app folder
-COPY ["package.json", "package-lock.json*",".eslintrc.json",".eslintignore","tsconfig.json","angular.json", "/app/"]
+COPY package.json package-lock.json eslint.config.js tsconfig.json angular.json /app/
+RUN npm ci
+
 
 # ---- Unit tests ----
 # Run linters, setup and tests
 FROM dependencies AS integration-tests
-RUN apk add chromium
+RUN apt-get update && apt-get install -y chromium && rm -rf /var/lib/apt/lists/*
 # Clean cached node_modules
 RUN npm cache clean --force
-# Install ALL node_modules, including 'devDependencies'
-RUN npm install
 # Copy files from local machine to virtual directory in docker image
 COPY . /app
 # Execute  eslint
@@ -27,25 +27,19 @@ CMD [ "npm", "run", "test:coverage" ]
 
 
 # ---- Release ----
-FROM base AS release
-# Copy production node_modules (excepting eslint configuration files)
-COPY ["package.json", "package-lock.json*","tsconfig.json","angular.json", "/app/"] --from=dependencies
-# Clean cached node_modules
-RUN npm cache clean --force
-# Install app dependencies
-RUN npm ci --only=production
+FROM dependencies AS release
 # Copy files from local machine to virtual directory in docker image
 COPY . /app
 # Default build configuration.
-ARG CONFIGURATION=production
+ARG CONFIGURATION=prod
 RUN echo "Environment: ${CONFIGURATION}"
-RUN ["sh", "-c", "npm run build -- --c ${CONFIGURATION}"]
+RUN ["sh", "-c", "npm run build -- --configuration ${CONFIGURATION}"]
 
 # ---- Nginx image ----
-FROM nginxinc/nginx-unprivileged as nginx
+FROM nginxinc/nginx-unprivileged AS nginx
 # Copy nginx conf
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 # Copy artifact build from the 'build environment'
-COPY --from=release /app/dist/sergio-asensio-cv-app /usr/share/nginx/html
+COPY --from=release /app/dist/sergio-asensio-cv/browser /usr/share/nginx/html
 # Run
 CMD ["nginx", "-g", "daemon off;"]
