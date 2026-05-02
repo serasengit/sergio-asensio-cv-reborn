@@ -14,7 +14,7 @@ services:
         ports:
             - '9876:80'
         environment:
-            - CHROME_BIN=/usr/bin/chromium-browser
+            - CHROME_BIN=/usr/bin/chromium
             - COMPOSE_HTTP_TIMEOUT=1000
         healthcheck:
             test: ['CMD', 'npm', 'run', 'test']

@@ -15,7 +15,8 @@ RUN npm ci
 # ---- Unit tests ----
 # Run linters, setup and tests
 FROM dependencies AS integration-tests
-RUN apt-get update && apt-get install -y chromium && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends chromium && rm -rf /var/lib/apt/lists/*
+ENV CHROME_BIN=/usr/bin/chromium
 # Clean cached node_modules
 RUN npm cache clean --force
 # Copy files from local machine to virtual directory in docker image
@@ -36,7 +37,7 @@ RUN echo "Environment: ${CONFIGURATION}"
 RUN ["sh", "-c", "npm run build -- --configuration ${CONFIGURATION}"]
 
 # ---- Nginx image ----
-FROM nginxinc/nginx-unprivileged AS nginx
+FROM nginx:stable-alpine AS nginx
 # Copy nginx conf
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 # Copy artifact build from the 'build environment'
