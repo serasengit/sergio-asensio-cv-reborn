@@ -4,7 +4,7 @@ Frontend for Sergio Asensio's personal CV application.
 
 This Angular web application is designed to present professional profile, experience, education, publications, and skills in a navigable, responsive, and bilingual format. The app uses standalone components, global state with NgRx, translations with `ngx-translate`, and Docker packaging to serve the build with Nginx.
 
-## Summary
+## ℹ️ Summary
 
 - Runtime: Node.js + TypeScript
 - Frontend framework: Angular 21
@@ -15,7 +15,7 @@ This Angular web application is designed to present professional profile, experi
 - Code quality: ESLint + Prettier
 - Deployment: Docker + Nginx + Cloudflare Workers Assets
 
-## Main structure
+## 🗂️ Main structure
 
 - `src/app/core/`: base layout, routes, interceptors, models, resolvers, and tokens
 - `src/app/features/`: main functional modules of the application
@@ -27,26 +27,26 @@ This Angular web application is designed to present professional profile, experi
 - `src/environments/`: environment configuration
 - `docker/`: Nginx configuration and additional Compose files
 
-## Requirements
+## ✅ Requirements
 
 - Node.js `20.x`
 - npm
 - Docker Desktop, if containerization is required
 
-## Available environments
+## 🌱 Available environments
 
 The active project configurations are defined in:
 
 - `src/environments/environment.ts`
 - `src/environments/environment.prod.ts`
 
-### `dev` configuration
+### 📋 `dev` configuration
 
 - Environment type: `Development`
 - Backend API: `http://localhost:3000/api/v1`
 - `production`: `false`
 
-### `prod` configuration
+### 📋 `prod` configuration
 
 - Environment type: `Production`
 - Backend API: `https://sergio-asensio-cv-/api/v1`
@@ -54,7 +54,7 @@ The active project configurations are defined in:
 
 Note: `angular.json` currently defines the build and serve configurations as `dev` and `prod`.
 
-## Development startup
+## 🚀 Development startup
 
 Installation:
 
@@ -84,9 +84,9 @@ Local URL:
 
 - `http://localhost:4200`
 
-## Available scripts
+## 📦 Available scripts
 
-### Development
+### 🛠️ Development
 
 - `npm run start --env=dev`
   Starts the Angular dev server using the `dev` configuration.
@@ -100,7 +100,7 @@ Local URL:
 - `npm run prestart --env=dev`
   Runs `lint` and then triggers a build before startup.
 
-### Build
+### 🏗️ Build
 
 - `npm run build`
   Generates the build using Angular's default configuration, currently `prod`.
@@ -111,7 +111,7 @@ Local URL:
 - `npx ng build --configuration prod`
   Generates a production build.
 
-### Docker
+### 🐳 Docker
 
 - `docker compose build release`
   Builds the Angular compilation image.
@@ -122,7 +122,7 @@ Local URL:
 - `npm run dockerize --env=dev --service=app`
   Runs Docker Compose using the main file and the environment-specific override file.
 
-### Quality
+### ✨ Quality
 
 - `npm run lint`
   Runs ESLint with auto-fix enabled.
@@ -133,7 +133,7 @@ Local URL:
 - `npm run format`
   Formats the code with Prettier.
 
-### Tests
+### 🧪 Tests
 
 - `npm run test`
   Runs the unit test suite with Karma.
@@ -141,7 +141,7 @@ Local URL:
 - `npm run test:coverage`
   Runs the tests and generates coverage output.
 
-### Publishing
+### ☁️ Publishing
 
 - `npm run preview`
   Launches a preview with Wrangler using the assets generated in `dist/sergio-asensio-cv/browser`.
@@ -149,7 +149,7 @@ Local URL:
 - `npm run deploy`
   Deploys the application with Wrangler.
 
-## Testing
+## 🧪 Testing
 
 Project tests live next to the related components and services:
 
@@ -167,7 +167,7 @@ Coverage:
 npm run test:coverage
 ```
 
-## Main functional modules
+## 🧩 Main functional modules
 
 - `introduction`
 - `curriculum`
@@ -184,7 +184,7 @@ Inside `curriculum`, the CV is organized into several sections:
 - `certifications`
 - `publications`
 
-## Languages
+## 🌍 Languages
 
 The application currently supports:
 
@@ -193,14 +193,14 @@ The application currently supports:
 
 Language selection is persisted in `localStorage`, and if no previous value exists, the app tries to resolve it from the browser language.
 
-## Main routes
+## 🧭 Main routes
 
 - `/introduction`
 - `/curriculum`
 
 The root route redirects to `introduction`.
 
-## Import aliases
+## 🧭 Import aliases
 
 ```ts
 @core/*      -> src/app/core/*
@@ -209,7 +209,7 @@ The root route redirects to `introduction`.
 @app/*       -> src/app/*
 ```
 
-## Angular CLI commands
+## ⚙️ Angular CLI commands
 
 If you need to generate artifacts with Angular CLI:
 
@@ -218,7 +218,7 @@ npx ng generate component component-name
 npx ng generate service service-name
 ```
 
-## Notes
+## 📝 Notes
 
 - the app uses `bootstrapApplication` and standalone components, without `AppModule`
 - the production build generates assets in `dist/sergio-asensio-cv/browser`
