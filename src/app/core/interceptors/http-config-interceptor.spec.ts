@@ -62,9 +62,7 @@ describe('httpConfigInterceptor', () => {
             context: new HttpContext().set(SKIP_SPINNER, true),
         });
 
-        const result = TestBed.runInInjectionContext(() =>
-            httpConfigInterceptor(req, () => of(new HttpResponse({ status: 200 })))
-        );
+        const result = TestBed.runInInjectionContext(() => httpConfigInterceptor(req, () => of(new HttpResponse({ status: 200 }))));
 
         await firstValueFrom(result);
 

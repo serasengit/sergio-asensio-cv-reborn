@@ -29,9 +29,7 @@ describe('MessageDialogComponent', () => {
         const fixture = TestBed.createComponent(MessageDialogComponent);
         fixture.detectChanges();
 
-        expect(fixture.componentInstance.buttons()).toEqual([
-            { label: 'accept', class: 'primary', icon: 'check', result: true },
-        ]);
+        expect(fixture.componentInstance.buttons()).toEqual([{ label: 'accept', class: 'primary', icon: 'check', result: true }]);
     });
 
     it('closes the dialog with the clicked result', () => {

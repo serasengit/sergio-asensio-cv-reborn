@@ -81,16 +81,14 @@ describe('httpAPIDialogInterceptor', () => {
         };
 
         const result = TestBed.runInInjectionContext(() =>
-            httpAPIDialogInterceptor(
-                req,
-                () =>
-                    throwError(
-                        () =>
-                            new HttpErrorResponse({
-                                status: 500,
-                                error: apiError,
-                            })
-                    )
+            httpAPIDialogInterceptor(req, () =>
+                throwError(
+                    () =>
+                        new HttpErrorResponse({
+                            status: 500,
+                            error: apiError,
+                        })
+                )
             )
         );
 

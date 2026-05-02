@@ -6,7 +6,7 @@ const prettierConfig = require('eslint-config-prettier');
 
 module.exports = [
     {
-        ignores: ['node_modules/**', 'dist/**', '.angular/**', 'eslint.config.js', 'karma.conf.js']
+        ignores: ['node_modules/**', 'dist/**', '.angular/**', 'eslint.config.js', 'karma.conf.js'],
     },
     ...tseslint.configs['flat/recommended'],
     {
@@ -14,19 +14,19 @@ module.exports = [
         languageOptions: {
             parser: tsParser,
             ecmaVersion: 2020,
-            sourceType: 'module'
+            sourceType: 'module',
         },
         plugins: {
             import: importPlugin,
-            prettier: prettierPlugin
+            prettier: prettierPlugin,
         },
         settings: {
             'import/resolver': {
                 typescript: {},
                 node: {
-                    extensions: ['.ts', '.json', '.js']
-                }
-            }
+                    extensions: ['.ts', '.json', '.js'],
+                },
+            },
         },
         rules: {
             ...importPlugin.configs.errors.rules,
@@ -40,7 +40,7 @@ module.exports = [
             '@typescript-eslint/no-inferrable-types': 'off',
             '@typescript-eslint/no-empty-interface': 'off',
             '@typescript-eslint/no-explicit-any': 'off',
-            '@typescript-eslint/explicit-function-return-type': 'error'
-        }
-    }
+            '@typescript-eslint/explicit-function-return-type': 'error',
+        },
+    },
 ];
