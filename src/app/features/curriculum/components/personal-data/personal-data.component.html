@@ -28,46 +28,52 @@
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center border border-1">
-                            <mat-icon class="mat-primary mb-2">call</mat-icon>
+                        <a
+                            href="mailto:{{ 'curriculum_page.personal_data_section.email_value' | translate }}"
+                            class="text-decoration-none text-reset"
+                            aria-label="Send email"
+                        >
+                            <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center border border-1">
+                                <mat-icon class="mat-primary mb-2">email</mat-icon>
 
-                            <p class="personal-data__value mb-0 mt-2">
-                                {{ 'curriculum_page.personal_data_section.phone_value' | translate }}
-                            </p>
-                        </div>
+                                <p class="personal-data__value mb-0 mt-2">
+                                    {{ 'curriculum_page.personal_data_section.email_value' | translate }}
+                                </p>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="col-12 col-md-6">
-                        <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center border border-1">
-                            <mat-icon class="mat-primary mb-2">cake</mat-icon>
-
-                            <p class="personal-data__value mb-0 mt-2">
-                                {{ 'curriculum_page.personal_data_section.birthdate_value' | translate }}
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <div class="personal-data__item p-3 rounded-3 bg-white shadow-sm text-center border border-1">
-                            <mat-icon class="mat-primary mb-2">email</mat-icon>
-
-                            <p class="personal-data__value mb-0 mt-2">
-                                {{ 'curriculum_page.personal_data_section.email_value' | translate }}
-                            </p>
-                        </div>
-                    </div>
                     <div class="col-12 col-md-6">
                         <a
                             href="https://www.linkedin.com/in/sergio-asensio-puyuelo-aa9916117/"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="text-decoration-none text-reset"
+                            aria-label="Open LinkedIn profile"
                         >
                             <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center border border-1">
                                 <mat-icon class="mat-primary mb-2">link</mat-icon>
 
                                 <p class="personal-data__value mb-0 mt-2">
                                     {{ 'curriculum_page.personal_data_section.linkedin_value' | translate }}
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12">
+                        <a
+                            href="https://github.com/serasengit"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-decoration-none text-reset"
+                            aria-label="Open GitHub profile"
+                        >
+                            <div class="personal-data__item p-3 rounded-3 bg-white h-100 shadow-sm text-center border border-1">
+                                <mat-icon class="mat-primary mb-2">code</mat-icon>
+
+                                <p class="personal-data__value mb-0 mt-2">
+                                    {{ 'curriculum_page.personal_data_section.github_value' | translate }}
                                 </p>
                             </div>
                         </a>
