@@ -43,6 +43,11 @@ const initialState: AppState = {
             link: ModuleLink.Curriculum,
             icon: 'description',
         },
+        {
+            code: ModuleCode.PersonalProjects,
+            link: ModuleLink.PersonalProjects,
+            icon: 'rocket_launch',
+        },
     ],
     topModule: null,
     leftModules: [],

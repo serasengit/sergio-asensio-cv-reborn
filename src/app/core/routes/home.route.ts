@@ -13,6 +13,12 @@ export const homeRoutes: Route[] = [
         path: ModuleLink.Curriculum,
         loadComponent: () => import('@features/curriculum/curriculum.container').then((m) => m.CurriculumContainer),
     },
+    // Match personal projects route
+    {
+        path: ModuleLink.PersonalProjects,
+        loadComponent: () =>
+            import('@features/personal-projects/personal-projects.component').then((m) => m.PersonalProjectsComponent),
+    },
     // Match introduction route
     {
         path: ModuleLink.Introduction,

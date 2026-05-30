@@ -1,0 +1,87 @@
+<section class="personal-projects py-5">
+    <div class="container-fluid personal-projects__container">
+        <header class="personal-projects__hero text-center mb-5">
+            <h1 class="display-4 mb-3">{{ 'personal_projects_page.title' | translate }}</h1>
+            <p class="lead mb-0">{{ 'personal_projects_page.intro' | translate }}</p>
+        </header>
+
+        <div class="row g-4">
+            @for (project of projects; track project.code) {
+                <div class="col-12 col-md-6 col-xxl-4">
+                    <article class="personal-projects__card h-100">
+                        <div class="personal-projects__card__header">
+                            <div>
+                                <h2 class="personal-projects__title h2 mb-2">
+                                    @if (project.code === 'flutter_base_app') {
+                                        <i class="fab fa-flutter personal-projects__title-icon" aria-hidden="true"></i>
+                                    }
+                                    @if (project.code === 'node_base_app') {
+                                        <i class="fab fa-node-js personal-projects__title-icon personal-projects__title-icon--node" aria-hidden="true"></i>
+                                    }
+                                    @if (project.code === 'sergio_asensio_cv_reborn') {
+                                        <i
+                                            class="fab fa-angular personal-projects__title-icon personal-projects__title-icon--angular"
+                                            aria-hidden="true"
+                                        ></i>
+                                    }
+                                    <span>{{ 'personal_projects_page.projects.' + project.code + '.title' | translate }}</span>
+                                </h2>
+                                <p class="personal-projects__subtitle mb-0">
+                                    {{ 'personal_projects_page.projects.' + project.code + '.subtitle' | translate }}
+                                </p>
+                            </div>
+
+                            <a class="personal-projects__repo-link" [href]="project.repoUrl" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                {{ 'personal_projects_page.repository_link' | translate }}
+                            </a>
+                        </div>
+
+                        <div class="row g-4">
+                            <div class="col-lg-7">
+                                <section class="personal-projects__section">
+                                    <h3 class="h5">{{ 'personal_projects_page.overview_title' | translate }}</h3>
+                                    <p class="mb-0">
+                                        {{ 'personal_projects_page.projects.' + project.code + '.overview' | translate }}
+                                    </p>
+                                </section>
+
+                                <section class="personal-projects__section">
+                                    <h3 class="h5">{{ 'personal_projects_page.highlights_title' | translate }}</h3>
+                                    <ul class="personal-projects__list mb-0">
+                                        @for (highlightIndex of [0, 1, 2, 3]; track highlightIndex) {
+                                            <li>{{ 'personal_projects_page.projects.' + project.code + '.highlights.' + highlightIndex | translate }}</li>
+                                        }
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <div class="col-lg-5">
+                                <section class="personal-projects__section">
+                                    <h3 class="h5">{{ 'personal_projects_page.stack_title' | translate }}</h3>
+                                    <p class="mb-0">
+                                        {{ 'personal_projects_page.projects.' + project.code + '.stack' | translate }}
+                                    </p>
+                                </section>
+
+                                <section class="personal-projects__section">
+                                    <h3 class="h5">{{ 'personal_projects_page.architecture_title' | translate }}</h3>
+                                    <p class="mb-0">
+                                        {{ 'personal_projects_page.projects.' + project.code + '.architecture' | translate }}
+                                    </p>
+                                </section>
+
+                                <section class="personal-projects__section">
+                                    <h3 class="h5">{{ 'personal_projects_page.quality_title' | translate }}</h3>
+                                    <p class="mb-0">
+                                        {{ 'personal_projects_page.projects.' + project.code + '.quality' | translate }}
+                                    </p>
+                                </section>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            }
+        </div>
+    </div>
+</section>

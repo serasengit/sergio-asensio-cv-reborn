@@ -1,0 +1,146 @@
+@use '@angular/material' as mat;
+@use '../../styles/theme.scss' as theme;
+
+.personal-projects {
+    min-height: 100%;
+    padding-inline: 0.5rem;
+    background: transparent;
+    color: mat.m2-get-color-from-palette(theme.$muted, 700);
+
+    &__container {
+        padding-inline: 1.5rem;
+    }
+
+    &__hero {
+        max-width: 64rem;
+        margin: 0 auto;
+    }
+
+    &__eyebrow {
+        letter-spacing: 0.2rem;
+        font-size: 0.85rem;
+        color: mat.m2-get-color-from-palette(theme.$primary, 600);
+        font-weight: 700;
+    }
+
+    &__card {
+        height: 100%;
+        padding: 2rem;
+        border-radius: 1.5rem;
+        background-color: rgba(37, 37, 37, 0.04);
+        border: 1px solid rgba(0, 56, 82, 0.08);
+        box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.14);
+    }
+
+    &__card__header {
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5rem;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    &__tag {
+        display: inline-flex;
+        padding: 0.35rem 0.85rem;
+        border-radius: 999px;
+        background: rgba(0, 56, 82, 0.08);
+        color: mat.m2-get-color-from-palette(theme.$primary, 600);
+        font-weight: 700;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+        font-size: 0.78rem;
+    }
+
+    &__subtitle {
+        color: rgba(0, 0, 0, 0.65);
+        max-width: 42rem;
+        line-height: 1.65;
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        color: rgba(0, 0, 0, 0.75);
+        font-weight: 700;
+    }
+
+    &__title-icon {
+        color: mat.m2-get-color-from-palette(theme.$edit, 500);
+        font-size: 1.9rem;
+    }
+
+    &__title-icon--node {
+        color: mat.m2-get-color-from-palette(theme.$tertiary, 500);
+    }
+
+    &__title-icon--angular {
+        color: mat.m2-get-color-from-palette(theme.$error, 500);
+    }
+
+    &__repo-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        white-space: nowrap;
+        text-decoration: none;
+        padding: 0.8rem 1.2rem;
+        border-radius: 999px;
+        background: mat.m2-get-color-from-palette(theme.$tertiary, 500);
+        color: #fff;
+        font-weight: 600;
+        transition:
+            background-color 0.2s ease,
+            transform 0.2s ease;
+    }
+
+    &__repo-link:hover {
+        background: mat.m2-get-color-from-palette(theme.$primary, 700);
+        color: #fff;
+        transform: translateY(-1px);
+    }
+
+    &__section + &__section {
+        margin-top: 1.5rem;
+    }
+
+    &__section h3 {
+        color: mat.m2-get-color-from-palette(theme.$primary, 700);
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+    }
+
+    &__section p,
+    &__list {
+        color: rgb(112, 111, 111);
+        line-height: 1.7;
+    }
+
+    &__list {
+        padding-left: 1.2rem;
+    }
+
+    &__list li + li {
+        margin-top: 0.65rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .personal-projects {
+        padding-inline: 0;
+
+        &__container {
+            padding-inline: 0.75rem;
+        }
+
+        &__card__header {
+            flex-direction: column;
+        }
+
+        &__repo-link {
+            width: 100%;
+        }
+    }
+}

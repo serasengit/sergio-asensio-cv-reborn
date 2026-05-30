@@ -12,6 +12,6 @@ describe('routes', () => {
         const children = (await routes[0].loadChildren?.()) as unknown[];
 
         expect(component.name).toBe('HomeComponent');
-        expect(children.length).toBe(3);
+        expect(children.length).toBe(4);
     });
 });

@@ -42,4 +42,8 @@ export class SidenavTopMenuComponent {
     });
 
     public readonly mustShowMenuButton = computed(() => [ModuleCode.Curriculum].includes(this.activeModule()?.code));
+
+    public readonly isMobileLayout = computed(() => {
+        return [DeviceType.ExtraSmall, DeviceType.Small].includes(this.deviceType());
+    });
 }

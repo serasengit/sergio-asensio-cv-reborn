@@ -429,6 +429,64 @@
     "internal_server_error": "Error interno del servidor",
     "introduction": "Introducción",
     "languages": "Idiomas",
+    "personal_projects": "Proyectos personales",
+    "personal_projects_page": {
+        "architecture_title": "Arquitectura",
+        "highlights_title": "Aspectos clave",
+        "intro": "Esta sección recoge proyectos públicos de GitHub con los que muestro cómo diseño bases reutilizables, estructuro decisiones técnicas y preparo productos para una entrega real.",
+        "overview_title": "Resumen",
+        "projects": {
+            "flutter_base_app": {
+                "architecture": "El proyecto se divide en capas app, core y features. La autenticación se gestiona separada de la shell, mientras que la navegación de primer nivel está guiada por estado mediante AppBloc en lugar de depender solo de rutas.",
+                "highlights": [
+                    "Plantilla reutilizable para aplicaciones Flutter orientadas a APIs.",
+                    "Incluye flujo de autenticación, navegación modular tipo shell y feedback global de peticiones.",
+                    "Preparada para localización, configuración por entorno y visualización de versión en interfaz.",
+                    "Aporta soporte para tests unitarios, de widgets e integración junto con etapas de SonarQube y GitLab CI."
+                ],
+                "overview": "Una aplicación base reutilizable en Flutter pensada para acelerar el arranque de nuevos productos. Proporciona la base técnica para apps que necesitan autenticación, navegación modular, infraestructura compartida y una separación más limpia entre el comportamiento de shell y las funcionalidades de dominio.",
+                "quality": "El repositorio incluye soporte de cobertura, tests de integración, análisis estático, configuración de SonarQube y una pipeline de CI con etapas de dependencias, análisis, test, build y sonar.",
+                "stack": "Flutter y Dart con flutter_bloc, bloc, equatable, http, http_interceptor, flutter_secure_storage, shared_preferences, flutter_dotenv, get_it, loader_overlay, intl y package_info_plus.",
+                "subtitle": "Plantilla reutilizable Flutter para aplicaciones orientadas a APIs",
+                "tag": "Plantilla Flutter",
+                "title": "flutter-base-app"
+            },
+            "node_base_app": {
+                "architecture": "El backend sigue una división bootstrap, core y features. Separa con claridad routes, controllers, services, repositories, DTOs y schemas, manteniendo autenticación, RBAC, exposición OpenAPI y activos de base de datos organizados por responsabilidad.",
+                "highlights": [
+                    "Esqueleto reutilizable de backend para productos API construidos con TypeScript y Express.",
+                    "Incluye autenticación JWT con rotación de refresh token y autorización RBAC.",
+                    "Aporta módulos CRUD de referencia, exposición OpenAPI, soporte Docker e integración con PostgreSQL.",
+                    "Viene con tests de API tipo integración, cobertura y etapas GitLab CI para build, test, sonar y ZAP."
+                ],
+                "overview": "Una aplicación base reutilizable en Node.js pensada para acelerar la creación de APIs backend bien estructuradas. Establece una base técnica limpia para proyectos reales que necesitan autenticación, autorización, funcionalidades modulares de negocio, migraciones de base de datos y tooling consistente de entrega.",
+                "quality": "El repositorio incluye linting, formateo, tests de API con Mocha y Chai, cobertura con NYC, soporte SonarQube y una pipeline de CI con etapas de dependencias, build, test, sonar y zap.",
+                "stack": "Node.js, TypeScript, Express, Objection.js, Knex, PostgreSQL, TypeDI, jsonwebtoken, bcrypt, cookie-parser, dotenv, Winston, Mocha, Chai, NYC, ESLint y Prettier.",
+                "subtitle": "Esqueleto reutilizable Node.js backend para aplicaciones orientadas a APIs",
+                "tag": "Plantilla Node.js",
+                "title": "node-base-app"
+            },
+            "sergio_asensio_cv_reborn": {
+                "architecture": "El frontend está organizado en áreas core, features, shared y store. Utiliza un modelo de navegación tipo shell, componentes standalone de Angular, NgRx para el estado de módulos y contenido bilingüe gobernado por ficheros de traducción.",
+                "highlights": [
+                    "Aplicación Angular de portfolio centrada en presentar perfil profesional, currículum y proyectos personales.",
+                    "Incluye navegación responsive superior y lateral, contenido bilingüe y secciones modulares basadas en standalone components.",
+                    "Usa Angular Material, Bootstrap, NgRx y ngx-translate para equilibrar estructura, consistencia visual y mantenibilidad.",
+                    "Preparada para empaquetado con Docker y despliegue en Cloudflare con soporte de enrutado SPA."
+                ],
+                "overview": "Una versión rehecha de mi web personal de CV, creada como una aplicación frontend mantenible en lugar de una simple página estática de presentación. Sirve tanto como portfolio público como referencia práctica de cómo estructuro frontends Angular con funcionalidades modulares, estado compartido, navegación responsive y contenido multilenguaje.",
+                "quality": "El proyecto incluye tests unitarios con Karma y Jasmine, flujos de linting y formateo, arquitectura basada en componentes standalone y preparación de despliegue mediante Docker, Nginx y Wrangler.",
+                "stack": "Angular 21, TypeScript, Angular Material, CDK, Bootstrap 5, Font Awesome, NgRx Store y Effects, ngx-translate, Karma, Jasmine, ESLint, Prettier, Docker y Cloudflare Wrangler.",
+                "subtitle": "Frontend Angular de portfolio para CV, experiencia y escaparate de proyectos personales",
+                "tag": "Portfolio Angular",
+                "title": "sergio-asensio-cv-reborn"
+            }
+        },
+        "quality_title": "Calidad y entrega",
+        "repository_link": "Ver repositorio",
+        "stack_title": "Stack",
+        "title": "Proyectos personales"
+    },
     "personal_data": "Datos personales",
     "profile": "Perfil técnico",
     "publications": "Publicaciones",

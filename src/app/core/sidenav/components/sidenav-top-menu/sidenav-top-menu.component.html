@@ -9,92 +9,147 @@
     <div class="sidenav-top-menu__toolbar__sections">
         <!-- Left Section -->
         <nav class="sidenav-top-menu__toolbar__sections__left w-100">
-            @for (module of modules(); track module) {
-                @if (module.modules?.length > 0) {
-                    <!-- Module with submodules -->
-                    <button
-                        mat-icon-button
-                        [matMenuTriggerFor]="menu"
-                        [matTooltip]="module.code | translate"
-                        [class]="{
-                            'sidenav-top-menu__toolbar__sections__left__content--active': isModuleInModule(module),
-                        }"
-                    >
-                        <div class="sidenav-top-menu__toolbar__sections__left__content">
-                            <mat-icon>{{ module.icon }}</mat-icon>
-                            <span class="sidenav-top-menu__toolbar__sections__left__content__link fs-6">
-                                {{ module.code | translate }}
-                            </span>
-                        </div>
-                    </button>
+            @if (isMobileLayout()) {
+                <button
+                    mat-icon-button
+                    class="sidenav-top-menu__toolbar__sections__left__mobile-trigger"
+                    [matMenuTriggerFor]="mobileModules"
+                    [matTooltip]="activeModule()?.code | translate"
+                >
+                    <div class="sidenav-top-menu__toolbar__sections__left__content">
+                        <mat-icon>{{ activeModule()?.icon }}</mat-icon>
+                        <span class="sidenav-top-menu__toolbar__sections__left__content__link fs-6">
+                            {{ activeModule()?.code | translate }}
+                        </span>
+                    </div>
+                </button>
 
-                    <!-- Submodules menu -->
-                    <mat-menu #menu="matMenu">
-                        @for (subModule of module.modules; track subModule.code) {
-                            <button
-                                mat-menu-item
-                                [class]="{
-                                    'sidenav-top-menu__toolbar__sections__left__content__submodule': true,
-                                    'sidenav-top-menu__toolbar__sections__left__content__submodule--active': isModuleInModule(subModule),
-                                }"
-                                (click)="changeModule.emit(subModule)"
-                            >
-                                <mat-icon>{{ subModule.icon }}</mat-icon>
-                                <span class="fs-6">{{ subModule.code | translate }}</span>
-                            </button>
-                        }
-                    </mat-menu>
-                } @else {
-                    <!-- Module without submodules -->
-                    <button
-                        mat-icon-button
-                        (click)="changeModule.emit(module)"
-                        [matTooltip]="module.code | translate"
-                        [class]="{
-                            'sidenav-top-menu__toolbar__sections__left__content--active': isModuleInModule(module),
-                        }"
-                    >
-                        <div class="sidenav-top-menu__toolbar__sections__left__content">
+                <mat-menu #mobileModules="matMenu">
+                    @for (module of modules(); track module.code) {
+                        <button mat-menu-item (click)="changeModule.emit(module)">
                             <mat-icon>{{ module.icon }}</mat-icon>
-                            <span class="sidenav-top-menu__toolbar__sections__left__content__link fs-6">
-                                {{ module.code | translate }}
-                            </span>
-                        </div>
-                    </button>
+                            <span class="fs-6">{{ module.code | translate }}</span>
+                        </button>
+                    }
+                </mat-menu>
+            } @else {
+                @for (module of modules(); track module) {
+                    @if (module.modules?.length > 0) {
+                        <!-- Module with submodules -->
+                        <button
+                            mat-icon-button
+                            [matMenuTriggerFor]="menu"
+                            [matTooltip]="module.code | translate"
+                            [class]="{
+                                'sidenav-top-menu__toolbar__sections__left__content--active': isModuleInModule(module),
+                            }"
+                        >
+                            <div class="sidenav-top-menu__toolbar__sections__left__content">
+                                <mat-icon>{{ module.icon }}</mat-icon>
+                                <span class="sidenav-top-menu__toolbar__sections__left__content__link fs-6">
+                                    {{ module.code | translate }}
+                                </span>
+                            </div>
+                        </button>
+
+                        <!-- Submodules menu -->
+                        <mat-menu #menu="matMenu">
+                            @for (subModule of module.modules; track subModule.code) {
+                                <button
+                                    mat-menu-item
+                                    [class]="{
+                                        'sidenav-top-menu__toolbar__sections__left__content__submodule': true,
+                                        'sidenav-top-menu__toolbar__sections__left__content__submodule--active': isModuleInModule(subModule),
+                                    }"
+                                    (click)="changeModule.emit(subModule)"
+                                >
+                                    <mat-icon>{{ subModule.icon }}</mat-icon>
+                                    <span class="fs-6">{{ subModule.code | translate }}</span>
+                                </button>
+                            }
+                        </mat-menu>
+                    } @else {
+                        <!-- Module without submodules -->
+                        <button
+                            mat-icon-button
+                            (click)="changeModule.emit(module)"
+                            [matTooltip]="module.code | translate"
+                            [class]="{
+                                'sidenav-top-menu__toolbar__sections__left__content--active': isModuleInModule(module),
+                            }"
+                        >
+                            <div class="sidenav-top-menu__toolbar__sections__left__content">
+                                <mat-icon>{{ module.icon }}</mat-icon>
+                                <span class="sidenav-top-menu__toolbar__sections__left__content__link fs-6">
+                                    {{ module.code | translate }}
+                                </span>
+                            </div>
+                        </button>
+                    }
                 }
             }
         </nav>
         <!-- Right Section -->
         <div class="sidenav-top-menu__toolbar__sections__right">
-            <!-- Linkedin Link -->
-            <a
-                mat-icon-button
-                href="https://www.linkedin.com/in/sergio-asensio-puyuelo-aa9916117/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <i class="fab fa-linkedin"></i>
-            </a>
+            @if (!isMobileLayout()) {
+                <!-- Linkedin Link -->
+                <a
+                    mat-icon-button
+                    href="https://www.linkedin.com/in/sergio-asensio-puyuelo-aa9916117/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-linkedin"></i>
+                </a>
 
-            <!-- Gmail Link -->
-            <a
-                mat-icon-button
-                href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=maserasen@gmail.com&tf=1"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <i class="fab fa-google"></i>
-            </a>
+                <!-- Gmail Link -->
+                <a
+                    mat-icon-button
+                    href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=maserasen@gmail.com&tf=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-google"></i>
+                </a>
+            }
 
             <!-- Github Link -->
             <a mat-icon-button href="https://github.com/serasengit" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github"></i>
             </a>
 
+            @if (isMobileLayout()) {
+                <mat-menu #contactLinks="matMenu">
+                    <a
+                        mat-menu-item
+                        href="https://www.linkedin.com/in/sergio-asensio-puyuelo-aa9916117/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fab fa-linkedin"></i>
+                        <span class="ms-2">LinkedIn</span>
+                    </a>
+                    <a
+                        mat-menu-item
+                        href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=maserasen@gmail.com&tf=1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fab fa-google"></i>
+                        <span class="ms-2">Gmail</span>
+                    </a>
+                </mat-menu>
+
+                <button mat-icon-button [matMenuTriggerFor]="contactLinks" aria-label="More contact links">
+                    <mat-icon>more_vert</mat-icon>
+                </button>
+            }
+
             <!-- Settings Button -->
             <button mat-icon-button [matMenuTriggerFor]="settings">
                 <mat-icon>settings</mat-icon>
             </button>
+
             <!-- Settings Menu -->
             <mat-menu #settings="matMenu">
                 <mat-menu-item mat-menu-item [matMenuTriggerFor]="languages">

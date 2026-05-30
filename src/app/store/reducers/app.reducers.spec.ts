@@ -26,6 +26,7 @@ describe('appReducer', () => {
         expect(state.topModules).toEqual([
             { code: ModuleCode.Introduction, link: ModuleLink.Introduction, icon: 'person' },
             { code: ModuleCode.Curriculum, link: ModuleLink.Curriculum, icon: 'description' },
+            { code: ModuleCode.PersonalProjects, link: ModuleLink.PersonalProjects, icon: 'rocket_launch' },
         ]);
     });
 

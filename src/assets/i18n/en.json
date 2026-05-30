@@ -430,6 +430,64 @@
     "internal_server_error": "Internal server error",
     "introduction": "Introduction",
     "languages": "Languages",
+    "personal_projects": "Personal Projects",
+    "personal_projects_page": {
+        "architecture_title": "Architecture",
+        "highlights_title": "Highlights",
+        "intro": "This section gathers public GitHub projects that show how I design reusable foundations, structure technical decisions, and prepare products for real delivery.",
+        "overview_title": "Overview",
+        "projects": {
+            "flutter_base_app": {
+                "architecture": "The project is split into app, core, and feature layers. Authentication is handled separately from the shell, while top-level navigation is state-driven through AppBloc instead of relying only on route pushes.",
+                "highlights": [
+                    "Reusable starter template for API-driven Flutter applications.",
+                    "Built-in authentication flow, modular shell navigation, and global request feedback.",
+                    "Prepared for localization, environment-based configuration, and version display in the UI.",
+                    "Includes unit, widget, and integration testing support together with SonarQube and GitLab CI stages."
+                ],
+                "overview": "A reusable Flutter base application intended to accelerate the start of new products. It provides the technical groundwork for apps that need authentication, modular navigation, shared infrastructure, and a cleaner separation between shell behavior and domain features.",
+                "quality": "The repository includes test coverage support, integration tests, static analysis, SonarQube configuration, and a CI pipeline with dependency, analyze, test, build, and sonar stages.",
+                "stack": "Flutter and Dart with flutter_bloc, bloc, equatable, http, http_interceptor, flutter_secure_storage, shared_preferences, flutter_dotenv, get_it, loader_overlay, intl, and package_info_plus.",
+                "subtitle": "Reusable Flutter starter template for API-driven apps",
+                "tag": "Flutter Template",
+                "title": "flutter-base-app"
+            },
+            "node_base_app": {
+                "architecture": "The backend follows a bootstrap, core, and features split. It separates routes, controllers, services, repositories, DTOs, and schemas clearly, while keeping authentication, RBAC, OpenAPI exposure, and database assets organized by responsibility.",
+                "highlights": [
+                    "Reusable backend skeleton for API products built with TypeScript and Express.",
+                    "Includes JWT authentication with refresh token rotation and RBAC authorization.",
+                    "Provides CRUD reference modules, OpenAPI exposure, Docker support, and PostgreSQL integration.",
+                    "Comes with integration-style API tests, coverage tooling, and GitLab CI stages for build, test, sonar, and ZAP."
+                ],
+                "overview": "A reusable Node.js base application designed to accelerate the creation of structured backend APIs. It establishes a clean technical foundation for real projects that need authentication, authorization, modular business features, database migrations, and consistent delivery tooling.",
+                "quality": "The repository includes linting, formatting, Mocha and Chai API tests, NYC coverage reporting, SonarQube support, and a CI pipeline with dependency, build, test, sonar, and zap stages.",
+                "stack": "Node.js, TypeScript, Express, Objection.js, Knex, PostgreSQL, TypeDI, jsonwebtoken, bcrypt, cookie-parser, dotenv, Winston, Mocha, Chai, NYC, ESLint, and Prettier.",
+                "subtitle": "Reusable Node.js backend skeleton for API-driven applications",
+                "tag": "Node.js Template",
+                "title": "node-base-app"
+            },
+            "sergio_asensio_cv_reborn": {
+                "architecture": "The frontend is organized around core, features, shared, and store areas. It uses a shell-style navigation model, standalone Angular components, NgRx for module state, and bilingual content driven through translation files.",
+                "highlights": [
+                    "Angular portfolio application focused on presenting professional profile, curriculum, and personal projects.",
+                    "Includes responsive top and side navigation, bilingual content, and modular standalone feature sections.",
+                    "Uses Angular Material, Bootstrap, NgRx, and ngx-translate to balance structure, UI consistency, and maintainability.",
+                    "Prepared for Docker packaging and Cloudflare deployment with SPA routing support."
+                ],
+                "overview": "A rebuilt version of my personal CV website, created as a maintainable frontend application rather than a static presentation page. It serves both as my public portfolio and as a practical reference for how I structure Angular frontends with modular features, shared state, responsive navigation, and multilingual content.",
+                "quality": "The project includes unit tests with Karma and Jasmine, linting and formatting workflows, standalone component architecture, and deployment preparation through Docker, Nginx, and Wrangler.",
+                "stack": "Angular 21, TypeScript, Angular Material, CDK, Bootstrap 5, Font Awesome, NgRx Store and Effects, ngx-translate, Karma, Jasmine, ESLint, Prettier, Docker, and Cloudflare Wrangler.",
+                "subtitle": "Angular portfolio frontend for CV, experience, and personal project showcase",
+                "tag": "Angular Portfolio",
+                "title": "sergio-asensio-cv-reborn"
+            }
+        },
+        "quality_title": "Quality and Delivery",
+        "repository_link": "View repository",
+        "stack_title": "Stack",
+        "title": "Personal Projects"
+    },
     "personal_data": "Personal details",
     "profile": "Technical profile",
     "publications": "Publications",
