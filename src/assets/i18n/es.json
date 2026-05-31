@@ -386,44 +386,42 @@
     "english": "Inglés",
     "home": "Inicio",
     "introduction_section": {
-        "about_me": {
-            "contact_link": "<b>¡Hablemos!</b>",
-            "content": [
-                "Entiendo cada proyecto como una oportunidad para construir <b>soluciones útiles, sólidas y con impacto real</b>.<br><br>",
-                "Doy especial importancia a combinar <b>criterio técnico, visión de producto y orientación a resultados</b>, buscando siempre soluciones que aporten valor real, sean mantenibles y puedan evolucionar de forma sostenible.<br><br>",
-                "A lo largo de mi trayectoria, cada proyecto ha supuesto una oportunidad para seguir creciendo profesionalmente, aprendiendo de nuevos contextos, tecnologías y equipos.<br><br>",
-                "Si deseas conocer más sobre mi experiencia y trayectoria, estaré encantado de conversar contigo."
-            ],
-            "title": "Sobre mí"
-        },
-        "agile": {
-            "content": [
-                "Trabajo con metodologías ágiles como <b>Scrum</b> y <b>Kanban</b>, alineando la evolución técnica de los proyectos con los objetivos de negocio y las necesidades reales del cliente.<br><br>",
-                "Aplico prácticas como <b>Gitflow, Pull Requests, revisión de código, testing e integración continua</b> para favorecer una evolución ordenada, colaborativa y mantenible del producto.<br><br>",
-                "Como líder técnico, promuevo equipos basados en la <b>confianza, la autonomía, la transferencia de conocimiento y la mejora continua</b>, impulsando la responsabilidad técnica y el crecimiento profesional.<br><br>",
-                "También he participado en la <b>definición de metodologías, guías de trabajo y manuales técnicos</b>, orientados a estandarizar la ejecución de proyectos y facilitar la incorporación de buenas prácticas en los equipos."
-            ],
-            "title": "Agilidad y Gestión de Equipos"
-        },
         "introduction": {
+            "title": "Sergio Asensio Puyuelo",
             "content": [
                 "<b>¡Bienvenido a mi web!</b><br><br>",
-                "Soy Sergio Asensio, <b>Technical Lead</b> graduado en <b>Matemáticas</b> por la Universidad de Zaragoza, con más de <b>10 años de experiencia en desarrollo de software y soluciones tecnológicas</b> y más de <b>4 años de especialización en el sector del agua y medio ambiente</b>.<br><br>",
-                "Actualmente desempeño un rol con <b>responsabilidad end-to-end sobre proyectos</b>, abarcando desde la toma de requisitos y la definición técnica hasta la entrega final al cliente.<br><br>",
-                "Actúo como <b>principal interlocutor técnico</b>, liderando equipos de desarrollo, tomando decisiones clave de diseño y asegurando que las soluciones respondan tanto a las necesidades funcionales como a los requisitos técnicos y de negocio del proyecto.<br><br>",
-                "Mi perfil combina experiencia como <b>Full Stack Developer, responsable técnico, diseñador de soluciones y coordinador de equipos</b>, aportando una visión integral del ciclo de vida del software."
-            ],
-            "title": "Sergio Asensio Puyuelo"
+                "Soy Sergio Asensio, <b>Technical Lead</b> y <b>Full Stack Developer</b>, graduado en <b>Matemáticas</b> por la Universidad de Zaragoza. Cuento con más de <b>10 años de experiencia</b> desarrollando soluciones tecnológicas y más de <b>4 años de especialización</b> en proyectos del <b>sector del agua y medio ambiente</b>.<br><br>",
+                "Actualmente <b>lidero proyectos y equipos de desarrollo</b>, participando en todo el ciclo de vida del software: desde la <b>toma de requisitos</b> y la <b>definición de arquitecturas</b> hasta la <b>puesta en producción</b>. Actúo como punto de unión entre negocio, cliente y equipo técnico, ayudando a transformar necesidades en soluciones que aporten valor y puedan mantenerse y evolucionar con el tiempo."
+            ]
         },
-        "technologies": {
+
+        "about_me": {
+            "title": "Sobre mí",
+            "contact_link": "<b>¡Hablemos!</b>",
             "content": [
-                "Cuento con experiencia en el diseño de <b>arquitecturas de software, aplicaciones web, aplicaciones móviles, plataformas de datos y soluciones IoT</b>, combinando visión técnica, capacidad de ejecución y orientación a negocio.<br><br>",
-                "He trabajado con tecnologías como <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python y ThingsBoard</b>, tanto de forma autónoma como junto a equipos multidisciplinares.<br><br>",
-                "Mi experiencia incluye <b>modelado de datos, desarrollo full stack, diseño de módulos base, creación de plantillas reutilizables, contenerización con Docker, implantación de procesos CI/CD</b> y despliegue en entornos cloud como <b>OpenShift, Azure y Heroku</b>.<br><br>",
-                "También he participado en la <b>definición y gestión de estructuras de base de datos</b>, estableciendo modelos, relaciones e integraciones orientadas a garantizar la integridad, eficiencia y evolución del sistema.<br><br>",
-                "Promuevo una cultura de ingeniería basada en <b>Clean Code, SOLID, revisión de código, testing, integración continua y documentación técnica</b>, reforzando la autonomía y calidad técnica de los equipos."
-            ],
-            "title": "Arquitectura y Tecnologías"
+                "Soy una persona muy <b>persistente</b> con aquello que se propone, y probablemente esa sea la cualidad que mejor me define profesionalmente. Disfruto enfrentándome a <b>nuevos retos</b>, aprendiendo constantemente y buscando soluciones a problemas que, a primera vista, parecen difíciles de resolver. Cuanto más <b>desafiante</b> y desconocido es un proyecto, mayor es mi motivación por entenderlo y sacarlo adelante.<br><br>",
+                "Siempre he dado mucha importancia a los <b>cimientos</b> sobre los que se construye un proyecto. Me gusta dedicar tiempo a pensar las cosas, definir una buena base y asegurar que las decisiones iniciales permitan crecer de forma ordenada en el futuro. Del mismo modo, creo que las mejores soluciones nacen de un <b>buen equipo</b>: personas comprometidas, organizadas y con objetivos compartidos, capaces de apoyarse mutuamente y avanzar en la misma dirección.<br><br>",
+                "Espero que esta página web te ayude a conocerme un poco mejor y que disfrutes recorriéndola tanto como yo he disfrutado diseñándola y programándola. Si quieres saber más sobre mi experiencia, mis proyectos o simplemente charlar sobre tecnología, no dudes en ponerte en contacto conmigo a través del siguiente enlace:"
+            ]
+        },
+
+        "technologies": {
+            "title": "Arquitectura y Tecnologías",
+            "content": [
+                "A lo largo de mi trayectoria he participado en el diseño y desarrollo de <b>arquitecturas de software, aplicaciones web, aplicaciones móviles, plataformas de datos y soluciones IoT</b>. Me gusta entender los problemas desde una perspectiva global para poder tomar decisiones técnicas alineadas con las necesidades reales del proyecto.<br><br>",
+                "He trabajado con tecnologías como <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python y ThingsBoard</b>, tanto de forma autónoma como colaborando con equipos multidisciplinares en proyectos de distinta naturaleza y complejidad.<br><br>",
+                "Mi experiencia abarca áreas como el <b>desarrollo full stack, modelado de datos, diseño de arquitecturas, creación de componentes reutilizables, definición de integraciones, contenerización con Docker</b> y despliegue en entornos cloud como <b>OpenShift, Azure y Heroku</b>, siempre buscando soluciones que sean fáciles de mantener, entender y evolucionar conforme crecen las necesidades del negocio."
+            ]
+        },
+
+        "agile": {
+            "title": "Agilidad y Gestión de Equipos",
+            "content": [
+                "Me gusta trabajar de forma organizada y mantener una comunicación constante con clientes y equipos. Por eso suelo apoyarme en metodologías ágiles como <b>Scrum</b> y <b>Kanban</b>, utilizando <b>roadmaps</b> y planificaciones iterativas que ayuden a mantener una visión clara de hacia dónde va el proyecto.<br><br>",
+                "Considero que una buena solución no solo debe funcionar, sino también ser fácil de mantener y evolucionar. Para ello aplico prácticas como <b>Gitflow, Pull Requests, revisión de código, testing, Clean Code, SOLID e Integración Continua</b>, apoyándome además en herramientas de <b>Inteligencia Artificial</b> para agilizar determinadas tareas y mejorar la productividad. También procuro que los clientes dispongan de <b>entornos de prueba</b> donde puedan validar los avances y aportar feedback de forma temprana.<br><br>",
+                "Como líder técnico, intento fomentar equipos basados en la <b>confianza, la autonomía y el intercambio de conocimiento</b>, donde cada persona pueda aportar valor y seguir creciendo profesionalmente.<br><br>",
+                "Además, he participado en la definición de <b>metodologías, guías de trabajo y estándares técnicos</b> con el objetivo de facilitar la colaboración entre equipos y mantener una forma de trabajo consistente."
+            ]
         }
     },
     "internal_server_error": "Error interno del servidor",

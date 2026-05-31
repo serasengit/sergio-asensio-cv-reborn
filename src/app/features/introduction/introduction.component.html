@@ -70,7 +70,12 @@
                         <h2 class="display-4">{{ 'introduction_section.about_me.title' | translate }}</h2>
                         <br />
                         <p [innerHTML]="'introduction_section.about_me.content' | translate | noComma"></p>
-                        <a routerLink="contact" [innerHTML]="'introduction_section.about_me.contact_link' | translate | noComma"></a>
+                        <a
+                            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=maserasen@gmail.com&tf=1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            [innerHTML]="'introduction_section.about_me.contact_link' | translate | noComma"
+                        ></a>
                     </div>
                 </div>
             </div>
