@@ -3,7 +3,7 @@ import { MatDrawerMode, MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { Router, RouterOutlet } from '@angular/router';
 import { Language } from '@app/app.component';
-import { hideSidenav, setLanguage, setLeftModule, setTopModule, showSidenav } from '@app/store/actions/app.actions';
+import { hideSidenav, resetLeftModule, setLanguage, setLeftModule, setTopModule, showSidenav } from '@app/store/actions/app.actions';
 import {
     getDeviceType,
     getLeftModule,
@@ -52,7 +52,9 @@ export class SidenavContainer {
 
     public handleTopModuleChange(module: Module): void {
         this.appStore.dispatch(setTopModule({ module }));
+        if (module.code !== ModuleCode.Curriculum) this.appStore.dispatch(resetLeftModule());
         this.router.navigate([module.link]);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         if ([ModuleCode.Curriculum].includes(module.code) && this.deviceType() !== DeviceType.ExtraSmall) this.showSidenav();
         else this.hideSidenav();
     }

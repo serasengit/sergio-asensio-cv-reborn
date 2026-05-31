@@ -3,7 +3,7 @@ import { TestBed } from '@angular/core/testing';
 import { provideRouter, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { Language } from '@app/app.component';
-import { hideSidenav, setLeftModule, setLanguage, setTopModule, showSidenav } from '@app/store/actions/app.actions';
+import { hideSidenav, resetLeftModule, setLeftModule, setLanguage, setTopModule, showSidenav } from '@app/store/actions/app.actions';
 import {
     getDeviceType,
     getLeftModule,
@@ -77,12 +77,34 @@ describe('SidenavContainer', () => {
         const fixture = TestBed.createComponent(SidenavContainer);
         const component = fixture.componentInstance;
         const module = { code: ModuleCode.Curriculum, link: ModuleLink.Curriculum };
+        const scrollToSpy = spyOn(window, 'scrollTo');
 
         component.handleTopModuleChange(module);
 
         expect(router.navigate).toHaveBeenCalledWith([ModuleLink.Curriculum]);
+        expect(scrollToSpy).toHaveBeenCalled();
+        expect((scrollToSpy.calls.mostRecent().args[0] as ScrollToOptions).top).toBe(0);
+        expect((scrollToSpy.calls.mostRecent().args[0] as ScrollToOptions).behavior).toBe('smooth');
         expect(store.dispatch).toHaveBeenCalledWith(setTopModule({ module }));
         expect(store.dispatch).toHaveBeenCalledWith(showSidenav());
+        expect(store.dispatch).not.toHaveBeenCalledWith(resetLeftModule());
+    });
+
+    it('resets the left module when leaving curriculum', () => {
+        const fixture = TestBed.createComponent(SidenavContainer);
+        const component = fixture.componentInstance;
+        const module = { code: ModuleCode.Introduction, link: ModuleLink.Introduction };
+        const scrollToSpy = spyOn(window, 'scrollTo');
+
+        component.handleTopModuleChange(module);
+
+        expect(store.dispatch).toHaveBeenCalledWith(setTopModule({ module }));
+        expect(store.dispatch).toHaveBeenCalledWith(resetLeftModule());
+        expect(router.navigate).toHaveBeenCalledWith([ModuleLink.Introduction]);
+        expect(scrollToSpy).toHaveBeenCalled();
+        expect((scrollToSpy.calls.mostRecent().args[0] as ScrollToOptions).top).toBe(0);
+        expect((scrollToSpy.calls.mostRecent().args[0] as ScrollToOptions).behavior).toBe('smooth');
+        expect(store.dispatch).toHaveBeenCalledWith(hideSidenav());
     });
 
     it('computes the sidenav mode from the device type', () => {

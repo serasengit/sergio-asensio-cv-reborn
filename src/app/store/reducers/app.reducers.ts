@@ -6,6 +6,7 @@ import {
     hideSidenav,
     hideSpinner,
     purge,
+    resetLeftModule,
     setDeviceType,
     setLanguage,
     setLeftModule,
@@ -22,9 +23,9 @@ export interface AppState {
     showSidenav: boolean;
     language: Language;
     topModules: Module[];
-    topModule: Module;
+    topModule: Module | null;
     leftModules: Module[];
-    leftModule: Module;
+    leftModule: Module | null;
 }
 
 const initialState: AppState = {
@@ -94,6 +95,10 @@ export const appReducer = createReducer(
     on(setLeftModule, (state, action) => ({
         ...state,
         leftModule: { ...action.module },
+    })),
+    on(resetLeftModule, (state) => ({
+        ...state,
+        leftModule: initialState.leftModule,
     })),
     on(purge, () => ({
         ...initialState,

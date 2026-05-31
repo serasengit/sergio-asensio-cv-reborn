@@ -23,6 +23,8 @@ export const setLeftModules = createAction('[App] Set left modules', props<{ mod
 
 export const setLeftModule = createAction('[App] Set left module', props<{ module: Module }>());
 
+export const resetLeftModule = createAction('[App] Reset left module');
+
 export const APIOperationSuccess = createAction('[App] API Operation Success');
 
 export const APIOperationFailure = createAction('[App] API Operation Failure');
