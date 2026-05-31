@@ -419,7 +419,6 @@
             "content": [
                 "Me gusta trabajar de forma organizada y mantener una comunicación constante con clientes y equipos. Por eso suelo apoyarme en metodologías ágiles como <b>Scrum</b> y <b>Kanban</b>, utilizando <b>roadmaps</b> y planificaciones iterativas que ayuden a mantener una visión clara de hacia dónde va el proyecto.<br><br>",
                 "Considero que una buena solución no solo debe funcionar, sino también ser fácil de mantener y evolucionar. Para ello aplico prácticas como <b>Gitflow, Pull Requests, revisión de código, testing, Clean Code, SOLID e Integración Continua</b>, apoyándome además en herramientas de <b>Inteligencia Artificial</b> para agilizar determinadas tareas y mejorar la productividad. También procuro que los clientes dispongan de <b>entornos de prueba</b> donde puedan validar los avances y aportar feedback de forma temprana.<br><br>",
-                "Como líder técnico, intento fomentar equipos basados en la <b>confianza, la autonomía y el intercambio de conocimiento</b>, donde cada persona pueda aportar valor y seguir creciendo profesionalmente.<br><br>",
                 "Además, he participado en la definición de <b>metodologías, guías de trabajo y estándares técnicos</b> con el objetivo de facilitar la colaboración entre equipos y mantener una forma de trabajo consistente."
             ]
         }
@@ -454,7 +453,7 @@
                 "highlights": [
                     "Esqueleto reutilizable de backend para productos API construidos con TypeScript y Express.",
                     "Incluye autenticación JWT con rotación de refresh token y autorización RBAC.",
-                    "Aporta módulos CRUD de referencia, exposición OpenAPI, soporte Docker e integración con PostgreSQL.",
+                    "Aporta módulos CRUD de referencia, exposición OpenAPI, soporte Docker e integración con PostgreSQL mediante Objection.js y Knex como capa ORM/persistencia.",
                     "Viene con tests de API tipo integración, cobertura y etapas GitLab CI para build, test, sonar y ZAP."
                 ],
                 "overview": "Una aplicación base reutilizable en Node.js pensada para acelerar la creación de APIs backend bien estructuradas. Establece una base técnica limpia para proyectos reales que necesitan autenticación, autorización, funcionalidades modulares de negocio, migraciones de base de datos y tooling consistente de entrega.",

@@ -420,7 +420,6 @@
             "content": [
                 "I like working in an organized way and maintaining clear communication with both clients and development teams. For that reason, I often rely on agile methodologies such as <b>Scrum</b> and <b>Kanban</b>, using <b>roadmaps</b> and iterative planning to keep a clear view of the project's direction and priorities.<br><br>",
                 "I believe that a good solution should not only work well, but also be easy to maintain and evolve over time. To achieve this, I apply practices such as <b>Gitflow, Pull Requests, code reviews, testing, Clean Code, SOLID, and Continuous Integration</b>, while also leveraging <b>Artificial Intelligence</b> tools to streamline development tasks and improve productivity. I also ensure that clients have access to <b>testing environments</b> where they can validate progress and provide feedback early in the process.<br><br>",
-                "As a Technical Lead, I try to foster teams built on <b>trust, autonomy, and knowledge sharing</b>, where everyone can contribute value while continuing to grow professionally.<br><br>",
                 "I have also been involved in defining <b>methodologies, working guidelines, and technical standards</b> aimed at improving collaboration across teams and maintaining a consistent way of working."
             ]
         }
@@ -455,7 +454,7 @@
                 "highlights": [
                     "Reusable backend skeleton for API products built with TypeScript and Express.",
                     "Includes JWT authentication with refresh token rotation and RBAC authorization.",
-                    "Provides CRUD reference modules, OpenAPI exposure, Docker support, and PostgreSQL integration.",
+                    "Provides CRUD reference modules, OpenAPI exposure, Docker support, and PostgreSQL integration through Objection.js and Knex as the ORM/persistence layer.",
                     "Comes with integration-style API tests, coverage tooling, and GitLab CI stages for build, test, sonar, and ZAP."
                 ],
                 "overview": "A reusable Node.js base application designed to accelerate the creation of structured backend APIs. It establishes a clean technical foundation for real projects that need authentication, authorization, modular business features, database migrations, and consistent delivery tooling.",
