@@ -101,13 +101,6 @@
             "team_enablement_2": "Elaboración de videotutoriales internos y materiales formativos para impulsar la capacitación tecnológica del equipo."
         },
         "work_experience_section": {
-            "summary": [
-                "Tras iniciarme en el mundo de la programación en <b>marzo de 2016</b>, completé formación en <b>SAP (ABAP)</b>, <b>Java</b> y <b>Salesforce</b>, consolidando una base técnica que marcaría el inicio de mi trayectoria profesional.<br><br>",
-                "Durante mis primeros años en <b>DxD Applications & IT Solutions</b>, participé en proyectos de mantenimiento y desarrollo sobre <b>Salesforce</b>, integraciones REST, servicios en <b>Node.js</b> desplegados en <b>Heroku</b>, aplicaciones Java web y procesos ETL con <b>Talend</b>. Esta etapa me permitió crecer tanto como desarrollador como en la comprensión de arquitecturas, integraciones y despliegues en la nube.<br><br>",
-                "Posteriormente, en <b>Grupo Oesía</b>, trabajé como desarrollador y más adelante como analista técnico en proyectos de <b>gestión de residuos</b> y <b>administración pública</b>. Allí asumí responsabilidades de arquitectura, desarrollo full stack, soporte al equipo y transferencia de conocimiento, además de <b>gestionar en solitario</b> el mantenimiento y evolución de una aplicación del Ayuntamiento de Zaragoza.<br><br>",
-                "En <b>UST Global</b> desempeñé el rol de <b>Software Full Stack Senior Analyst Engineer</b>, participando de forma clave en el desarrollo de una aplicación hospitalaria con <b>Angular</b> y <b>Node.js</b>. En esta etapa reforcé especialmente mis capacidades en arquitectura front-end, gestión de estado, desarrollo back-end, revisión de código y trabajo colaborativo en equipos exigentes.<br><br>",
-                "Desde <b>noviembre de 2021</b> desempeño el rol de <b>Technical Lead en Adasa</b>, liderando iniciativas vinculadas al agua, medio ambiente, telemetría, monitorización, meteorología, gestión documental y administración pública. Durante esta etapa he definido y supervisado arquitecturas basadas en <b>Angular, Node.js, TypeScript, Flutter, Python, ThingsBoard, PostgreSQL, TimescaleDB, Docker, GitLab CI, OpenShift, Azure Functions y sistemas de autenticación como Keycloak/LDAP</b>, con foco en la escalabilidad, la trazabilidad y la mantenibilidad de las soluciones."
-            ],
             "analyst_developer": "Analista Programador",
             "analyst_developer_content": {
                 "date": "Mayo 2019 - Abril 2020",
@@ -126,11 +119,11 @@
                     "name": "Proyecto: AST Residuos (Regreso)"
                 }
             },
-            "company_1": "<b>Experiencia profesional en la empresa: DxD Applications & IT Solutions</b>",
-            "company_2": "<b>Experiencia profesional en la empresa: Grupo Oesía</b>",
+            "company_1": "<b>Trayectoria profesional en la empresa: DxD Applications & IT Solutions</b>",
+            "company_2": "<b>Trayectoria profesional en la empresa: Grupo Oesía</b>",
             "company_2_1": "<b>Promoción a Analista Programador: Grupo Oesía</b>",
-            "company_3": "<b>Experiencia profesional en la empresa: UST Global</b>",
-            "company_4": "<b>Experiencia profesional actual en la empresa: Adasa</b>",
+            "company_3": "<b>Trayectoria profesional en la empresa: UST Global</b>",
+            "company_4": "<b>Trayectoria profesional actual en la empresa: Adasa</b>",
             "developer": "Programador",
             "developer_content": {
                 "date": "Marzo 2016 - Marzo 2018",
@@ -159,7 +152,7 @@
                 "proyect_3": {
                     "date": "Octubre 2017",
                     "description": [
-                        "<b>Tareas / Responsabilidades:</b><br> Fui el principal responsable del desarrollo y publicación en Heroku de un servicio web para gestionar el envío masivo de datos de usuario a una plataforma SMS y el almacenamiento de las respuestas recibidas en PostgreSQL.<br><br>",
+                        "<b>Tareas / Responsabilidades:</b><br> Fui el principal responsable del desarrollo y publicación en Heroku de un servicio web para gestionar el envío masivo de datos de usuario a una plataforma SMS y el almacenamiento de las respuestas recibidas en PostgreSQL, cubriendo de forma autónoma el ciclo de vida completo de la solución.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "<ul>",
                         "<li><strong>Back-End:</strong> Node.js</li>",
@@ -242,7 +235,7 @@
                     "date": "Abril 2020 - Noviembre 2021",
                     "description": [
                         "<b>Tareas / Responsabilidades:</b><br> Participé de forma clave en el desarrollo de una aplicación hospitalaria, asumiendo tareas de estimación, desarrollo y demostración de nuevos módulos solicitados por cliente.<br><br>",
-                        "Contribuí además a la mejora de la arquitectura tanto en front-end como en back-end, reforzando especialmente mis conocimientos en Angular, gestión de estado, maquetación, revisión de Pull Requests y transferencia de conocimiento dentro del equipo.<br><br>",
+                        "Contribuí además a la mejora de la arquitectura tanto en front-end como en back-end, reforzando especialmente mis conocimientos en Angular, gestión de estado, maquetación, revisión de Pull Requests, integración continua y transferencia de conocimiento dentro del equipo.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> Angular + NgRx</li>",
@@ -291,8 +284,9 @@
                 "proyect_1": {
                     "date": "Mayo 2025 - Actualidad",
                     "description": [
-                        "<b>Responsabilidades:</b><br> Definición, evolución y desarrollo de una nueva plataforma web para la gestión y control de vertidos no domésticos en La Rioja, orientada a sustituir una solución legacy en Microsoft Access y centralizar la información en un registro único. Ante la ausencia de Product Owner, también se asumió la gestión directa del proyecto con el cliente, incluyendo la toma de requisitos, la priorización funcional y el seguimiento de entregas.<br><br>",
-                        "La aplicación integra la gestión de autorizaciones, inspecciones, analíticas de laboratorio, expedientes y cálculos del canon de vertido, mejorando la trazabilidad, la interoperabilidad entre organismos y el control operativo y de usuarios.<br><br>",
+                        "<b>Responsabilidades:</b><br> Definición, evolución y desarrollo de una nueva plataforma web para la gestión y control de vertidos no domésticos en La Rioja, orientada a sustituir una solución legacy en Microsoft Access y centralizar la información en un registro único.<br><br>",
+                        "Ante la ausencia de Product Owner, asumí también responsabilidades de producto y gestión directa con cliente, incluyendo toma de requisitos, definición funcional del sistema, priorización del backlog, planificación de entregas y validación continua de la evolución funcional.<br><br>",
+                        "La aplicación integra la gestión de autorizaciones, inspecciones, analíticas de laboratorio, expedientes y cálculos del canon de vertido, mejorando la trazabilidad, la interoperabilidad entre organismos y el control operativo y de usuarios. Es uno de los proyectos más relevantes de mi etapa reciente por su complejidad funcional, su impacto en administración pública y el alto nivel de ownership end-to-end asumido.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> Angular 20 + NgRx</li>",
@@ -310,6 +304,8 @@
                     "description": [
                         "<b>Responsabilidades:</b><br> Desarrollo de una solución orientada a la monitorización, operación y mantenimiento de sistemas de radar meteorológico, proporcionando una visión centralizada del estado de los radares, variables, alarmas e indicadores de disponibilidad.<br><br>",
                         "La plataforma combinaba capacidades de visualización y analítica con funcionalidades de gestión documental, inventario y mantenimiento, mejorando el control operativo y la trazabilidad del ecosistema radar.<br><br>",
+                        "En este proyecto lideré una decisión arquitectónica clave: la adopción de <b>ThingsBoard</b> como base del sistema de visualización y operación IoT. Fui pionero dentro de la organización en su estudio y adopción, validando su encaje real en un entorno crítico como el meteorológico y aprovechando sus capacidades nativas de dashboards, telemetría, reglas y APIs para reducir riesgo técnico, coste y tiempo de entrega.<br><br>",
+                        "Mi rol se centró especialmente en la arquitectura de integración y backend, definiendo el flujo de datos hacia ThingsBoard, la estructuración de servicios y la evolución hacia un modelo más modular, mantenible y trazable. En paralelo, impulsé la transferencia de conocimiento mediante videotutoriales internos para facilitar su adopción por otros equipos.<br><br>",
                         "<b>Arquitectura del proyecto:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> ThingsBoard / Redmine</li>",
@@ -395,6 +391,15 @@
             ]
         },
 
+        "innovation": {
+            "title": "Innovación",
+            "content": [
+                "A lo largo de mi etapa como Technical Lead he tenido un papel activo en la <b>estandarización técnica interna</b> de la compañía, impulsando esqueletos reutilizables en <b>Node.js, Angular y Flutter</b>, la adopción de <b>Flutter</b> en proyectos reales, la implantación de <b>pipelines de integración continua con GitLab CI</b> y la <b>contenerización completa</b> de aplicaciones para estandarizar entornos y acelerar entregas.<br><br>",
+                "También he sido pionero en el <b>estudio, adopción e implementación de ThingsBoard</b> dentro de la organización, validando su uso en proyectos reales de monitorización IoT y favoreciendo su reutilización interna. En paralelo, elaboré <b>videotutoriales y materiales formativos</b> para acelerar la curva de aprendizaje del equipo y facilitar la transferencia de conocimiento.<br><br>",
+                "Además, he participado en la definición de <b>metodologías, guías de trabajo y estándares técnicos</b> con el objetivo de facilitar la colaboración entre equipos y mantener una forma de trabajo consistente."
+            ]
+        },
+
         "about_me": {
             "title": "Sobre mí",
             "contact_link": "<b>¡Hablemos!</b>",
@@ -408,8 +413,8 @@
         "technologies": {
             "title": "Arquitectura y Tecnologías",
             "content": [
-                "A lo largo de mi trayectoria he participado en el diseño y desarrollo de <b>arquitecturas de software, aplicaciones web, aplicaciones móviles, plataformas de datos y soluciones IoT</b>. Me gusta entender los problemas desde una perspectiva global para poder tomar decisiones técnicas alineadas con las necesidades reales del proyecto.<br><br>",
-                "He trabajado con tecnologías como <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python y ThingsBoard</b>, tanto de forma autónoma como colaborando con equipos multidisciplinares en proyectos de distinta naturaleza y complejidad.<br><br>",
+                "A lo largo de mi trayectoria he participado en el diseño y desarrollo de <b>arquitecturas de software, aplicaciones web, aplicaciones móviles, plataformas de datos y soluciones IoT</b>, colaborando en proyectos de distinta naturaleza, escala y complejidad.<br><br>",
+                "He trabajado con tecnologías como <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python y ThingsBoard</b>, tanto de forma autónoma como formando parte de equipos multidisciplinares.<br><br>",
                 "Mi experiencia abarca áreas como el <b>desarrollo full stack, modelado de datos, diseño de arquitecturas, creación de componentes reutilizables, definición de integraciones, contenerización con Docker</b> y despliegue en entornos cloud como <b>OpenShift, Azure y Heroku</b>, siempre buscando soluciones que sean fáciles de mantener, entender y evolucionar conforme crecen las necesidades del negocio."
             ]
         },
@@ -418,8 +423,8 @@
             "title": "Agilidad y Gestión de Equipos",
             "content": [
                 "Me gusta trabajar de forma organizada y mantener una comunicación constante con clientes y equipos. Por eso suelo apoyarme en metodologías ágiles como <b>Scrum</b> y <b>Kanban</b>, utilizando <b>roadmaps</b> y planificaciones iterativas que ayuden a mantener una visión clara de hacia dónde va el proyecto.<br><br>",
-                "Considero que una buena solución no solo debe funcionar, sino también ser fácil de mantener y evolucionar. Para ello aplico prácticas como <b>Gitflow, Pull Requests, revisión de código, testing, Clean Code, SOLID e Integración Continua</b>, apoyándome además en herramientas de <b>Inteligencia Artificial</b> para agilizar determinadas tareas y mejorar la productividad. También procuro que los clientes dispongan de <b>entornos de prueba</b> donde puedan validar los avances y aportar feedback de forma temprana.<br><br>",
-                "Además, he participado en la definición de <b>metodologías, guías de trabajo y estándares técnicos</b> con el objetivo de facilitar la colaboración entre equipos y mantener una forma de trabajo consistente."
+                "Considero que una buena solución no solo debe funcionar, sino también ser fácil de mantener y evolucionar. Para ello aplico prácticas como <b>Gitflow, Pull Requests, revisión de código, testing, Clean Code, SOLID e Integración Continua</b>, apoyándome además en herramientas de <b>Inteligencia Artificial</b> para agilizar determinadas tareas y mejorar la productividad.<br><br>",
+                "También procuro que los clientes dispongan de <b>entornos de prueba</b> donde puedan validar los avances y aportar feedback de forma temprana, favoreciendo una colaboración continua y una mejor alineación entre las necesidades del negocio y la solución desarrollada."
             ]
         }
     },
@@ -491,5 +496,5 @@
     "software_tools": "Tecnologías y herramientas",
     "spanish": "Español",
     "training_courses": "Formación complementaria",
-    "work_experience": "Experiencia Profesional"
+    "work_experience": "Trayectoria Profesional"
 }

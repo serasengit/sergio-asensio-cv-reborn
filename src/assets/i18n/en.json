@@ -101,14 +101,6 @@
             "team_enablement_2": "Development of internal video tutorials and training materials to strengthen the team’s technical capabilities."
         },
         "work_experience_section": {
-            "summary": [
-                "During my early years at <b>DxD Applications & IT Solutions</b>, I worked on maintenance and development projects involving <b>Salesforce</b>, REST integrations, <b>Node.js</b> services deployed on <b>Heroku</b>, Java web applications, and ETL processes with <b>Talend</b>. This stage allowed me to grow both as a developer and in my understanding of architecture, integrations, and cloud deployment.<br><br>",
-                "Later, at <b>Grupo Oesía</b>, I worked first as a developer and later as a technical analyst on projects related to <b>waste management</b> and <b>public administration</b>. There, I took on responsibilities in architecture, full stack development, team support, and knowledge transfer, while also <b>single-handedly managing</b> the maintenance and evolution of an application for Zaragoza City Council.<br><br>",
-                "At <b>UST Global</b>, I worked as a <b>Software Full Stack Senior Analyst Engineer</b>, playing a key role in the development of a hospital software solution using <b>Angular</b> and <b>Node.js</b>. During this period, I further strengthened my expertise in front-end architecture, state management, back-end development, code review, and collaborative work within demanding teams.<br><br>",
-                "Since <b>November 2021</b>, I have been working as a <b>Technical Lead at Adasa</b>, leading initiatives related to water, environment, telemetry, monitoring, meteorology, document management, and public administration. During this stage, I have defined and overseen architectures based on <b>Angular, Node.js, TypeScript, Flutter, Python, ThingsBoard, PostgreSQL, Docker, GitLab CI, OpenShift, Azure Functions, and authentication systems such as Keycloak/LDAP</b>, always with a focus on scalability, traceability, and maintainability.<br><br>",
-                "Throughout my career, I have taken ownership of key responsibilities such as defining the <b>core architecture of projects</b>, creating <b>reusable starter templates</b>, developing <b>reference modules</b>, defining the <b>data model</b>, implementing <b>Docker</b> and <b>CI/CD pipelines</b>, producing <b>technical manuals, deployment guides and methodological documentation</b>, as well as creating <b>internal video tutorials and training materials</b> to strengthen team enablement and knowledge sharing.<br><br>",
-                "I currently work as a <b>Technical Lead with end-to-end responsibility across projects</b>, covering everything from architecture definition to final delivery. I act as the <b>main technical point of contact</b>, lead development teams, make key design decisions, and ensure the successful execution of solutions in real-world environments."
-            ],
             "analyst_developer": "Analyst Developer",
             "analyst_developer_content": {
                 "date": "May 2019 - April 2020",
@@ -127,11 +119,11 @@
                     "name": "Project: AST Waste Management (Return)"
                 }
             },
-            "company_1": "<b>Professional experience at: DxD Applications & IT Solutions</b>",
-            "company_2": "<b>Professional experience at: Grupo Oesía</b>",
+            "company_1": "<b>Professional journey at: DxD Applications & IT Solutions</b>",
+            "company_2": "<b>Professional journey at: Grupo Oesía</b>",
             "company_2_1": "<b>Promotion to Analyst Developer: Grupo Oesía</b>",
-            "company_3": "<b>Professional experience at: UST Global</b>",
-            "company_4": "<b>Current professional experience at: Adasa</b>",
+            "company_3": "<b>Professional journey at: UST Global</b>",
+            "company_4": "<b>Current professional journey at: Adasa</b>",
             "developer": "Developer",
             "developer_content": {
                 "date": "March 2016 - March 2018",
@@ -160,7 +152,7 @@
                 "proyect_3": {
                     "date": "October 2017",
                     "description": [
-                        "<b>Responsibilities:</b><br> I was the main person responsible for the development and deployment on Heroku of a web service designed to manage the bulk transfer of user data to an SMS platform and store the responses received in PostgreSQL.<br><br>",
+                        "<b>Responsibilities:</b><br> I was the main person responsible for the development and deployment on Heroku of a web service designed to manage the bulk transfer of user data to an SMS platform and store the responses received in PostgreSQL, covering the full solution lifecycle independently.<br><br>",
                         "<b>Project architecture:</b><br>",
                         "<ul>",
                         "<li><strong>Back-End:</strong> Node.js</li>",
@@ -243,7 +235,7 @@
                     "date": "April 2020 - November 2021",
                     "description": [
                         "<b>Responsibilities:</b><br> I played a key role in the development of a hospital software solution, taking ownership of estimation, development, and demonstration tasks for new modules requested by the client.<br><br>",
-                        "I also contributed to improvements in both front-end and back-end architecture, further strengthening my expertise in Angular, state management, UI development, Pull Request reviews, and knowledge transfer within the team.<br><br>",
+                        "I also contributed to improvements in both front-end and back-end architecture, further strengthening my expertise in Angular, state management, UI development, Pull Request reviews, continuous integration, and knowledge transfer within the team.<br><br>",
                         "<b>Project architecture:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> Angular + NgRx</li>",
@@ -292,8 +284,9 @@
                 "proyect_1": {
                     "date": "May 2025 - Present",
                     "description": [
-                        "<b>Responsibilities:</b><br> Definition, evolution, and development of a new web platform for the management and control of non-domestic discharges in La Rioja, aimed at replacing a legacy Microsoft Access solution and centralising information within a single registry. Due to the absence of a Product Owner, direct responsibility for project management with the client was also assumed, including requirements gathering, feature prioritisation, and delivery tracking.<br><br>",
-                        "The application brings together the management of authorisations, inspections, laboratory analyses, case tracking, and discharge fee calculations, improving traceability, interoperability across organisations, and user and operational control.<br><br>",
+                        "<b>Responsibilities:</b><br> Definition, evolution, and development of a new web platform for the management and control of non-domestic discharges in La Rioja, aimed at replacing a legacy Microsoft Access solution and centralising information within a single registry.<br><br>",
+                        "Due to the absence of a Product Owner, I also took on product-related responsibilities and direct client management, including requirements gathering, functional definition of the system, backlog prioritisation, delivery planning, and continuous validation of functional evolution.<br><br>",
+                        "The application brings together the management of authorisations, inspections, laboratory analyses, case tracking, and discharge fee calculations, improving traceability, interoperability across organisations, and user and operational control. It is one of the most relevant projects of my recent career because of its functional complexity, its direct impact on public administration, and the high level of end-to-end ownership involved.<br><br>",
                         "<b>Project architecture:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> Angular 20 + NgRx</li>",
@@ -311,6 +304,8 @@
                     "description": [
                         "<b>Responsibilities:</b><br> Development of a solution focused on the monitoring, operation, and maintenance of meteorological radar systems, providing a centralised view of radar status, variables, alarms, and availability indicators.<br><br>",
                         "The platform combined visualisation and analytics capabilities with document management, inventory, and maintenance features, improving operational control and traceability across the radar ecosystem.<br><br>",
+                        "In this project, I led a key architectural decision: adopting <b>ThingsBoard</b> as the foundation of the IoT visualisation and operations system. I was a pioneer within the organisation in evaluating and introducing it, validating its fit for a critical meteorological environment and taking advantage of its native dashboards, telemetry, rules, and APIs to reduce technical risk, cost, and delivery time.<br><br>",
+                        "My role focused especially on integration and backend architecture, defining how data flowed into ThingsBoard, how services were structured, and how the solution evolved towards a more modular, maintainable, and traceable model. In parallel, I promoted knowledge transfer through internal video tutorials to support adoption by other teams.<br><br>",
                         "<b>Project architecture:</b><br>",
                         "<ul>",
                         "<li><strong>Front-End:</strong> ThingsBoard / Redmine</li>",
@@ -391,8 +386,17 @@
             "title": "Sergio Asensio Puyuelo",
             "content": [
                 "<b>Welcome to my website!</b><br><br>",
-                "I am Sergio Asensio, a <b>Technical Lead</b> and <b>Full Stack Developer</b> with a degree in <b>Mathematics</b> from the University of Zaragoza. I have more than <b>10 years of experience</b> developing technology solutions and over <b>4 years of specialization</b> in projects within the <b>water and environmental sector</b>.<br><br>",
-                "I currently <b>lead development projects and teams</b>, contributing throughout the entire software lifecycle, from <b>requirements gathering</b> and <b>solution architecture design</b> to <b>deployment and production delivery</b>. I act as a bridge between business stakeholders, clients, and technical teams, helping transform needs into solutions that deliver value and can evolve over time."
+                "I am Sergio Asensio, a <b>Technical Lead</b> and <b>Full Stack Developer</b> with a degree in <b>Mathematics</b> from the University of Zaragoza. I have more than <b>10 years of experience</b> developing software solutions and over <b>4 years of specialization</b> in projects related to the <b>water and environmental sector</b>.<br><br>",
+                "I currently <b>lead development projects and teams</b>, participating in the entire software lifecycle: from <b>requirements gathering</b> and <b>architecture design</b> to <b>production deployment</b>. I act as a bridge between business, clients, and technical teams, helping transform needs into solutions that deliver value and can be maintained and evolved over time."
+            ]
+        },
+
+        "innovation": {
+            "title": "Innovation",
+            "content": [
+                "Throughout my time as a Technical Lead, I have played an active role in the company's <b>internal technical standardization</b>, promoting reusable project skeletons in <b>Node.js, Angular, and Flutter</b>, driving the adoption of <b>Flutter</b> in real-world projects, implementing <b>GitLab CI continuous integration pipelines</b>, and fully <b>containerizing applications</b> to standardize environments and accelerate deliveries.<br><br>",
+                "I have also been a pioneer in the <b>evaluation, adoption, and implementation of ThingsBoard</b> within the organization, validating its use in real IoT monitoring projects and encouraging its internal reuse. In parallel, I created <b>video tutorials and training materials</b> to accelerate team onboarding and facilitate knowledge transfer.<br><br>",
+                "Additionally, I have contributed to the definition of <b>technical standards, methodologies, and development guidelines</b> aimed at improving collaboration across teams and maintaining a consistent way of working."
             ]
         },
 
@@ -400,27 +404,27 @@
             "title": "About Me",
             "contact_link": "<b>Let's Talk!</b>",
             "content": [
-                "I am a very <b>persistent</b> person when it comes to pursuing my goals, and that is probably the quality that best defines me professionally. I enjoy taking on <b>new challenges</b>, continuously learning, and finding solutions to problems that may seem difficult at first glance. The more <b>demanding</b> and unfamiliar a project is, the more motivated I am to understand it and see it through.<br><br>",
-                "I have always placed great importance on the <b>foundations</b> of a project. I like taking the time to think things through, establish a solid base, and ensure that early decisions support sustainable growth in the future. Likewise, I strongly believe that the best solutions are built by a <b>great team</b>: committed, organized people with shared goals, who support one another and move forward together in the same direction.<br><br>",
-                "I hope this website helps you get to know me a little better and that you enjoy exploring it as much as I enjoyed designing and developing it. If you would like to learn more about my experience, my projects, or simply have a conversation about technology, feel free to get in touch through the link below:"
+                "I am a highly <b>persistent</b> person, and that is probably the quality that best defines me professionally. I enjoy taking on <b>new challenges</b>, constantly learning, and finding solutions to problems that initially seem difficult to solve. The more <b>challenging</b> and unfamiliar a project is, the more motivated I am to understand it and make it succeed.<br><br>",
+                "I have always placed great importance on the <b>foundations</b> of a project. I like to take the time to think things through, establish a solid base, and ensure that early decisions allow for sustainable growth in the future. Likewise, I believe the best solutions come from a <b>strong team</b>: committed, organized people with shared goals who support each other and move forward together.<br><br>",
+                "I hope this website helps you get to know me a little better and that you enjoy exploring it as much as I enjoyed designing and developing it. If you would like to learn more about my experience, projects, or simply talk about technology, feel free to get in touch through the link below:"
             ]
         },
 
         "technologies": {
             "title": "Architecture & Technologies",
             "content": [
-                "Throughout my career, I have been involved in the design and development of <b>software architectures, web applications, mobile applications, data platforms, and IoT solutions</b>. I enjoy understanding problems from a broader perspective in order to make technical decisions that align with the real needs of a project.<br><br>",
-                "I have worked with technologies such as <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python, and ThingsBoard</b>, both independently and as part of multidisciplinary teams working on projects of varying complexity.<br><br>",
-                "My experience covers areas such as <b>full-stack development, data modeling, software architecture design, reusable component development, integration design, Docker containerization</b>, and deployment on cloud platforms such as <b>OpenShift, Azure, and Heroku</b>, always aiming to build solutions that are easy to maintain, understand, and evolve as business needs grow."
+                "Throughout my career, I have participated in the design and development of <b>software architectures, web applications, mobile applications, data platforms, and IoT solutions</b>, contributing to projects of different sizes, industries, and levels of complexity.<br><br>",
+                "I have worked with technologies such as <b>Java, Angular, React, Salesforce, Flutter, Node.js, Python, and ThingsBoard</b>, both independently and as part of multidisciplinary teams.<br><br>",
+                "My experience covers areas such as <b>full-stack development, data modeling, software architecture, reusable component design, systems integration, Docker containerization</b>, and cloud deployments on platforms such as <b>OpenShift, Azure, and Heroku</b>, always focusing on solutions that are maintainable, understandable, and capable of evolving alongside business needs."
             ]
         },
 
         "agile": {
-            "title": "Agility & Team Leadership",
+            "title": "Agility & Team Management",
             "content": [
-                "I like working in an organized way and maintaining clear communication with both clients and development teams. For that reason, I often rely on agile methodologies such as <b>Scrum</b> and <b>Kanban</b>, using <b>roadmaps</b> and iterative planning to keep a clear view of the project's direction and priorities.<br><br>",
-                "I believe that a good solution should not only work well, but also be easy to maintain and evolve over time. To achieve this, I apply practices such as <b>Gitflow, Pull Requests, code reviews, testing, Clean Code, SOLID, and Continuous Integration</b>, while also leveraging <b>Artificial Intelligence</b> tools to streamline development tasks and improve productivity. I also ensure that clients have access to <b>testing environments</b> where they can validate progress and provide feedback early in the process.<br><br>",
-                "I have also been involved in defining <b>methodologies, working guidelines, and technical standards</b> aimed at improving collaboration across teams and maintaining a consistent way of working."
+                "I enjoy working in an organized manner and maintaining constant communication with clients and teams. For this reason, I rely on agile methodologies such as <b>Scrum</b> and <b>Kanban</b>, using <b>roadmaps</b> and iterative planning to maintain a clear vision of project direction and priorities.<br><br>",
+                "I believe that a good solution should not only work but also be easy to maintain and evolve. To achieve this, I apply practices such as <b>Gitflow, Pull Requests, code reviews, testing, Clean Code, SOLID principles, and Continuous Integration</b>, while also leveraging <b>Artificial Intelligence tools</b> to streamline certain tasks and improve productivity.<br><br>",
+                "I also encourage clients to have access to <b>testing environments</b> where they can validate progress and provide early feedback, fostering continuous collaboration and ensuring alignment between business needs and the delivered solution."
             ]
         }
     },
@@ -492,5 +496,5 @@
     "software_tools": "Technologies and tools",
     "spanish": "Spanish",
     "training_courses": "Additional training",
-    "work_experience": "Professional Experience"
+    "work_experience": "Professional Journey"
 }

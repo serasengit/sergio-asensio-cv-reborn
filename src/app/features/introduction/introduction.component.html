@@ -43,10 +43,29 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 order-lg-2">
                     <div class="p-5">
-                        <img class="img-fluid" src="/assets/img/kanban.png" alt="" />
+                        <img class="img-fluid" src="/assets/img/innovation.png" alt="" />
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">{{ 'introduction_section.innovation.title' | translate }}</h2>
+                        <br />
+                        <p [innerHTML]="'introduction_section.innovation.content' | translate | noComma"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <img class="img-fluid" src="/assets/img/kanban.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6">
                     <div class="p-5">
                         <h2 class="display-4">{{ 'introduction_section.agile.title' | translate }}</h2>
                         <br />
@@ -60,12 +79,12 @@
     <section>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-lg-2">
                     <div class="p-5">
                         <img class="img-fluid" src="/assets/img/about-me.jpg" alt="" />
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-lg-1">
                     <div class="p-5">
                         <h2 class="display-4">{{ 'introduction_section.about_me.title' | translate }}</h2>
                         <br />
