@@ -394,7 +394,7 @@
         "innovation": {
             "title": "Innovation",
             "content": [
-                "Throughout my time as a Technical Lead, I have played an active role in the company's <b>internal technical standardization</b>, promoting reusable project skeletons in <b>Node.js, Angular, and Flutter</b>, driving the adoption of <b>Flutter</b> in real-world projects, implementing <b>GitLab CI continuous integration pipelines</b>, and fully <b>containerizing applications</b> to standardize environments and accelerate deliveries.<br><br>",
+                "Throughout my time as a Technical Lead, I have played an active role in the company's <b>internal technical standardization</b>, promoting reusable project skeletons in <b>Node.js, Angular, and Flutter</b>, implementing <b>GitLab CI continuous integration pipelines</b>, and fully <b>containerizing applications</b> to standardize environments and accelerate deliveries.<br><br>",
                 "I have also been a pioneer in the <b>evaluation, adoption, and implementation of ThingsBoard</b> within the organization, validating its use in real IoT monitoring projects and encouraging its internal reuse. In parallel, I created <b>video tutorials and training materials</b> to accelerate team onboarding and facilitate knowledge transfer.<br><br>",
                 "Additionally, I have contributed to the definition of <b>technical standards, methodologies, and development guidelines</b> aimed at improving collaboration across teams and maintaining a consistent way of working."
             ]
