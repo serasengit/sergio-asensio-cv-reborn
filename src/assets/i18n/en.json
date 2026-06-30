@@ -394,9 +394,10 @@
         "innovation": {
             "title": "Innovation",
             "content": [
-                "Throughout my time as a Technical Lead, I have played an active role in the company's <b>internal technical standardization</b>, promoting reusable project skeletons in <b>Node.js, Angular, and Flutter</b>, implementing <b>GitLab CI continuous integration pipelines</b>, and fully <b>containerizing applications</b> to standardize environments and accelerate deliveries.<br><br>",
-                "I have also been a pioneer in the <b>evaluation, adoption, and implementation of ThingsBoard</b> within the organization, validating its use in real IoT monitoring projects and encouraging its internal reuse. In parallel, I created <b>video tutorials and training materials</b> to accelerate team onboarding and facilitate knowledge transfer.<br><br>",
-                "Additionally, I have contributed to the definition of <b>technical standards, methodologies, and development guidelines</b> aimed at improving collaboration across teams and maintaining a consistent way of working."
+                "Throughout my time as a Technical Lead, I have played an active role in the company's <b>technical standardization efforts</b>, driving the creation of reusable application skeletons in <b>Node.js, Angular, and Flutter</b>, the adoption of <b>GitLab CI continuous integration pipelines</b>, the <b>containerization of applications with Docker</b>, and the definition of technical foundations designed to accelerate the delivery of new projects.<br><br>",
+                "I have also been a pioneer in the <b>evaluation, adoption, and implementation of ThingsBoard</b> within the organization, validating its use in real-world IoT monitoring projects and promoting its reuse across teams. In parallel, I created <b>video tutorials and technical training materials</b> to shorten the learning curve and facilitate knowledge sharing.<br><br>",
+                "In addition, I actively leverage <b>LLMs and AI agents</b> to accelerate engineering activities such as software architecture design, boilerplate code generation, code review and refactoring, technical documentation, and the automation of software development workflows.<br><br>",
+                "I have also contributed to the definition of <b>engineering methodologies, technical guidelines, and development standards</b> aimed at improving collaboration across teams, increasing productivity, and fostering a consistent, modern, and sustainable engineering culture."
             ]
         },
 

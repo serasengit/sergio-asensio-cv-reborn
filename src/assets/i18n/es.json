@@ -394,9 +394,10 @@
         "innovation": {
             "title": "Innovación",
             "content": [
-                "A lo largo de mi etapa como Technical Lead he tenido un papel activo en la <b>estandarización técnica interna</b> de la compañía, impulsando esqueletos reutilizables en <b>Node.js, Angular y Flutter</b>, la implantación de <b>pipelines de integración continua con GitLab CI</b> y la <b>contenerización completa</b> de aplicaciones para estandarizar entornos y acelerar entregas.<br><br>",
+                "A lo largo de mi etapa como Technical Lead he tenido un papel activo en la <b>estandarización técnica interna</b> de la compañía, impulsando esqueletos reutilizables en <b>Node.js, Angular y Flutter</b>, la implantación de <b>pipelines de integración continua con GitLab CI</b>, la <b>contenerización completa de aplicaciones con Docker</b> y la definición de bases técnicas orientadas a acelerar el arranque de nuevos proyectos.<br><br>",
                 "También he sido pionero en el <b>estudio, adopción e implementación de ThingsBoard</b> dentro de la organización, validando su uso en proyectos reales de monitorización IoT y favoreciendo su reutilización interna. En paralelo, elaboré <b>videotutoriales y materiales formativos</b> para acelerar la curva de aprendizaje del equipo y facilitar la transferencia de conocimiento.<br><br>",
-                "Además, he participado en la definición de <b>metodologías, guías de trabajo y estándares técnicos</b> con el objetivo de facilitar la colaboración entre equipos y mantener una forma de trabajo consistente."
+                "Además, incorporo de forma activa el uso de <b>LLMs y agentes de IA</b> para acelerar tareas de ingeniería como el diseño de arquitecturas, la generación de código base, la revisión y refactorización de código, la elaboración de documentación técnica y la automatización de procesos de desarrollo.<br><br>",
+                "He participado también en la definición de <b>metodologías, guías de trabajo y estándares técnicos</b> con el objetivo de facilitar la colaboración entre equipos, mejorar la productividad y mantener una forma de trabajo consistente, moderna y sostenible."
             ]
         },
 
